@@ -4,21 +4,48 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] float maxHP;
-    [SerializeField] float currentHP;
+    [SerializeField] float maxPoints;
+    [SerializeField] float currentPoints;
     [SerializeField] float damage;
+    [SerializeField] string enemyName;
 
-    public void TakeDamage(float damage)
+    public float GetMaxPoints()
     {
-        currentHP -= damage;
+        return maxPoints;
+    }
+    
+    public float GetCurrentPoints()
+    {
+        return currentPoints;
+    }
+
+    public float GetDamage()
+    {
+        return damage;
+    }
+
+    public string GetEnemyName()
+    {
+        return enemyName;
+    }
+
+    public void TakePoints(float points)
+    {
+        currentPoints += damage;
     }
 
     public bool IsDead()
     {
-        return currentHP <= 0;
+        /*return currentPoints <= 0;*/
+        return true;
     }
 
     public void Die()
+    {
+
+    }
+
+    public void DealDamage()
     {
 
     }
