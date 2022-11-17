@@ -23,7 +23,7 @@ public class StateMachine : MonoBehaviour
     private void Start()
     {
         currentState = STATE.START;
-        Transition();
+        StartCoroutine(Transition());
     }
 
 
@@ -72,14 +72,14 @@ public class StateMachine : MonoBehaviour
         viewManager.UpdatePlayerSlider();
 
         currentState = STATE.PLAYER_TURN;
-        Transition(2);
+        StartCoroutine(Transition(5));
     }
 
     private void StartState()
     {
         viewManager.SetMessage("An Attractive Dragon Approaches!");
         currentState = STATE.PLAYER_TURN;
-        Transition(2);
+        StartCoroutine(Transition(5));
     }
 
     private void PlayerState()
@@ -97,7 +97,7 @@ public class StateMachine : MonoBehaviour
         viewManager.UpdateEnemySlider();
 
         currentState = STATE.ENEMY_TURN;
-        Transition(2);
+        StartCoroutine(Transition(5));
     }
 
     public void OnPlayerEnd()
