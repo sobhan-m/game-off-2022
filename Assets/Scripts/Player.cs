@@ -4,40 +4,13 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] float maxHP;
-    [SerializeField] float currentHP;
-    [SerializeField] float flirtPoints;
-    [SerializeField] string playerName;
+    [SerializeField] float maxHealth;
 
-    public float GetMaxHP()
+    public Health playerHealth { get; private set; }
+
+    private void Start()
     {
-        return maxHP;
+        playerHealth = new Health(maxHealth);
     }
-
-    public float GetCurrentHP()
-    {
-        return currentHP;
-    }
-
-    public string GetPlayerName()
-    {
-        return playerName;
-    }
-
-    public void TakeDamage(float damage)
-    {
-        currentHP -= damage;
-    }
-
-    public bool IsDead()
-    {
-        return currentHP <= 0;
-    }
-
-    public float GetPoints()
-    {
-        return flirtPoints;
-    }
-
 
 }

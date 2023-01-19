@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 416774148}
   - component: {fileID: 416774147}
   - component: {fileID: 416774146}
+  - component: {fileID: 416774150}
   - component: {fileID: 416774149}
   m_Layer: 0
   m_Name: Circle
@@ -154,7 +155,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebc52e149c1122a499e84d291dbe2da0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  maxSpeed: 10
+  accelerationConst: 25
+  sideChangingConstant: 1.5
 --- !u!212 &416774147
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -243,6 +246,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &416774150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416774145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51d733ffe7e83a44ea3828c72969e6db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
