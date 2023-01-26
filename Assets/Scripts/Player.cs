@@ -6,11 +6,18 @@ public class Player : MonoBehaviour
 {
     [SerializeField] float maxHealth;
 
-    public Health playerHealth { get; private set; }
+    [SerializeField] int initialPositionIndex;
+    [SerializeField] List<Transform> initialTrackPositions;
 
-    private void Start()
+    public Health playerHealth { get; private set; }
+    public Track playerTrack { get; private set; }
+
+    private void Awake()
     {
         playerHealth = new Health(maxHealth);
+        playerTrack = new Track(initialTrackPositions, initialPositionIndex);
+
+        this.transform.position = playerTrack.CurrentPosition().position;
     }
 
 }
