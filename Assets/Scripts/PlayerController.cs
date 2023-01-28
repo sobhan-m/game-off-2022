@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour
 	private void Move()
     {
 		float movementCommand = movement.ReadValue<float>();
-		Debug.Log("PlayerController.Move(): " + movementCommand);
+		// Debug.Log("PlayerController.Move(): " + movementCommand);
 
 		// Ensuring no repeating moves.
 		if (movementCommand == previousAction)
@@ -66,11 +66,11 @@ public class PlayerController : MonoBehaviour
         }
 		else if (Mathf.Sign(movementCommand) > 0)
         {
-			newTransform = track.MoveRight();
+			newTransform = track.MoveNext();
         }
 		else
         {
-			newTransform = track.MoveLeft();
+			newTransform = track.MovePrevious();
 		}
 		player.transform.position = newTransform.position;
 	}

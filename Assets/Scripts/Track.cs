@@ -13,13 +13,13 @@ public class Track
         currentIndex = startingIndex;
     }
 
-    public Transform MoveLeft()
+    public Transform MovePrevious()
     {
         currentIndex = Mathf.Clamp(currentIndex - 1, 0, positions.Count - 1);
         return positions[currentIndex];
     }
 
-    public Transform MoveRight()
+    public Transform MoveNext()
     {
         currentIndex = Mathf.Clamp(currentIndex + 1, 0, positions.Count - 1);
         return positions[currentIndex];
