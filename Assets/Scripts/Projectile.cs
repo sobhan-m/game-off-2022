@@ -6,8 +6,9 @@ public class Projectile : MonoBehaviour
 {
 
     [Header("Path")]
-    [SerializeField] List<Transform> pointsInPath;
     [SerializeField] float speed;
+
+    public List<Transform> pointsInPath;
 
     private Transform nextDestination;
     private Track path;
@@ -19,8 +20,11 @@ public class Projectile : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-
         path = new Track(pointsInPath);
+    }
+
+    private void Start()
+    {
         transform.position = path.CurrentPosition().position;
         nextDestination = path.MoveNext();
     }

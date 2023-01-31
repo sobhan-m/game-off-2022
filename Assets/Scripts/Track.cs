@@ -30,6 +30,4 @@ public class Track
         return positions[currentIndex];
     }
 
-
-
 }
