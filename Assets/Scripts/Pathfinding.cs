@@ -5,45 +5,45 @@ using UnityEngine;
 public class Pathfinding : MonoBehaviour
 {
     [SerializeField] float speed;
-    [SerializeField] List<Transform> pointsInPath;
 
-    private int pointIndex;
-    private Transform nextDestination;
+    public List<Transform> path;
+
+    private int currentIndex;
     private Rigidbody2D rb;
 
     private void Awake()
     {
-        pointIndex = 0;
+        currentIndex = 0;
         rb = GetComponent<Rigidbody2D>();
+
+        if (rb == null)
+        {
+            Debug.Log("Pathfinding.Awake(): No RigidBody()");
+        }
     }
 
     private void Start()
     {
-        nextDestination = pointsInPath[pointIndex];
-        transform.position = nextDestination.position;
+        if (path != null)
+        {
+            transform.position = path[currentIndex].position;
+        }
     }
 
-    private void FixedUpdate()
+    private void Move()
     {
-        if (transform.position.Equals(nextDestination.position))
+        if (currentIndex <= path.Count && transform.position == path[currentIndex].position)
         {
-            ++pointIndex;
-            if (pointIndex >= pointsInPath.Count)
-            {
-                return;
-            }
-            else
-            {
-                nextDestination = pointsInPath[pointIndex];
-            }
+            ++currentIndex;
         }
 
-        Vector3 intermediatePosition = Vector3.MoveTowards(transform.position, nextDestination.position, speed * Time.fixedDeltaTime);
-        rb.MovePosition(intermediatePosition);
+        Vector3 intermediatePosition = Vector3.MoveTowards(transform.position, path[currentIndex].position, speed * Time.deltaTime);
+        rb.position = intermediatePosition;
     }
 
-    public void SetPointsInPath(List<Transform> newPath)
+    private void Update()
     {
-        pointsInPath = newPath;
+        Move();
     }
+
 }
