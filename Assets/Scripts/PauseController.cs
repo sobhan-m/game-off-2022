@@ -50,7 +50,7 @@ public class PauseController : MonoBehaviour
         Resume();
     }
 
-    private void Pause()
+    public void Pause()
     {
         if (!isActive)
         {
@@ -62,7 +62,7 @@ public class PauseController : MonoBehaviour
         pauseMenu.SetActive(true);
     }
 
-    private void Resume()
+    public void Resume()
     {
         if (!isActive)
         {
