@@ -1409,12 +1409,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7927740162198954463, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7927740162473063753, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2551355172321009819}
+    - target: {fileID: 7927740162473063759, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7927740163172331916, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
