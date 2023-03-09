@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7370637856124709809}
   - component: {fileID: 116373260498306674}
+  - component: {fileID: 2551355172321009821}
   m_Layer: 0
   m_Name: Scene System
   m_TagString: Untagged
@@ -30,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &116373260498306674
 MonoBehaviour:
@@ -44,3 +45,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c34e60011d8599847a4f625b7ebd11d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2551355172321009821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8875056200262534296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9426a1f858bb30743a60268e3cb5da3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  optionsMenu: {fileID: 0}
+  uiElementsToDisable:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  volumeSlider: {fileID: 0}
