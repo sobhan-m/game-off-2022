@@ -7,7 +7,7 @@ public class SceneController : MonoBehaviour
 {
     public void LoadMainMenu()
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("Main_Menu");
     }
 
     public void LoadGameOver()

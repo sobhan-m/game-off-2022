@@ -59,7 +59,10 @@ public class PauseController : MonoBehaviour
 
         isPaused = true;
         Time.timeScale = 0;
-        pauseMenu.SetActive(true);
+        if (pauseMenu)
+        {
+            pauseMenu.SetActive(true);
+        }
     }
 
     public void Resume()
@@ -71,7 +74,11 @@ public class PauseController : MonoBehaviour
 
         isPaused = false;
         Time.timeScale = 1;
-        pauseMenu.SetActive(false);
+
+        if (pauseMenu)
+        {
+            pauseMenu.SetActive(false);
+        }
     }
 
     public static bool IsPaused()

@@ -26,7 +26,11 @@ public class OptionsController : MonoBehaviour
 
     public void OpenOptionsMenu()
     {
-        optionsMenu.SetActive(true);
+        if (optionsMenu)
+        {
+            optionsMenu.SetActive(true);
+        }
+
         foreach (GameObject obj in uiElementsToDisable)
         {
             if (obj)
@@ -38,7 +42,11 @@ public class OptionsController : MonoBehaviour
 
     public void CloseOptionsMenu()
     {
-        optionsMenu.SetActive(false);
+        if (optionsMenu)
+        {
+            optionsMenu.SetActive(false);
+        }
+        
         foreach (GameObject obj in uiElementsToDisable)
         {
             if (obj)
