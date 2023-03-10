@@ -9,14 +9,10 @@ public class OptionsController : MonoBehaviour
     [SerializeField] List<GameObject> uiElementsToDisable;
     [SerializeField] Slider volumeSlider;
 
-    private void Start()
-    {
-        CloseOptionsMenu();
-    }
-
     private void OnEnable()
     {
         CloseOptionsMenu();
+        ApplySettingValues();
     }
 
     private void OnDisable()
@@ -59,5 +55,10 @@ public class OptionsController : MonoBehaviour
     public void FindVolumeMultiplier()
     {
         Settings.volumeMultiplier = volumeSlider.value;
+    }
+
+    private void ApplySettingValues()
+    {
+        volumeSlider.value = Settings.volumeMultiplier;
     }
 }
