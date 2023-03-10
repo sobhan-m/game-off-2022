@@ -24,15 +24,18 @@ public class PauseController : MonoBehaviour
         {
             if (isPaused)
             {
-                Debug.Log("Resumed Game");
                 Resume();
             }
             else
             {
-                Debug.Log("Pause Game");
                 Pause();
             }
         }
+    }
+
+    private void Start()
+    {
+        Resume();
     }
 
     private void OnEnable()

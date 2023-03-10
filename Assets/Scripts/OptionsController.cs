@@ -59,6 +59,5 @@ public class OptionsController : MonoBehaviour
     public void FindVolumeMultiplier()
     {
         Settings.volumeMultiplier = volumeSlider.value;
-        Debug.Log("OptionsController.FindVolumeMultiplier(): " + Settings.volumeMultiplier);
     }
 }
