@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PauseController : MonoBehaviour
 {
-    [SerializeField] bool isActive;
+    public bool isActive { set; get; }
     [SerializeField] GameObject pauseMenu;
 
     private static bool isPaused;

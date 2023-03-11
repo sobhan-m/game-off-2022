@@ -9,6 +9,17 @@ public class OptionsController : MonoBehaviour
     [SerializeField] List<GameObject> uiElementsToDisable;
     [SerializeField] Slider volumeSlider;
 
+    private PauseController pauseController;
+
+    private void Awake()
+    {
+        pauseController = gameObject.GetComponent<PauseController>();
+        if (!pauseController)
+        {
+            Debug.Log("OptionsController.Awake(): No PauseController found on this object!");
+        }
+    }
+
     private void OnEnable()
     {
         CloseOptionsMenu();
@@ -34,6 +45,11 @@ public class OptionsController : MonoBehaviour
                 obj.SetActive(false);
             }
         }
+
+        if (pauseController)
+        {
+            pauseController.isActive = false;
+        }
     }
 
     public void CloseOptionsMenu()
@@ -50,15 +66,22 @@ public class OptionsController : MonoBehaviour
                 obj.SetActive(true);
             }
         }
+
+        if (pauseController)
+        {
+            pauseController.isActive = true;
+        }
     }
 
     public void FindVolumeMultiplier()
     {
         Settings.volumeMultiplier = volumeSlider.value;
+        Debug.Log("FindVolumeMultiplier(): " + Settings.volumeMultiplier);
     }
 
     private void ApplySettingValues()
     {
         volumeSlider.value = Settings.volumeMultiplier;
+        volumeSlider.onValueChanged.AddListener((float arg) => FindVolumeMultiplier());
     }
 }
