@@ -545,6 +545,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Options Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 5038904139296246128, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5038904139296246143, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -629,17 +633,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5038904139582771026, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038904139582771026, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038904139582771026, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5038904139804013795, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2092829307}
-    - target: {fileID: 5038904139804013795, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CloseOptionsMenu
+    - target: {fileID: 5038904140690943284, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5038904140454120227, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
+    - target: {fileID: 5038904140690943284, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -743,6 +759,10 @@ PrefabInstance:
     - target: {fileID: 5461476267295023246, guid: 32006e05de89adc45a873b08abbe1032, type: 3}
       propertyPath: m_Name
       value: Main Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 5461476267295023246, guid: 32006e05de89adc45a873b08abbe1032, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5461476268374828583, guid: 32006e05de89adc45a873b08abbe1032, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

@@ -516,15 +516,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5038904139582771026, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5038904139582771026, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5038904139582771026, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5038904139804013795, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -544,11 +544,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5038904140690943284, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5038904140690943284, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -1487,14 +1487,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1443435323}
-    - target: {fileID: 1609807755, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OpenOptionsMenu
-      objectReference: {fileID: 0}
-    - target: {fileID: 1609807755, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: OptionsController, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7927740162198954462, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1583,22 +1575,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pause Menu
       objectReference: {fileID: 0}
-    - target: {fileID: 7927740162198954463, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7927740162473063753, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7927740163172331916, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1443435322}
-    - target: {fileID: 7927740163172331916, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Resume
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
