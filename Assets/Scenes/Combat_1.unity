@@ -1105,6 +1105,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5017927337242690510, guid: f76b94735b3f48648a0c7b1e23cdda2b, type: 3}
+      propertyPath: maxHealth
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017927337242690510, guid: f76b94735b3f48648a0c7b1e23cdda2b, type: 3}
+      propertyPath: initialPositionIndex
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017927337242690510, guid: f76b94735b3f48648a0c7b1e23cdda2b, type: 3}
       propertyPath: initialTrackPositions.Array.size
       value: 5
       objectReference: {fileID: 0}

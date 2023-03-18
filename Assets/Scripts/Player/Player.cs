@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [Header("Health")]
     [SerializeField] float maxHealth;
 
-    [SerializeField] int initialPositionIndex;
+    [Header("Track")]
+    [SerializeField] int initialPositionIndex = 2;
     [SerializeField] List<Transform> initialTrackPositions;
 
     public Health playerHealth { get; private set; }
@@ -18,6 +20,23 @@ public class Player : MonoBehaviour
         playerTrack = new Track(initialTrackPositions, initialPositionIndex);
 
         this.transform.position = playerTrack.CurrentPosition().position;
+    }
+
+    private void Update()
+    {
+        if (playerHealth.IsDead())
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        PlayerController playerController = gameObject.GetComponent<PlayerController>();
+        playerController.enabled = false;
+
+        SceneController sceneController = FindObjectOfType<SceneController>();
+        sceneController.LoadGameOver();
     }
 
 }

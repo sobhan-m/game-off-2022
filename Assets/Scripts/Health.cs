@@ -24,4 +24,9 @@ public class Health
         currentHealth = Mathf.Clamp(currentHealth + healAmount, 0, maxHealth);
     }
 
+    public bool IsDead()
+    {
+        return currentHealth <= 0;
+    }
+
 }
