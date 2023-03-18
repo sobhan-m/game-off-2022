@@ -12,7 +12,7 @@ public class SceneController : MonoBehaviour
 
     public void LoadGameOver()
     {
-        SceneManager.LoadScene("Game Over");
+        SceneManager.LoadScene("Game_Over");
     }
 
     public void LoadNextScene()
