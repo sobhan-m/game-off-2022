@@ -5,6 +5,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Wave", menuName = "Wave Configuration")]
 public class Wave : ScriptableObject
 {
-    public float secondsBetweenProjectiles;
-    public List<Transform> paths;
+    public List<bool> doesTrackHaveProjectile;
 }

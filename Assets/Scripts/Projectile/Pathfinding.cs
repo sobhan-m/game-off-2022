@@ -5,10 +5,11 @@ using UnityEngine;
 public class Pathfinding : MonoBehaviour
 {
     [SerializeField] float speed;
-
-    public List<Transform> path;
+    [SerializeField] List<Transform> path;
 
     private int currentIndex;
+    private bool hasStartedPath;
+
     private Rigidbody2D rb;
 
     private void Awake()
@@ -18,15 +19,7 @@ public class Pathfinding : MonoBehaviour
 
         if (rb == null)
         {
-            Debug.Log("Pathfinding.Awake(): No RigidBody()");
-        }
-    }
-
-    private void Start()
-    {
-        if (path != null)
-        {
-            transform.position = path[currentIndex].position;
+            throw new MissingReferenceException("No RigidBody2D on this GameObject.");
         }
     }
 
@@ -43,7 +36,41 @@ public class Pathfinding : MonoBehaviour
 
     private void Update()
     {
-        Move();
+        if (hasStartedPath)
+        {
+            Move();
+        }
     }
+
+    public void BeginPath(List<Transform> path, float speed)
+    {
+        this.path = path;
+        this.speed = speed;
+        hasStartedPath = true;
+
+        transform.position = path[currentIndex].position;
+    }
+
+    public void BeginPath(List<Transform> path)
+    {
+        this.path = path;
+        hasStartedPath = true;
+        transform.position = path[currentIndex].position;
+    }
+
+    public void BeginPath(float speed)
+    {
+        this.speed = speed;
+        hasStartedPath = true;
+
+        transform.position = path[currentIndex].position;
+    }
+
+    public void BeginPath()
+    {
+        hasStartedPath = true;
+        transform.position = path[currentIndex].position;
+    }
+    
 
 }

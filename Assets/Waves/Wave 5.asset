@@ -12,9 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeb61dc8c72aa5a48b1e28298c51ebdf, type: 3}
   m_Name: Wave 5
   m_EditorClassIdentifier: 
-  secondsBetweenProjectiles: 0
-  paths:
-  - {fileID: 9026622077834908397, guid: 5eb4c38dcea45604b99bb960f953ab0e, type: 3}
-  - {fileID: 3200524506465521075, guid: 94f4d50a3df62014d9b70afb0fc6f34a, type: 3}
-  - {fileID: 4935194998385437569, guid: 41b336b287f23c046915b200efe7fbee, type: 3}
-  - {fileID: 5915098797941303605, guid: 653c7dd34fd55d7418825e534c4a6543, type: 3}
+  doesTrackHaveProjectile: 0001010101
