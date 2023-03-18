@@ -6,15 +6,23 @@ public class Projectile : MonoBehaviour
 {
     [SerializeField] float damagePerSecond;
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private Player player;
+
+    private void Start()
     {
-        Player player = collision.gameObject.GetComponent<Player>();
+        player = FindObjectOfType<Player>();
 
         if (!player)
         {
-            return;
+            throw new MissingReferenceException("No Player Found In Scene");
         }
+    }
 
-        player.playerHealth.Damage(damagePerSecond * Time.deltaTime);
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (player.gameObject == collision.gameObject)
+        {
+            player.playerHealth.Damage(damagePerSecond * Time.deltaTime);
+        }
     }
 }
