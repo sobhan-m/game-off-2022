@@ -8,6 +8,7 @@ public class OptionsController : MonoBehaviour
     [SerializeField] GameObject optionsMenu;
     [SerializeField] List<GameObject> uiElementsToDisable;
     [SerializeField] Slider volumeSlider;
+    [SerializeField] Slider combatSpeedSlider;
 
     private PauseController pauseController;
 
@@ -79,9 +80,18 @@ public class OptionsController : MonoBehaviour
         Debug.Log("FindVolumeMultiplier(): " + Settings.volumeMultiplier);
     }
 
+    public void FindCombatSpeedMultiplier()
+    {
+        Settings.combatSpeedMultiplier = combatSpeedSlider.value;
+    }
+
     private void ApplySettingValues()
     {
         volumeSlider.value = Settings.volumeMultiplier;
         volumeSlider.onValueChanged.AddListener((float arg) => FindVolumeMultiplier());
+
+        combatSpeedSlider.value = Settings.combatSpeedMultiplier;
+        combatSpeedSlider.onValueChanged.AddListener((float arg) => FindCombatSpeedMultiplier());
     }
+
 }

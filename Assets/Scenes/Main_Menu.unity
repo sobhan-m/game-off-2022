@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &170480139 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 170480139, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
+  m_PrefabInstance: {fileID: 5038904139443065015}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &390093255 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5038904139296246128, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
@@ -444,6 +455,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1304206228}
     - target: {fileID: 3981539058084432260, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: combatSpeedSlider
+      value: 
+      objectReference: {fileID: 170480139}
+    - target: {fileID: 3981539058084432260, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
       propertyPath: uiElementsToDisable.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -541,6 +556,26 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 667620093}
     m_Modifications:
+    - target: {fileID: 994129537, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 994129537, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1540971660, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1540971660, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1540971660, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5038904139296246128, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
       propertyPath: m_Name
       value: Options Menu

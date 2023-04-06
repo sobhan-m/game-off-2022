@@ -13,9 +13,5 @@ MonoBehaviour:
   m_Name: Test_Dialogue 3
   m_EditorClassIdentifier: 
   dialogueText: Okay bud.
-  responseTexts:
-  - test
-  - test
-  responseDialogues:
-  - {fileID: 11400000}
-  - {fileID: 11400000}
+  responseTexts: []
+  responseDialogues: []

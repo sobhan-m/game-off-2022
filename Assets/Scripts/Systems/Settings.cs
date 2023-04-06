@@ -5,4 +5,5 @@ using UnityEngine;
 public static class Settings
 {
     public static float volumeMultiplier = 1f;
+    public static float combatSpeedMultiplier = 1f;
 }
