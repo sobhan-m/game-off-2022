@@ -704,9 +704,25 @@ PrefabInstance:
     m_TransformParent: {fileID: 667620093}
     m_Modifications:
     - target: {fileID: 5461476267111445206, guid: 32006e05de89adc45a873b08abbe1032, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5461476267111445206, guid: 32006e05de89adc45a873b08abbe1032, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5461476267111445206, guid: 32006e05de89adc45a873b08abbe1032, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2092829306}
+    - target: {fileID: 5461476267111445206, guid: 32006e05de89adc45a873b08abbe1032, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5461476267111445206, guid: 32006e05de89adc45a873b08abbe1032, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SceneController, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 5461476267295023245, guid: 32006e05de89adc45a873b08abbe1032, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

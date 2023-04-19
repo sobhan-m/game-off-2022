@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3981539058084432260}
   - component: {fileID: 3981539058084432261}
   - component: {fileID: 3981539058084432262}
+  - component: {fileID: 4215927342732465853}
   m_Layer: 0
   m_Name: Systems
   m_TagString: Untagged
@@ -49,6 +50,7 @@ MonoBehaviour:
   optionsMenu: {fileID: 0}
   uiElementsToDisable: []
   volumeSlider: {fileID: 0}
+  combatSpeedSlider: {fileID: 0}
 --- !u!114 &3981539058084432261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,7 +63,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f25fd8d92daf794d9ce0beb4d824e97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isActive: 0
   pauseMenu: {fileID: 0}
 --- !u!114 &3981539058084432262
 MonoBehaviour:
@@ -75,3 +76,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c34e60011d8599847a4f625b7ebd11d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4215927342732465853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3981539058084432264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b7128f710eedd64f92bc4efe484c907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverSound: {fileID: 0}
+  clickSound: {fileID: 8300000, guid: 25067f6fee9df44439c87cf728534f83, type: 3}
