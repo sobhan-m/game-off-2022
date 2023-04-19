@@ -44,6 +44,8 @@ public class ProjectileSpawner : MonoBehaviour
     
     private void SpawnWave(Wave wave)
     {
+        Debug.Log("ProjectileSpawner.SpawnWave(): Seconds Since Last Wave " + secondsSinceWaveStarted + " s.");
+
         for (int i = 0; i < wave.doesTrackHaveProjectile.Count; ++i)
         {
             if (wave.doesTrackHaveProjectile[i])
