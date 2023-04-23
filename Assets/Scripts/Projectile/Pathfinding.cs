@@ -30,11 +30,11 @@ public class Pathfinding : MonoBehaviour
             ++currentIndex;
         }
 
-        Vector3 intermediatePosition = Vector3.MoveTowards(transform.position, path[currentIndex].position, speed * Time.deltaTime * Settings.combatSpeedMultiplier);
-        rb.position = intermediatePosition;
+        Vector3 intermediatePosition = Vector3.MoveTowards(transform.position, path[currentIndex].position, speed * Time.fixedDeltaTime * Settings.combatSpeedMultiplier);
+        rb.MovePosition(intermediatePosition);
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (hasStartedPath)
         {

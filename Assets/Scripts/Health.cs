@@ -16,7 +16,6 @@ public class Health
     public void Damage(float damageAmount)
     {
         currentHealth = Mathf.Clamp(currentHealth - damageAmount, 0, maxHealth);
-        Debug.Log(currentHealth);
     }
 
     public void Heal(float healAmount)

@@ -1689,6 +1689,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 1889835428}
     m_Modifications:
     - target: {fileID: 7166759805745437322, guid: 8d99e7b16e9f2884991bb811ee5c7b2f, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166759805745437322, guid: 8d99e7b16e9f2884991bb811ee5c7b2f, type: 3}
+      propertyPath: secondsBetweenWaves
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166759805745437322, guid: 8d99e7b16e9f2884991bb811ee5c7b2f, type: 3}
       propertyPath: pathWrappers.Array.data[0]
       value: 
       objectReference: {fileID: 2139229770}
@@ -1850,7 +1858,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7927740162198954462, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.000030517578
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7927740162198954462, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
       propertyPath: m_AnchoredPosition.y
