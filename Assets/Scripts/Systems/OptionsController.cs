@@ -2,13 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class OptionsController : MonoBehaviour
 {
     [SerializeField] GameObject optionsMenu;
     [SerializeField] List<GameObject> uiElementsToDisable;
-    [SerializeField] Slider volumeSlider;
+    [Header("Speed Settings")]
     [SerializeField] Slider combatSpeedSlider;
+    [SerializeField] TMP_InputField combatSpeedInput;
+    [Header("Volume Settings")]
+    [SerializeField] Slider volumeSlider;
+    [SerializeField] TMP_InputField volumeInput;
 
     private PauseController pauseController;
 
@@ -92,6 +97,18 @@ public class OptionsController : MonoBehaviour
 
         combatSpeedSlider.value = Settings.combatSpeedMultiplier;
         combatSpeedSlider.onValueChanged.AddListener((float arg) => FindCombatSpeedMultiplier());
+    }
+
+    // Called when the input changes.
+    private void ApplyCombatSpeedInput()
+    {
+        combatSpeedSlider.value = int.Parse(combatSpeedInput.text);
+    }
+
+    // Called when the input changes.
+    private void ApplyVolumeInput()
+    {
+        volumeSlider.value = int.Parse(volumeInput.text);
     }
 
 }
