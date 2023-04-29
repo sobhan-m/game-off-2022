@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &166952628 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1400399931616734794, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
+  m_PrefabInstance: {fileID: 5038904139443065015}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &170480139 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 170480139, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
@@ -357,6 +368,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5461476268374828577, guid: 32006e05de89adc45a873b08abbe1032, type: 3}
   m_PrefabInstance: {fileID: 5461476266984518347}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1545809630 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8665037229320625892, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
+  m_PrefabInstance: {fileID: 5038904139443065015}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1831616863 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5461476268547175316, guid: 32006e05de89adc45a873b08abbe1032, type: 3}
@@ -451,9 +473,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 390093255}
     - target: {fileID: 3981539058084432260, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: volumeInput
+      value: 
+      objectReference: {fileID: 166952628}
+    - target: {fileID: 3981539058084432260, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
       propertyPath: volumeSlider
       value: 
       objectReference: {fileID: 1304206228}
+    - target: {fileID: 3981539058084432260, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: combatSpeedInput
+      value: 
+      objectReference: {fileID: 1545809630}
     - target: {fileID: 3981539058084432260, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
       propertyPath: combatSpeedSlider
       value: 

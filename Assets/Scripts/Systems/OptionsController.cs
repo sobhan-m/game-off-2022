@@ -8,9 +8,11 @@ public class OptionsController : MonoBehaviour
 {
     [SerializeField] GameObject optionsMenu;
     [SerializeField] List<GameObject> uiElementsToDisable;
+
     [Header("Speed Settings")]
     [SerializeField] Slider combatSpeedSlider;
     [SerializeField] TMP_InputField combatSpeedInput;
+
     [Header("Volume Settings")]
     [SerializeField] Slider volumeSlider;
     [SerializeField] TMP_InputField volumeInput;
@@ -79,36 +81,33 @@ public class OptionsController : MonoBehaviour
         }
     }
 
-    public void FindVolumeMultiplier()
+    public void SyncVolume(float newVolume)
     {
-        Settings.volumeMultiplier = volumeSlider.value;
-        Debug.Log("FindVolumeMultiplier(): " + Settings.volumeMultiplier);
+        float clampedValue = Mathf.Clamp(newVolume, volumeSlider.minValue, volumeSlider.maxValue);
+
+        volumeSlider.value = clampedValue;
+        Settings.volumeMultiplier = clampedValue;
+        volumeInput.text = string.Format("{0:0.0}", clampedValue);
     }
 
-    public void FindCombatSpeedMultiplier()
+    public void SyncCombatSpeed(float newSpeed)
     {
-        Settings.combatSpeedMultiplier = combatSpeedSlider.value;
+        float clampedValue = Mathf.Clamp(newSpeed, combatSpeedSlider.minValue, combatSpeedSlider.maxValue);
+
+        combatSpeedSlider.value = clampedValue;
+        Settings.combatSpeedMultiplier = clampedValue;
+        combatSpeedInput.text = string.Format("{0:0.0}", clampedValue);
     }
 
     private void ApplySettingValues()
     {
-        volumeSlider.value = Settings.volumeMultiplier;
-        volumeSlider.onValueChanged.AddListener((float arg) => FindVolumeMultiplier());
+        SyncVolume(Settings.volumeMultiplier);
+        volumeSlider.onValueChanged.AddListener((float val) => SyncVolume(val));
+        volumeInput.onEndEdit.AddListener((string val) => SyncVolume(float.Parse(val)));
 
-        combatSpeedSlider.value = Settings.combatSpeedMultiplier;
-        combatSpeedSlider.onValueChanged.AddListener((float arg) => FindCombatSpeedMultiplier());
-    }
-
-    // Called when the input changes.
-    private void ApplyCombatSpeedInput()
-    {
-        combatSpeedSlider.value = int.Parse(combatSpeedInput.text);
-    }
-
-    // Called when the input changes.
-    private void ApplyVolumeInput()
-    {
-        volumeSlider.value = int.Parse(volumeInput.text);
+        SyncCombatSpeed(Settings.combatSpeedMultiplier);
+        combatSpeedSlider.onValueChanged.AddListener((float val) => SyncCombatSpeed(val));
+        combatSpeedInput.onEndEdit.AddListener((string val) => SyncCombatSpeed(float.Parse(val)));
     }
 
 }
