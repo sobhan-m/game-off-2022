@@ -90,6 +90,20 @@ public class OptionsController : MonoBehaviour
         volumeInput.text = string.Format("{0:0.0}", clampedValue);
     }
 
+    public void SyncVolume(string newVolume)
+    {
+        try
+        {
+            float num = float.Parse(newVolume);
+            SyncVolume(num);
+        }
+        catch (System.FormatException err)
+        {
+            Debug.Log("SyncVolume(): " + err.Message);
+            SyncVolume(Settings.volumeMultiplier);
+        }
+    }
+
     public void SyncCombatSpeed(float newSpeed)
     {
         float clampedValue = Mathf.Clamp(newSpeed, combatSpeedSlider.minValue, combatSpeedSlider.maxValue);
@@ -99,15 +113,29 @@ public class OptionsController : MonoBehaviour
         combatSpeedInput.text = string.Format("{0:0.0}", clampedValue);
     }
 
+    public void SyncCombatSpeed(string newVolume)
+    {
+        try
+        {
+            float num = float.Parse(newVolume);
+            SyncCombatSpeed(num);
+        }
+        catch (System.FormatException err)
+        {
+            Debug.Log("SyncCombatSpeed(): " + err.Message);
+            SyncCombatSpeed(Settings.combatSpeedMultiplier);
+        }
+    }
+
     private void ApplySettingValues()
     {
         SyncVolume(Settings.volumeMultiplier);
         volumeSlider.onValueChanged.AddListener((float val) => SyncVolume(val));
-        volumeInput.onEndEdit.AddListener((string val) => SyncVolume(float.Parse(val)));
+        volumeInput.onEndEdit.AddListener((string val) => SyncVolume(val));
 
         SyncCombatSpeed(Settings.combatSpeedMultiplier);
         combatSpeedSlider.onValueChanged.AddListener((float val) => SyncCombatSpeed(val));
-        combatSpeedInput.onEndEdit.AddListener((string val) => SyncCombatSpeed(float.Parse(val)));
+        combatSpeedInput.onEndEdit.AddListener((string val) => SyncCombatSpeed(val));
     }
 
 }

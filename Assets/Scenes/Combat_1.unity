@@ -848,6 +848,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1139060425 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1400399931616734794, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
+  m_PrefabInstance: {fileID: 1139060420}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1139060426 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8665037229320625892, guid: 6eac18de5643b974f816488a3219d9d0, type: 3}
+  m_PrefabInstance: {fileID: 1139060420}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1146877114 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7927740162198954463, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
@@ -1487,9 +1509,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1139060423}
     - target: {fileID: 3981539058084432260, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: volumeInput
+      value: 
+      objectReference: {fileID: 1139060425}
+    - target: {fileID: 3981539058084432260, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
       propertyPath: volumeSlider
       value: 
       objectReference: {fileID: 1139060422}
+    - target: {fileID: 3981539058084432260, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: combatSpeedInput
+      value: 
+      objectReference: {fileID: 1139060426}
     - target: {fileID: 3981539058084432260, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
       propertyPath: combatSpeedSlider
       value: 
