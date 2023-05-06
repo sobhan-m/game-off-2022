@@ -12,24 +12,22 @@ public class PlayerMovement : MonoBehaviour
 	private Rigidbody2D rb;
 	private Track track;
 
-	private float previousAction;
-
 	void Awake()
 	{
 		playerInputActions = new PlayerInputActions();
 		player = GetComponent<Player>();
 		rb = GetComponent<Rigidbody2D>();
+		movement = playerInputActions.Player.Movement;
+		movement.performed += ctx => Move();
 	}
 
     private void Start()
     {
 		track = player.playerTrack;
-		previousAction = 0;
 	}
 
     void OnEnable()
     {
-		movement = playerInputActions.Player.Movement;
 		movement.Enable();
 	}
 
@@ -38,25 +36,9 @@ public class PlayerMovement : MonoBehaviour
 		movement.Disable();
 	}
 
-	void FixedUpdate()
-	{
-		Move();
-	}
-
 	private void Move()
     {
 		float movementCommand = movement.ReadValue<float>();
-		// Debug.Log("PlayerController.Move(): " + movementCommand);
-
-		// Ensuring no repeating moves.
-		if (movementCommand == previousAction)
-        {
-			return;
-        }
-		else
-        {
-			previousAction = movementCommand;
-        }
 
 		// Moving player.
 		Transform newTransform;
