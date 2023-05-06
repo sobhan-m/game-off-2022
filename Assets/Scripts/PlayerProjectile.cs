@@ -32,7 +32,7 @@ public class PlayerProjectile : MonoBehaviour
 		Projectile enemyProjectile = other.GetComponent<Projectile>();
 		if (enemyProjectile)
 		{
-			Destroy(enemyProjectile);
+			Destroy(enemyProjectile.gameObject);
 		}
 	}
 }
