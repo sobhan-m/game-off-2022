@@ -1776,6 +1776,10 @@ PrefabInstance:
       propertyPath: initialTrackPositions.Array.data[9]
       value: 
       objectReference: {fileID: 1271262005}
+    - target: {fileID: 5829168959977202552, guid: f76b94735b3f48648a0c7b1e23cdda2b, type: 3}
+      propertyPath: buildUpTime
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f76b94735b3f48648a0c7b1e23cdda2b, type: 3}

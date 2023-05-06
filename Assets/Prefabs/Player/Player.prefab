@@ -171,3 +171,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerProjectilePrefab: {fileID: 3227519156579726549, guid: 48d5eabe0a5186340a6fbbd15c5fc083, type: 3}
+  buildUpTime: 2

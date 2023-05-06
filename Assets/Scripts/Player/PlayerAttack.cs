@@ -9,6 +9,14 @@ public class PlayerAttack : MonoBehaviour
 	private InputAction attackAction;
 	private PlayerInputActions playerInputActions;
 
+	[SerializeField] float buildUpTime;
+	private Meter attackMeter;
+
+	private void Start()
+	{
+		attackMeter = new Meter(0, buildUpTime);
+	}
+
 	private void Awake()
 	{
 		playerInputActions = new PlayerInputActions();
@@ -21,9 +29,20 @@ public class PlayerAttack : MonoBehaviour
 		attackAction.performed += Attack;
 	}
 
+	private void Update()
+	{
+		attackMeter.FillMeter(Time.deltaTime);
+	}
+
 	private void Attack(InputAction.CallbackContext obj)
 	{
+		if (!attackMeter.IsFull())
+		{
+			return;
+		}
+
 		GameObject projectile = Instantiate(playerProjectilePrefab, transform.position, Quaternion.identity);
+		attackMeter.EmptyMeter();
 	}
 
 	void OnDisable()
