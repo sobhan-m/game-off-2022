@@ -15,20 +15,26 @@ public class Meter
 		this.currentValue = currentValue;
 	}
 
+	/// <summary>
+	/// Fill the meter by <c>val</c>.
+	/// </summary>
 	public void FillMeter(float val)
 	{
 		if (val < 0)
 		{
-			throw new System.ArgumentOutOfRangeException("Meter.FillMeter(): The passed value must be non-negative. Use Meter.DepleteMeter() to reduce.");
+			throw new System.ArgumentOutOfRangeException("Meter.FillMeter(): The passed value must be non-negative. Use Meter.EmptyMeter() to reduce.");
 		}
 		currentValue = Mathf.Clamp(currentValue += val, minValue, maxValue);
 	}
 
-	public void DepleteMeter(float val)
+	/// <summary>
+	/// Empty the meter by <c>val</c>.
+	/// </summary>
+	public void EmptyMeter(float val)
 	{
 		if (val < 0)
 		{
-			throw new System.ArgumentOutOfRangeException("Meter.DepleteMeter(): The passed value must be non-negative. Use Meter.FillMeter() to increase.");
+			throw new System.ArgumentOutOfRangeException("Meter.EmptyMeter(): The passed value must be non-negative. Use Meter.FillMeter() to increase.");
 		}
 		currentValue = Mathf.Clamp(currentValue -= val, minValue, maxValue);
 	}
@@ -41,6 +47,22 @@ public class Meter
 	public bool IsEmpty()
 	{
 		return currentValue <= minValue;
+	}
+
+	/// <summary>
+	/// Fill the meter up to the <c>maxValue</c>.
+	/// </summary>
+	public void FillMeter()
+	{
+		currentValue = maxValue;
+	}
+
+	/// <summary>
+	/// Empty the meter down to <c>minValue</c>.
+	/// </summary>
+	public void EmptyMeter()
+	{
+		currentValue = minValue;
 	}
 
 }
