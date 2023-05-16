@@ -7,7 +7,9 @@ public class PlayerAttack : MonoBehaviour
 {
 	[SerializeField] GameObject playerProjectilePrefab;
 	private InputAction attackAction;
+	private InputAction weaponChangeAction;
 	private PlayerInputActions playerInputActions;
+
 
 	[SerializeField] float buildUpTime;
 	private Meter attackMeter;
@@ -20,13 +22,15 @@ public class PlayerAttack : MonoBehaviour
 	private void Awake()
 	{
 		playerInputActions = new PlayerInputActions();
+		attackAction = playerInputActions.Player.Attack;
+		weaponChangeAction = playerInputActions.Player.ChangeWeapons;
+		attackAction.performed += Attack;
+		weaponChangeAction.performed += ChangeWeapon;
 	}
 
 	void OnEnable()
 	{
-		attackAction = playerInputActions.Player.Attack;
 		attackAction.Enable();
-		attackAction.performed += Attack;
 	}
 
 	private void Update()
@@ -43,6 +47,13 @@ public class PlayerAttack : MonoBehaviour
 
 		GameObject projectile = Instantiate(playerProjectilePrefab, transform.position, Quaternion.identity);
 		attackMeter.EmptyMeter();
+	}
+
+	private void ChangeWeapon(InputAction.CallbackContext obj)
+	{
+		Debug.Log("test");
+		float weaponChange = weaponChangeAction.ReadValue<float>();
+		Debug.Log(weaponChange);
 	}
 
 	void OnDisable()

@@ -2,75 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pathfinding : MonoBehaviour
+public class Pathfinding
 {
-    [SerializeField] float speed;
-    [SerializeField] List<Transform> path;
+	public float speed { get; private set; }
+	private int currentIndex;
+	private List<Transform> path;
+	public Pathfinding(float speed, List<Transform> path)
+	{
+		this.speed = speed;
+		this.path = path;
+		this.currentIndex = 0;
+	}
 
-    private int currentIndex;
-    private bool hasStartedPath;
 
-    private Rigidbody2D rb;
+	public Vector3 NextPosition(Transform transform)
+	{
+		if (currentIndex <= path.Count && transform.position == path[currentIndex].position)
+		{
+			++currentIndex;
+		}
 
-    private void Awake()
-    {
-        currentIndex = 0;
-        rb = GetComponent<Rigidbody2D>();
-
-        if (rb == null)
-        {
-            throw new MissingReferenceException("No RigidBody2D on this GameObject.");
-        }
-    }
-
-    private void Move()
-    {
-        if (currentIndex <= path.Count && transform.position == path[currentIndex].position)
-        {
-            ++currentIndex;
-        }
-
-        Vector3 intermediatePosition = Vector3.MoveTowards(transform.position, path[currentIndex].position, speed * Time.fixedDeltaTime * Settings.combatSpeedMultiplier);
-        rb.MovePosition(intermediatePosition);
-    }
-
-    private void FixedUpdate()
-    {
-        if (hasStartedPath)
-        {
-            Move();
-        }
-    }
-
-    public void BeginPath(List<Transform> path, float speed)
-    {
-        this.path = path;
-        this.speed = speed;
-        hasStartedPath = true;
-
-        transform.position = path[currentIndex].position;
-    }
-
-    public void BeginPath(List<Transform> path)
-    {
-        this.path = path;
-        hasStartedPath = true;
-        transform.position = path[currentIndex].position;
-    }
-
-    public void BeginPath(float speed)
-    {
-        this.speed = speed;
-        hasStartedPath = true;
-
-        transform.position = path[currentIndex].position;
-    }
-
-    public void BeginPath()
-    {
-        hasStartedPath = true;
-        transform.position = path[currentIndex].position;
-    }
-    
-
+		Vector3 intermediatePosition = Vector3.MoveTowards(transform.position, path[currentIndex].position, speed * Time.fixedDeltaTime * Settings.combatSpeedMultiplier);
+		return intermediatePosition;
+	}
 }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7166759805745437325}
   - component: {fileID: 7166759805745437322}
   m_Layer: 0
-  m_Name: Projectile_Spawner
+  m_Name: EnemyMissileSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7166759805745437322
 MonoBehaviour:
@@ -41,22 +41,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7166759805745437323}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fa2fc4da961fe44db6067873c984ef6, type: 3}
+  m_Script: {fileID: 11500000, guid: b5b45d71cc17b304ebac1fc5b2dd48b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 7970511147898226314, guid: d1100fda77f370140b38c64d932eeadc, type: 3}
-  projectileSpeed: 20
-  waves:
-  - {fileID: 11400000, guid: 658630f2440b7a74980f2c3f4af50543, type: 2}
-  - {fileID: 11400000, guid: 658630f2440b7a74980f2c3f4af50543, type: 2}
-  - {fileID: 11400000, guid: 658630f2440b7a74980f2c3f4af50543, type: 2}
-  - {fileID: 11400000, guid: 2706181f45e28c148b9a44c4cdf481a1, type: 2}
-  - {fileID: 11400000, guid: 0e04a193b3ac5ca4283251d0e8fd4620, type: 2}
-  - {fileID: 11400000, guid: f627ee96d3453af43be6b01bd4517bb6, type: 2}
-  pathWrappers:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  secondsBetweenWaves: 1.5
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 7.5
+  waves: []
+  pathWrappers: []
+  secondsBetweenWaves: 0

@@ -1776,10 +1776,6 @@ PrefabInstance:
       propertyPath: initialTrackPositions.Array.data[9]
       value: 
       objectReference: {fileID: 1271262005}
-    - target: {fileID: 5829168959977202552, guid: f76b94735b3f48648a0c7b1e23cdda2b, type: 3}
-      propertyPath: buildUpTime
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f76b94735b3f48648a0c7b1e23cdda2b, type: 3}
@@ -1796,8 +1792,40 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7166759805745437322, guid: 8d99e7b16e9f2884991bb811ee5c7b2f, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 7970511147898226314, guid: d1100fda77f370140b38c64d932eeadc, type: 3}
+    - target: {fileID: 7166759805745437322, guid: 8d99e7b16e9f2884991bb811ee5c7b2f, type: 3}
+      propertyPath: waves.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166759805745437322, guid: 8d99e7b16e9f2884991bb811ee5c7b2f, type: 3}
       propertyPath: secondsBetweenWaves
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166759805745437322, guid: 8d99e7b16e9f2884991bb811ee5c7b2f, type: 3}
+      propertyPath: waves.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 658630f2440b7a74980f2c3f4af50543, type: 2}
+    - target: {fileID: 7166759805745437322, guid: 8d99e7b16e9f2884991bb811ee5c7b2f, type: 3}
+      propertyPath: waves.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2706181f45e28c148b9a44c4cdf481a1, type: 2}
+    - target: {fileID: 7166759805745437322, guid: 8d99e7b16e9f2884991bb811ee5c7b2f, type: 3}
+      propertyPath: waves.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: f627ee96d3453af43be6b01bd4517bb6, type: 2}
+    - target: {fileID: 7166759805745437322, guid: 8d99e7b16e9f2884991bb811ee5c7b2f, type: 3}
+      propertyPath: waves.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: b25b63ab773cd594aa6990a0ebf7437b, type: 2}
+    - target: {fileID: 7166759805745437322, guid: 8d99e7b16e9f2884991bb811ee5c7b2f, type: 3}
+      propertyPath: waves.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0e04a193b3ac5ca4283251d0e8fd4620, type: 2}
+    - target: {fileID: 7166759805745437322, guid: 8d99e7b16e9f2884991bb811ee5c7b2f, type: 3}
+      propertyPath: pathWrappers.Array.size
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7166759805745437322, guid: 8d99e7b16e9f2884991bb811ee5c7b2f, type: 3}
       propertyPath: pathWrappers.Array.data[0]

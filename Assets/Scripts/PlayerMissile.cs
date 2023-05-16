@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerProjectile : MonoBehaviour
+public class PlayerMissile : MonoBehaviour, IMissile
 {
-	[SerializeField] float speed;
+	[SerializeField]
+	public float speed { get; private set; }
 
 	private Rigidbody2D rb;
 
@@ -19,7 +20,7 @@ public class PlayerProjectile : MonoBehaviour
 
 	private void Start()
 	{
-		rb.velocity = new Vector2(0, speed);
+		Move();
 	}
 
 	private void OnTriggerEnter2D(Collider2D other)
@@ -29,10 +30,15 @@ public class PlayerProjectile : MonoBehaviour
 			return;
 		}
 
-		Projectile enemyProjectile = other.GetComponent<Projectile>();
-		if (enemyProjectile)
+		EnemyMissile enemyMissile = other.GetComponent<EnemyMissile>();
+		if (enemyMissile)
 		{
-			Destroy(enemyProjectile.gameObject);
+			Destroy(enemyMissile.gameObject);
 		}
+	}
+
+	public void Move()
+	{
+		rb.velocity = new Vector2(0, speed);
 	}
 }
