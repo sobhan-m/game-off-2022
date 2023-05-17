@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class PlayerMissile : MonoBehaviour, IMissile
 {
-	[SerializeField]
-	public float speed { get; private set; }
+	[SerializeField] public float speed;
 
 	private Rigidbody2D rb;
 
