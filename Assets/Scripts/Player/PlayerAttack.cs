@@ -9,6 +9,8 @@ public class PlayerAttack : MonoBehaviour
 	private InputAction attackAction;
 	private InputAction weaponChangeAction;
 	private PlayerInputActions playerInputActions;
+	private WeaponSwapper weaponSwapper;
+	public PlayerMissileType currentMissile { get; private set; }
 
 
 	[SerializeField] float buildUpTime;
@@ -17,6 +19,8 @@ public class PlayerAttack : MonoBehaviour
 	private void Start()
 	{
 		attackMeter = new Meter(0, buildUpTime);
+		weaponSwapper = new WeaponSwapper();
+		currentMissile = weaponSwapper.GetWeapon();
 	}
 
 	private void Awake()
@@ -31,6 +35,7 @@ public class PlayerAttack : MonoBehaviour
 	void OnEnable()
 	{
 		attackAction.Enable();
+		weaponChangeAction.Enable();
 	}
 
 	private void Update()
@@ -51,13 +56,23 @@ public class PlayerAttack : MonoBehaviour
 
 	private void ChangeWeapon(InputAction.CallbackContext obj)
 	{
-		Debug.Log("test");
 		float weaponChange = weaponChangeAction.ReadValue<float>();
-		Debug.Log(weaponChange);
+		if (weaponChange > 0)
+		{
+			weaponSwapper.RotateRight();
+		}
+		else if (weaponChange < 0)
+		{
+			weaponSwapper.RotateLeft();
+		}
+		currentMissile = weaponSwapper.GetWeapon();
+
+		Debug.Log(currentMissile);
 	}
 
 	void OnDisable()
 	{
 		attackAction.Disable();
+		weaponChangeAction.Disable();
 	}
 }
