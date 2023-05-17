@@ -1,4 +1,4 @@
-enum ProjectileType
+enum PlayerMissileType
 {
 	REGULAR,
 	FIRE,
