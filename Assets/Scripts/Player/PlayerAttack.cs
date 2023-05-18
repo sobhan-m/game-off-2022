@@ -42,6 +42,11 @@ public class PlayerAttack : MonoBehaviour
 
 	private void Attack(InputAction.CallbackContext obj)
 	{
+		if (PauseController.IsPaused())
+		{
+			return;
+		}
+
 		if (!attackMeter.IsFull())
 		{
 			return;
@@ -53,6 +58,11 @@ public class PlayerAttack : MonoBehaviour
 
 	private void ChangeWeapon(InputAction.CallbackContext obj)
 	{
+		if (PauseController.IsPaused())
+		{
+			return;
+		}
+
 		float weaponChange = weaponChangeAction.ReadValue<float>();
 		if (weaponChange > 0)
 		{

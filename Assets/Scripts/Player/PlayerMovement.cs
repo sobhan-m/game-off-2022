@@ -21,37 +21,42 @@ public class PlayerMovement : MonoBehaviour
 		movement.performed += ctx => Move();
 	}
 
-    private void Start()
-    {
+	private void Start()
+	{
 		track = player.playerTrack;
 	}
 
-    void OnEnable()
-    {
+	void OnEnable()
+	{
 		movement.Enable();
 	}
 
-    void OnDisable()
+	void OnDisable()
 	{
 		movement.Disable();
 	}
 
 	private void Move()
-    {
+	{
+		if (PauseController.IsPaused())
+		{
+			return;
+		}
+
 		float movementCommand = movement.ReadValue<float>();
 
 		// Moving player.
 		Transform newTransform;
 		if (movementCommand == 0)
-        {
+		{
 			newTransform = track.CurrentPosition();
-        }
+		}
 		else if (Mathf.Sign(movementCommand) > 0)
-        {
+		{
 			newTransform = track.MoveNext();
-        }
+		}
 		else
-        {
+		{
 			newTransform = track.MovePrevious();
 		}
 		player.transform.position = newTransform.position;
