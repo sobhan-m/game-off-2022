@@ -14,14 +14,7 @@ public class PlayerAttack : MonoBehaviour
 
 
 	[SerializeField] float buildUpTime;
-	private Meter attackMeter;
-
-	private void Start()
-	{
-		attackMeter = new Meter(0, buildUpTime);
-		weaponSwapper = new WeaponSwapper();
-		currentMissile = weaponSwapper.GetWeapon();
-	}
+	public Meter attackMeter { get; private set; }
 
 	private void Awake()
 	{
@@ -30,6 +23,10 @@ public class PlayerAttack : MonoBehaviour
 		weaponChangeAction = playerInputActions.Player.ChangeWeapons;
 		attackAction.performed += Attack;
 		weaponChangeAction.performed += ChangeWeapon;
+
+		attackMeter = new Meter(0, buildUpTime);
+		weaponSwapper = new WeaponSwapper();
+		currentMissile = weaponSwapper.GetWeapon();
 	}
 
 	void OnEnable()
