@@ -5,25 +5,23 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-	private InputAction movement;
-	private PlayerInputActions playerInputActions;
+	[SerializeField] int initialPositionIndex = 2;
+	[SerializeField] List<Transform> initialTrackPositions;
 
-	private Player player;
+	private InputAction movement;
+
 	private Rigidbody2D rb;
 	private Track track;
 
 	void Awake()
 	{
-		playerInputActions = new PlayerInputActions();
-		player = GetComponent<Player>();
-		rb = GetComponent<Rigidbody2D>();
-		movement = playerInputActions.Player.Movement;
-		movement.performed += ctx => Move();
-	}
+		track = new Track(initialTrackPositions, initialPositionIndex);
 
-	private void Start()
-	{
-		track = player.playerTrack;
+		rb = GetComponent<Rigidbody2D>();
+		transform.position = track.CurrentPosition().position;
+
+		movement = (new PlayerInputActions()).Player.Movement;
+		movement.performed += ctx => Move();
 	}
 
 	void OnEnable()
@@ -46,19 +44,17 @@ public class PlayerMovement : MonoBehaviour
 		float movementCommand = movement.ReadValue<float>();
 
 		// Moving player.
-		Transform newTransform;
 		if (movementCommand == 0)
 		{
-			newTransform = track.CurrentPosition();
+			transform.position = track.CurrentPosition().position;
 		}
 		else if (Mathf.Sign(movementCommand) > 0)
 		{
-			newTransform = track.MoveNext();
+			transform.position = track.MoveNext().position;
 		}
 		else
 		{
-			newTransform = track.MovePrevious();
+			transform.position = track.MovePrevious().position;
 		}
-		player.transform.position = newTransform.position;
 	}
 }

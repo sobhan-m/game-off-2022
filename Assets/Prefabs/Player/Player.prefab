@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5829168959977202552}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35,7 +35,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5017927337242690507
 SpriteRenderer:
@@ -101,6 +101,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebc52e149c1122a499e84d291dbe2da0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialPositionIndex: 2
+  initialTrackPositions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &5017927337242690510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,13 +121,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  initialPositionIndex: 0
-  initialTrackPositions:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!50 &5017927337242690509
 Rigidbody2D:
   serializedVersion: 4
