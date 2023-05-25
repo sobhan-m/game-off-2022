@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
 
 	private void Die()
 	{
-		PlayerMovement playerMovement = gameObject.GetComponent<PlayerMovement>();
+		PlayerMovementController playerMovement = gameObject.GetComponent<PlayerMovementController>();
 		playerMovement.enabled = false;
 
 		SceneChangeManager sceneController = FindObjectOfType<SceneChangeManager>();

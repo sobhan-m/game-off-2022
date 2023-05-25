@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovementController : MonoBehaviour
 {
 	[SerializeField] int initialPositionIndex = 2;
 	[SerializeField] List<Transform> initialTrackPositions;
