@@ -16,7 +16,7 @@ public class AttackBuildupTracker : MonoBehaviour
 
 	private void Start()
 	{
-		PlayerAttack playerAttack = FindObjectOfType<PlayerAttack>();
+		PlayerAttackController playerAttack = FindObjectOfType<PlayerAttackController>();
 		if (!playerAttack)
 		{
 			throw new MissingReferenceException("No PlayerAttack script exists in this scene.");

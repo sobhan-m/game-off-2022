@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerAttack : MonoBehaviour
+public class PlayerAttackController : MonoBehaviour
 {
 	[SerializeField] GameObject playerProjectilePrefab;
 	private InputAction attackAction;
