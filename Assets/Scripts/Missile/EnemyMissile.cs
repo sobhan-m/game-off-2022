@@ -11,7 +11,7 @@ public class EnemyMissile : MonoBehaviour, IMissile
 	private Rigidbody2D rb;
 
 
-	private void Start()
+	private void Awake()
 	{
 		player = FindObjectOfType<Player>();
 
@@ -22,7 +22,7 @@ public class EnemyMissile : MonoBehaviour, IMissile
 
 		rb = GetComponent<Rigidbody2D>();
 
-		if (!player)
+		if (!rb)
 		{
 			throw new MissingComponentException("No rigidbody attached to this Missile.");
 		}
