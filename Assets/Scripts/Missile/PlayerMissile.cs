@@ -7,6 +7,8 @@ public class PlayerMissile : MonoBehaviour, IMissile
 	[SerializeField] public float speed;
 
 	private Rigidbody2D rb;
+	private MissileDamage damage;
+	private MissileEffect effect;
 
 	private void Awake()
 	{
@@ -15,6 +17,8 @@ public class PlayerMissile : MonoBehaviour, IMissile
 		{
 			throw new MissingReferenceException("This object does not have a RigidBody attached!");
 		}
+
+		damage = new RegularDamage(10);
 	}
 
 	private void Start()
@@ -32,7 +36,7 @@ public class PlayerMissile : MonoBehaviour, IMissile
 		EnemyMissile enemyMissile = other.GetComponent<EnemyMissile>();
 		if (enemyMissile)
 		{
-			Destroy(enemyMissile.gameObject);
+			damage.ApplyDamage(enemyMissile);
 		}
 	}
 
