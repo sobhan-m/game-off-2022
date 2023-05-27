@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMissile : MonoBehaviour, IMissile
+public class EnemyMissile : MonoBehaviour, IMissile, IDamageable
 {
 	[SerializeField] float damagePerSecond;
 
@@ -56,5 +56,13 @@ public class EnemyMissile : MonoBehaviour, IMissile
 		Move();
 	}
 
+	public Health RetrieveHealth()
+	{
+		return new Health(1);
+	}
 
+	public void Die()
+	{
+		Destroy(this.gameObject);
+	}
 }

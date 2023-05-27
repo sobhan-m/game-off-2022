@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IDamageable
 {
 	[Header("Health")]
 	[SerializeField] float maxHealth;
@@ -21,13 +21,18 @@ public class Player : MonoBehaviour
 		}
 	}
 
-	private void Die()
+	public void Die()
 	{
 		PlayerMovementController playerMovement = gameObject.GetComponent<PlayerMovementController>();
 		playerMovement.enabled = false;
 
 		SceneChangeManager sceneController = FindObjectOfType<SceneChangeManager>();
 		sceneController.LoadGameOver();
+	}
+
+	public Health RetrieveHealth()
+	{
+		return playerHealth;
 	}
 
 }
