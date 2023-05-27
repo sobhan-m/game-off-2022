@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IAffectable
+public abstract class MissileEffect
 {
-	public void StoreEffect(MissileEffect missileEffect);
+
 }
