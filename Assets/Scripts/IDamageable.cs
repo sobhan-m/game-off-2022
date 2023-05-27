@@ -4,5 +4,6 @@ using UnityEngine;
 
 public interface IDamageable
 {
-	public void ReceiveDamage();
+	public Health RetrieveHealth();
+	public void Die();
 }

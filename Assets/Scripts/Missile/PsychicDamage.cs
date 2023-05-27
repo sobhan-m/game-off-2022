@@ -1,3 +1,5 @@
+using UnityEngine;
+
 public class PsychicDamage : MissileDamage
 {
 	public PsychicDamage()
@@ -15,11 +17,20 @@ public class PsychicDamage : MissileDamage
 
 	public override void ApplyDamage(IDamageable damagedObject)
 	{
-		throw new System.NotImplementedException();
-	}
+		MonoBehaviour enemy = damagedObject as MonoBehaviour;
+		if (enemy && enemy.TryGetComponent<EnemyMissile>(out EnemyMissile missile))
+		{
+			Debug.Log("PsychicDamage.ApplyDamage(): Not applying damage.");
+			return;
+		}
 
-	public override void ApplyEffect(IAffectable affectedObject)
-	{
-		throw new System.NotImplementedException();
+
+		Health health = damagedObject.RetrieveHealth();
+		health.Damage(damageAmount);
+
+		if (health.IsDead())
+		{
+			damagedObject.Die();
+		}
 	}
 }

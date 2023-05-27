@@ -15,11 +15,12 @@ public class RegularDamage : MissileDamage
 
 	public override void ApplyDamage(IDamageable damagedObject)
 	{
-		throw new System.NotImplementedException();
-	}
+		Health health = damagedObject.RetrieveHealth();
+		health.Damage(damageAmount);
 
-	public override void ApplyEffect(IAffectable affectedObject)
-	{
-		throw new System.NotImplementedException();
+		if (health.IsDead())
+		{
+			damagedObject.Die();
+		}
 	}
 }
