@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class PlayerMissile : MonoBehaviour, IMissile
 {
-	[SerializeField] public float speed;
-
-	private Rigidbody2D rb;
+	[Header("Damage")]
+	[SerializeField] private float initialDamage;
+	[SerializeField] private PlayerMissileType initialDamageType;
 	private MissileDamage damage;
 	private MissileEffect effect;
+
+	[Header("Movement")]
+	[SerializeField] public float speed;
+	private Rigidbody2D rb;
 
 	private void Awake()
 	{
@@ -18,7 +22,7 @@ public class PlayerMissile : MonoBehaviour, IMissile
 			throw new MissingReferenceException("This object does not have a RigidBody attached!");
 		}
 
-		damage = new RegularDamage(10);
+		damage = MissileDamage.ConstructMissileDamage(initialDamageType, initialDamage);
 	}
 
 	private void Start()
