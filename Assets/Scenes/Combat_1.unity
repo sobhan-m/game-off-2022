@@ -1747,6 +1747,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5829168959977202552, guid: f76b94735b3f48648a0c7b1e23cdda2b, type: 3}
+      propertyPath: availableMissiles
+      value: 
+      objectReference: {fileID: 11400000, guid: 7798d233f9034a146bcbe9b3e592a947, type: 2}
+    - target: {fileID: 5829168959977202552, guid: f76b94735b3f48648a0c7b1e23cdda2b, type: 3}
       propertyPath: playerProjectilePrefab
       value: 
       objectReference: {fileID: 3227519156579726549, guid: 48d5eabe0a5186340a6fbbd15c5fc083, type: 3}

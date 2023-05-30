@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerAttackController : MonoBehaviour
 {
-	[SerializeField] GameObject playerProjectilePrefab;
+	[SerializeField] AvailableMissiles availableMissiles;
 	private InputAction attackAction;
 	private InputAction weaponChangeAction;
 	private PlayerInputActions playerInputActions;
@@ -17,14 +17,16 @@ public class PlayerAttackController : MonoBehaviour
 
 	private void Awake()
 	{
+		// Setting up input.
 		playerInputActions = new PlayerInputActions();
 		attackAction = playerInputActions.Player.Attack;
 		weaponChangeAction = playerInputActions.Player.ChangeWeapons;
 		attackAction.performed += Attack;
 		weaponChangeAction.performed += ChangeWeapon;
 
+		// Setting up attack.
 		attackMeter = new Meter(0, buildUpTime);
-		weaponSwapper = new WeaponSwapper();
+		weaponSwapper = new WeaponSwapper(availableMissiles);
 	}
 
 	void OnEnable()
@@ -50,7 +52,7 @@ public class PlayerAttackController : MonoBehaviour
 			return;
 		}
 
-		GameObject projectile = Instantiate(playerProjectilePrefab, transform.position, Quaternion.identity);
+		GameObject projectile = Instantiate(weaponSwapper.GetCurrentWeapon(), transform.position, Quaternion.identity);
 		attackMeter.EmptyMeter();
 	}
 

@@ -5,47 +5,48 @@ using UnityEngine;
 public class WeaponSwapper
 {
 	public int currentWeaponIndex { get; private set; }
-	public static readonly PlayerMissileType[] PLAYER_MISSILE_TYPES = { PlayerMissileType.REGULAR, PlayerMissileType.FIRE, PlayerMissileType.PSYCHIC };
+	public AvailableMissiles availableMissiles { get; private set; }
 
-	public WeaponSwapper()
+	public WeaponSwapper(AvailableMissiles availableMissiles, int currentWeaponIndex = 0)
 	{
-		currentWeaponIndex = 0;
-	}
-	public WeaponSwapper(int startingWeaponIndex)
-	{
-		if (startingWeaponIndex < 0 || startingWeaponIndex >= PLAYER_MISSILE_TYPES.Length)
+		Debug.Log(availableMissiles.missiles.Count);
+		if (currentWeaponIndex >= availableMissiles.missiles.Count)
 		{
-			throw new System.ArgumentOutOfRangeException("Please ensure startingWeaponIndex is between 0 and the maximum length of the PlayerMissileTypes.");
+			throw new System.ArgumentOutOfRangeException("The current weapon index should be within the list provided.");
 		}
 
-		currentWeaponIndex = startingWeaponIndex;
+		this.currentWeaponIndex = currentWeaponIndex;
+		this.availableMissiles = availableMissiles;
 	}
 
 	public void RotateRight()
 	{
-		++currentWeaponIndex;
-
-		// Circle back to the beginning.
-		if (currentWeaponIndex >= PLAYER_MISSILE_TYPES.Length)
-		{
-			currentWeaponIndex = 0;
-		}
+		currentWeaponIndex = Modulo(currentWeaponIndex + 1, availableMissiles.missiles.Count);
 	}
 
 	public void RotateLeft()
 	{
-		--currentWeaponIndex;
-
-		// Circle back to the end.
-		if (currentWeaponIndex < 0)
-		{
-			currentWeaponIndex = PLAYER_MISSILE_TYPES.Length - 1;
-		}
+		currentWeaponIndex = Modulo(currentWeaponIndex - 1, availableMissiles.missiles.Count);
 	}
 
-	public PlayerMissileType GetWeapon()
+	public GameObject GetCurrentWeapon()
 	{
-		return PLAYER_MISSILE_TYPES[currentWeaponIndex];
+		return availableMissiles.missiles[currentWeaponIndex];
+	}
+
+	public GameObject GetRightWeapon()
+	{
+		return availableMissiles.missiles[Modulo(currentWeaponIndex + 1, availableMissiles.missiles.Count)];
+	}
+
+	public GameObject GetLeftWeapon()
+	{
+		return availableMissiles.missiles[Modulo(currentWeaponIndex - 1, availableMissiles.missiles.Count)];
+	}
+
+	private int Modulo(int num, int mod)
+	{
+		return (num % mod + mod) % mod;
 	}
 
 }

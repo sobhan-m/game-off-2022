@@ -5,5 +5,5 @@ using UnityEngine;
 [CreateAssetMenu]
 public class AvailableMissiles : ScriptableObject
 {
-	public List<GameObject> availablePlayerMissiles;
+	public List<GameObject> missiles;
 }
