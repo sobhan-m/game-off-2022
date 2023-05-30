@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3227519156579726545}
   - component: {fileID: 3227519156579726544}
   m_Layer: 0
-  m_Name: PlayerMissile
+  m_Name: Missile - Fire
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9bd687d505e11404e9f775583fc0321f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -99,9 +99,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acd13d3fa1d7aa74081ae7e6d88cfff7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialDamage: 10
-  initialDamageType: 0
-  speed: 5
+  initialDamage: 5
+  initialDamageType: 1
+  speed: 7
 --- !u!50 &3227519156579726545
 Rigidbody2D:
   serializedVersion: 4
