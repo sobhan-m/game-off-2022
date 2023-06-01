@@ -37,10 +37,9 @@ public class PlayerMissile : MonoBehaviour, IMissile
 			return;
 		}
 
-		EnemyMissile enemyMissile = other.GetComponent<EnemyMissile>();
-		if (enemyMissile)
+		if (other.TryGetComponent<IDamageable>(out IDamageable enemy))
 		{
-			damage.ApplyDamage(enemyMissile);
+			damage.ApplyDamage(enemy);
 		}
 	}
 
