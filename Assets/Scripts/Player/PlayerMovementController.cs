@@ -11,7 +11,7 @@ public class PlayerMovementController : MonoBehaviour
 	private InputAction movement;
 
 	private Rigidbody2D rb;
-	private Track track;
+	public Track track { get; private set; }
 
 	void Awake()
 	{
