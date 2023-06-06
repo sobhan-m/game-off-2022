@@ -9,7 +9,6 @@ public class WeaponSwapper
 
 	public WeaponSwapper(AvailableMissiles availableMissiles, int currentWeaponIndex = 0)
 	{
-		Debug.Log(availableMissiles.missiles.Count);
 		if (currentWeaponIndex >= availableMissiles.missiles.Count)
 		{
 			throw new System.ArgumentOutOfRangeException("The current weapon index should be within the list provided.");
