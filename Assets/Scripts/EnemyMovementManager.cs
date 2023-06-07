@@ -34,23 +34,43 @@ public class EnemyMovementManager : MonoBehaviour
 
 		if (!HasProjectile(track.CurrentPosition()))
 		{
-			transform.position = FollowPlayer().position;
+			transform.position = ChooseNextStep().position;
 			waitMeter.EmptyMeter();
 			return;
 		}
 
 		AvoidProjectile();
+		waitMeter.EmptyMeter();
+	}
+
+	private Transform ChooseNextStep()
+	{
+		Transform nextStep = FollowPlayer();
+		if (!HasProjectile(nextStep))
+		{
+			track.MoveToPosition(nextStep.position);
+			return nextStep;
+		}
+		else if (Random.Range(0f, 1f) <= 0.2f)
+		{
+			track.MoveToPosition(nextStep.position);
+			return nextStep;
+		}
+		else
+		{
+			return transform;
+		}
 	}
 
 	private Transform FollowPlayer()
 	{
 		if (track.currentIndex < player.track.currentIndex)
 		{
-			return track.MoveNext();
+			return track.GetNext();
 		}
 		else if (track.currentIndex > player.track.currentIndex)
 		{
-			return track.MovePrevious();
+			return track.GetPrevious();
 		}
 		else
 		{
