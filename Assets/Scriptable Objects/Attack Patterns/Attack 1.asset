@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0665f57d0ef21914ca7847b409ddb2e0, type: 3}
+  m_Name: Attack 1
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 7970511147898226314, guid: d1100fda77f370140b38c64d932eeadc, type: 3}
+  numberOfAttacks: 3
+  secondsBetweenAttacks: 1.5
+  speed: 8
