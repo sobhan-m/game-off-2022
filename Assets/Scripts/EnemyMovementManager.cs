@@ -6,9 +6,12 @@ public class EnemyMovementManager : MonoBehaviour
 {
 	[SerializeField] List<Transform> initialTrack;
 	[SerializeField] float delaySeconds;
+	[Range(0f, 1f)][SerializeField] float fearFactor = 0.4f;
 	public Track track { get; private set; }
 	private PlayerMovementController player;
 	private Meter waitMeter;
+	private Health health;
+	private Meter attackProgress;
 
 	private void Awake()
 	{
@@ -21,6 +24,24 @@ public class EnemyMovementManager : MonoBehaviour
 		if (!player)
 		{
 			throw new MissingReferenceException("No player exists in this scene.");
+		}
+	}
+
+	private void Start()
+	{
+		if (gameObject.TryGetComponent<EnemyHealthManager>(out EnemyHealthManager healthManager))
+		{
+			health = healthManager.health;
+		}
+
+		if (gameObject.TryGetComponent<EnemyAttackManager>(out EnemyAttackManager attackManager))
+		{
+			attackProgress = attackManager.patternProgress;
+		}
+
+		if (health == null || attackProgress == null)
+		{
+			throw new MissingReferenceException("Make sure there is a health and attack manager attached to this object.");
 		}
 	}
 
@@ -46,12 +67,13 @@ public class EnemyMovementManager : MonoBehaviour
 	private Transform ChooseNextStep()
 	{
 		Transform nextStep = FollowPlayer();
-		if (!HasProjectile(nextStep))
+		bool hasProjectile = HasProjectile(nextStep);
+		if (!hasProjectile)
 		{
 			track.MoveToPosition(nextStep.position);
 			return nextStep;
 		}
-		else if (Random.Range(0f, 1f) <= 0.2f)
+		else if (Random.Range(0f, 1f) >= AnalyzeRisk(hasProjectile))
 		{
 			track.MoveToPosition(nextStep.position);
 			return nextStep;
@@ -108,7 +130,7 @@ public class EnemyMovementManager : MonoBehaviour
 		{
 			transform.position = track.MovePrevious().position;
 		}
-		else if (Random.Range(0, 2) == 0)
+		else if (Random.Range(0f, 1f) >= 0.5f)
 		{
 			transform.position = track.MoveNext().position;
 		}
@@ -116,6 +138,28 @@ public class EnemyMovementManager : MonoBehaviour
 		{
 			transform.position = track.MovePrevious().position;
 		}
+	}
+
+	// 1 means high risk.
+	// 0 means low risk.
+	private float AnalyzeRisk(bool hasProjectile)
+	{
+		float riskFactor = 0f;
+
+		if (attackProgress.IsFull())
+		{
+			riskFactor += fearFactor;
+		}
+		if (health.currentHealth / health.maxHealth < 0.25f)
+		{
+			riskFactor += fearFactor;
+		}
+		if (hasProjectile)
+		{
+			riskFactor += fearFactor;
+		}
+
+		return riskFactor / 3;
 	}
 
 }
