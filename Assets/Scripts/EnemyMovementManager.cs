@@ -150,7 +150,7 @@ public class EnemyMovementManager : MonoBehaviour
 		{
 			riskFactor += fearFactor;
 		}
-		if (health.currentHealth / health.maxHealth < 0.25f)
+		if (health.percentage < 0.25f)
 		{
 			riskFactor += fearFactor;
 		}
