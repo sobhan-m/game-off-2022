@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyMissile : MonoBehaviour, IMissile, IDamageable
 {
-	[SerializeField] float damagePerSecond;
+	[SerializeField] float damage;
 
 	private Player player;
 	private Pathfinding pathfinding;
@@ -28,11 +28,12 @@ public class EnemyMissile : MonoBehaviour, IMissile, IDamageable
 		}
 	}
 
-	private void OnTriggerStay2D(Collider2D collision)
+	private void OnTriggerEnter2D(Collider2D collision)
 	{
 		if (player.gameObject == collision.gameObject)
 		{
-			player.playerHealth.Damage(damagePerSecond * Time.deltaTime);
+			player.playerHealth.Damage(damage);
+			Destroy(gameObject);
 		}
 	}
 
