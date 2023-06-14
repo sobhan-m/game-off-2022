@@ -6,11 +6,12 @@ public class EnemyHealthManager : MonoBehaviour, IAffectable, IDamageable
 {
 	[SerializeField] private float initialMaxHealth;
 	public Health health { get; private set; }
-	public List<MissileEffect> effects { get; private set; }
+	public Dictionary<PlayerMissileType, MissileEffect> effects { get; private set; }
 
 	private void Awake()
 	{
 		health = new Health(initialMaxHealth);
+		effects = new Dictionary<PlayerMissileType, MissileEffect>();
 	}
 
 	public void Die()
@@ -25,6 +26,32 @@ public class EnemyHealthManager : MonoBehaviour, IAffectable, IDamageable
 
 	public void StoreEffect(MissileEffect missileEffect)
 	{
-		effects.Add(missileEffect);
+		// Replaces the effect instead of stacking them.
+		if (effects.ContainsKey(missileEffect.missileType))
+		{
+			effects[missileEffect.missileType] = missileEffect;
+			return;
+		}
+
+		effects.Add(missileEffect.missileType, missileEffect);
+	}
+
+	private void Update()
+	{
+		ProcessEffects();
+	}
+
+	public void ProcessEffects()
+	{
+		foreach (MissileEffect missileEffect in effects.Values)
+		{
+			missileEffect.ApplyEffect(this);
+			missileEffect.ReduceRemainingTime(Time.deltaTime);
+			if (missileEffect.isFinished)
+			{
+				missileEffect.EndEffect(this);
+				effects.Remove(missileEffect.missileType);
+			}
+		}
 	}
 }
