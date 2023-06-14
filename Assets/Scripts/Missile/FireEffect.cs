@@ -21,7 +21,7 @@ public class FireEffect : MissileEffect
 		}
 
 		Health enemyHealth = enemy.RetrieveHealth();
-		enemyHealth.Damage(damage.damageAmount);
+		enemyHealth.Damage(damage.damageAmount * Time.deltaTime);
 
 		if (enemyHealth.IsDead())
 		{

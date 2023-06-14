@@ -43,7 +43,8 @@ public class EnemyHealthManager : MonoBehaviour, IAffectable, IDamageable
 
 	public void ProcessEffects()
 	{
-		foreach (MissileEffect missileEffect in effects.Values)
+		List<MissileEffect> values = new List<MissileEffect>(effects.Values);
+		foreach (MissileEffect missileEffect in values)
 		{
 			missileEffect.ApplyEffect(this);
 			missileEffect.ReduceRemainingTime(Time.deltaTime);

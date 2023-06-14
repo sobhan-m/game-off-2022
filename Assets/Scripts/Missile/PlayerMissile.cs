@@ -8,6 +8,10 @@ public class PlayerMissile : MonoBehaviour, IMissile
 	[SerializeField] private float initialDamage;
 	[SerializeField] private PlayerMissileType initialDamageType;
 	private MissileDamage damage;
+
+	[Header("Effect")]
+	[SerializeField] private float durationInSeconds = 3;
+	[SerializeField] private float optionalValue = 5;
 	private MissileEffect effect;
 
 	[Header("Movement")]
@@ -23,6 +27,7 @@ public class PlayerMissile : MonoBehaviour, IMissile
 		}
 
 		damage = MissileDamage.ConstructMissileDamage(initialDamageType, initialDamage);
+		effect = MissileEffect.CreateMissileEffect(initialDamageType, durationInSeconds, optionalValue);
 	}
 
 	private void Start()
@@ -40,6 +45,11 @@ public class PlayerMissile : MonoBehaviour, IMissile
 		if (other.TryGetComponent<IDamageable>(out IDamageable damageable))
 		{
 			damage.ApplyDamage(damageable);
+		}
+
+		if (effect != null && other.TryGetComponent<IAffectable>(out IAffectable affectable))
+		{
+			affectable.StoreEffect(effect);
 		}
 
 		if (other.TryGetComponent<EnemyHealthManager>(out EnemyHealthManager enemy))

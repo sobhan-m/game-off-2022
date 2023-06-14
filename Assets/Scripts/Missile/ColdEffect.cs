@@ -22,6 +22,11 @@ public class ColdEffect : MissileEffect
 		{
 			enemy.enabled = false;
 		}
+
+		if (mono.TryGetComponent<EnemyAttackManager>(out EnemyAttackManager enemyAttacker))
+		{
+			enemyAttacker.enabled = false;
+		}
 	}
 
 	public override void EndEffect(IAffectable affectable)
@@ -35,6 +40,11 @@ public class ColdEffect : MissileEffect
 		if (mono.TryGetComponent<EnemyMovementManager>(out EnemyMovementManager enemy))
 		{
 			enemy.enabled = true;
+		}
+
+		if (mono.TryGetComponent<EnemyAttackManager>(out EnemyAttackManager enemyAttacker))
+		{
+			enemyAttacker.enabled = true;
 		}
 	}
 }
