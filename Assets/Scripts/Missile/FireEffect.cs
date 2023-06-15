@@ -27,10 +27,32 @@ public class FireEffect : MissileEffect
 		{
 			enemy.Die();
 		}
+
+		// Modifying visuals.
+		MonoBehaviour mono = affectable as MonoBehaviour;
+		if (mono == null)
+		{
+			return;
+		}
+
+		if (mono.gameObject.TryGetComponent<SpriteRenderer>(out SpriteRenderer spriteRenderer))
+		{
+			spriteRenderer.color = Color.red;
+		}
 	}
 
 	public override void EndEffect(IAffectable affectable)
 	{
+		// Modifying visuals.
+		MonoBehaviour mono = affectable as MonoBehaviour;
+		if (mono == null)
+		{
+			return;
+		}
 
+		if (mono.gameObject.TryGetComponent<SpriteRenderer>(out SpriteRenderer spriteRenderer))
+		{
+			spriteRenderer.color = Color.white;
+		}
 	}
 }

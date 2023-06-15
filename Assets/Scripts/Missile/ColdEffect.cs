@@ -27,6 +27,12 @@ public class ColdEffect : MissileEffect
 		{
 			enemyAttacker.enabled = false;
 		}
+
+		// Modifying visuals.
+		if (mono.gameObject.TryGetComponent<SpriteRenderer>(out SpriteRenderer spriteRenderer))
+		{
+			spriteRenderer.color = Color.blue;
+		}
 	}
 
 	public override void EndEffect(IAffectable affectable)
@@ -45,6 +51,12 @@ public class ColdEffect : MissileEffect
 		if (mono.TryGetComponent<EnemyAttackManager>(out EnemyAttackManager enemyAttacker))
 		{
 			enemyAttacker.enabled = true;
+		}
+
+		// Modifying visuals.
+		if (mono.gameObject.TryGetComponent<SpriteRenderer>(out SpriteRenderer spriteRenderer))
+		{
+			spriteRenderer.color = Color.white;
 		}
 	}
 }
