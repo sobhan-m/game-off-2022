@@ -101,6 +101,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialDamage: 10
   initialDamageType: 0
+  pierceCount: 3
+  durationInSeconds: 3
+  optionalValue: 5
   speed: 5
 --- !u!50 &3227519156579726545
 Rigidbody2D:

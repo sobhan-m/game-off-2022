@@ -7,6 +7,7 @@ public class PlayerMissile : MonoBehaviour, IMissile
 	[Header("Damage")]
 	[SerializeField] private float initialDamage;
 	[SerializeField] private PlayerMissileType initialDamageType;
+	[SerializeField] private int pierceCount = 3;
 	private MissileDamage damage;
 
 	[Header("Effect")]
@@ -45,6 +46,7 @@ public class PlayerMissile : MonoBehaviour, IMissile
 		if (other.TryGetComponent<IDamageable>(out IDamageable damageable))
 		{
 			damage.ApplyDamage(damageable);
+			pierceCount--;
 		}
 
 		if (effect != null && other.TryGetComponent<IAffectable>(out IAffectable affectable))
@@ -52,7 +54,7 @@ public class PlayerMissile : MonoBehaviour, IMissile
 			affectable.StoreEffect(effect);
 		}
 
-		if (other.TryGetComponent<EnemyHealthManager>(out EnemyHealthManager enemy))
+		if (pierceCount <= 0 || other.TryGetComponent<EnemyHealthManager>(out EnemyHealthManager enemy))
 		{
 			Destroy(gameObject);
 		}
