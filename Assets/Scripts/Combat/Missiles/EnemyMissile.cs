@@ -4,57 +4,52 @@ using UnityEngine;
 
 public class EnemyMissile : MonoBehaviour, IMissile, IDamageable
 {
-	[SerializeField] float damage;
+	[Header("Damage")]
+	[SerializeField] private float initialDamage;
+	private MissileDamage damage;
 
-	private Player player;
-	private Pathfinding pathfinding;
+	[Header("Movement")]
+	[SerializeField] public float speed;
 	private Rigidbody2D rb;
+
 
 
 	private void Awake()
 	{
-		player = FindObjectOfType<Player>();
-
-		if (!player)
-		{
-			throw new MissingReferenceException("No Player Found In Scene");
-		}
-
-		rb = GetComponent<Rigidbody2D>();
-
-		if (!rb)
+		if (!TryGetComponent<Rigidbody2D>(out rb))
 		{
 			throw new MissingComponentException("No rigidbody attached to this Missile.");
 		}
+
+		damage = new RegularDamage(initialDamage);
+	}
+
+	private void Start()
+	{
+		Move();
 	}
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
-		if (player.gameObject == collision.gameObject)
+		if (collision.tag != "Player")
 		{
-			player.playerHealth.Damage(damage);
+			return;
+		}
+
+		if (collision.TryGetComponent<IDamageable>(out IDamageable damageable))
+		{
+			damage.ApplyDamage(damageable);
+		}
+
+		if (collision.TryGetComponent<Player>(out Player player))
+		{
 			Destroy(gameObject);
 		}
 	}
 
 	public void Move()
 	{
-		if (pathfinding == null)
-		{
-			return;
-		}
-
-		rb.MovePosition(pathfinding.NextPosition(transform));
-	}
-
-	public void SetPathfinding(Pathfinding pathfinding)
-	{
-		this.pathfinding = pathfinding;
-	}
-
-	private void FixedUpdate()
-	{
-		Move();
+		rb.velocity = new Vector2(0, -speed);
 	}
 
 	public Health RetrieveHealth()

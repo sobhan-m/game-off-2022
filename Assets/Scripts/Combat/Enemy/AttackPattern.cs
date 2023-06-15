@@ -8,5 +8,4 @@ public class AttackPattern : ScriptableObject
 	public GameObject missilePrefab;
 	public int numberOfAttacks;
 	public float secondsBetweenAttacks;
-	public float speed;
 }

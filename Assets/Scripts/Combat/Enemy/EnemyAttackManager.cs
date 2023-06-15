@@ -21,10 +21,6 @@ public class EnemyAttackManager : MonoBehaviour
 	private void Attack()
 	{
 		GameObject missile = Instantiate(currentAttack.missilePrefab, transform.position, Quaternion.identity);
-		if (missile.TryGetComponent<Rigidbody2D>(out Rigidbody2D rb))
-		{
-			rb.velocity = new Vector2(0, -currentAttack.speed);
-		}
 	}
 
 	private void Update()
