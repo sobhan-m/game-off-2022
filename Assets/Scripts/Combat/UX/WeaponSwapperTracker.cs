@@ -21,6 +21,7 @@ public class WeaponSwapperTracker : MonoBehaviour
 			throw new MissingReferenceException("No PlayerAttackController in this scene.");
 		}
 		previousIndex = weaponSwapper.currentWeaponIndex;
+		DisableUnusedImages();
 		UpdateWeapons();
 	}
 
@@ -67,9 +68,39 @@ public class WeaponSwapperTracker : MonoBehaviour
 
 	public void UpdateWeapons()
 	{
-		UpdateMainWeapon();
-		UpdateLeftWeapon();
-		UpdateRightWeapon();
+		int numOfMissiles = weaponSwapper.availableMissiles.missiles.Count;
+		if (numOfMissiles == 1)
+		{
+			UpdateMainWeapon();
+			rightWeapon.enabled = false;
+			leftWeapon.enabled = false;
+		}
+		else if (numOfMissiles == 2)
+		{
+			UpdateMainWeapon();
+			UpdateRightWeapon();
+			leftWeapon.enabled = false;
+		}
+		else
+		{
+			UpdateMainWeapon();
+			UpdateLeftWeapon();
+			UpdateRightWeapon();
+		}
+	}
+
+	public void DisableUnusedImages()
+	{
+		int numOfMissiles = weaponSwapper.availableMissiles.missiles.Count;
+		if (numOfMissiles == 1)
+		{
+			rightWeapon.enabled = false;
+			leftWeapon.enabled = false;
+		}
+		else if (numOfMissiles == 2)
+		{
+			leftWeapon.enabled = false;
+		}
 	}
 
 
