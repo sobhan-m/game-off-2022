@@ -4,6 +4,8 @@ using UnityEngine;
 
 abstract public class MissileDamage
 {
+	public static float playerDamageMultiplier;
+
 	public PlayerMissileType damageType { get; protected set; }
 	public float damageAmount { get; protected set; }
 

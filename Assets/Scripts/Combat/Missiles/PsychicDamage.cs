@@ -26,7 +26,7 @@ public class PsychicDamage : MissileDamage
 
 
 		Health health = damagedObject.RetrieveHealth();
-		health.Damage(damageAmount);
+		health.Damage(damageAmount * MissileDamage.playerDamageMultiplier);
 
 		if (health.IsDead())
 		{

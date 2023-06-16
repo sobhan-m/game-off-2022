@@ -16,7 +16,7 @@ public class FireDamage : MissileDamage
 	public override void ApplyDamage(IDamageable damagedObject)
 	{
 		Health health = damagedObject.RetrieveHealth();
-		health.Damage(damageAmount);
+		health.Damage(damageAmount * MissileDamage.playerDamageMultiplier);
 
 		if (health.IsDead())
 		{
