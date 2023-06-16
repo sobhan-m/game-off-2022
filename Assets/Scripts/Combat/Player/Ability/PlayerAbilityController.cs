@@ -6,17 +6,15 @@ using UnityEngine.InputSystem;
 public class PlayerAbilityController : MonoBehaviour
 {
 	[SerializeField] public AvailableAbilities available;
-	private List<Ability> activeAbilities;
 	private Dictionary<AbilityType, Ability> abilities;
 	private PlayerInputActions actions;
-	private Meter healCooldown;
-	private Meter rageCooldown;
-	private Meter rageDuration;
+	public Meter healCooldown { get; private set; }
+	public Meter rageCooldown { get; private set; }
+	public Meter rageDuration { get; private set; }
 	private bool isRaging;
 
 	private void Awake()
 	{
-		activeAbilities = new List<Ability>();
 		abilities = new Dictionary<AbilityType, Ability>();
 
 		if (available.hasHeal)
@@ -34,7 +32,7 @@ public class PlayerAbilityController : MonoBehaviour
 		{
 			abilities.Add(AbilityType.BARBARIAN, new RageAbility(available.rageMultiplier));
 			rageCooldown = new Meter(0, available.rageCooldown, available.rageCooldown);
-			rageDuration = new Meter(0, available.rageDuration, available.rageDuration);
+			rageDuration = new Meter(0, available.rageDuration);
 			isRaging = false;
 		}
 
