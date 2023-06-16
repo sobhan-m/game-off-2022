@@ -58,6 +58,10 @@ public class PlayerAbilityController : MonoBehaviour
 	private void Heal(InputAction.CallbackContext obj)
 	{
 		Debug.Log("Trying to heal.");
+		if (PauseController.IsPaused())
+		{
+			return;
+		}
 		if (!available.hasHeal)
 		{
 			return;
@@ -78,6 +82,10 @@ public class PlayerAbilityController : MonoBehaviour
 	private void Rage(InputAction.CallbackContext obj)
 	{
 		Debug.Log("Trying to rage.");
+		if (PauseController.IsPaused())
+		{
+			return;
+		}
 		if (!available.hasRage)
 		{
 			return;
