@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerAbilityController : MonoBehaviour
 {
-	[SerializeField] public AvailableAbilities available { get; private set; }
+	[SerializeField] public AvailableAbilities available;
 	private List<Ability> activeAbilities;
 	private Dictionary<AbilityType, Ability> abilities;
 	private PlayerInputActions actions;
@@ -57,6 +57,7 @@ public class PlayerAbilityController : MonoBehaviour
 
 	private void Heal(InputAction.CallbackContext obj)
 	{
+		Debug.Log("Trying to heal.");
 		if (!available.hasHeal)
 		{
 			return;
@@ -76,6 +77,7 @@ public class PlayerAbilityController : MonoBehaviour
 
 	private void Rage(InputAction.CallbackContext obj)
 	{
+		Debug.Log("Trying to rage.");
 		if (!available.hasRage)
 		{
 			return;
