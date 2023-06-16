@@ -21,7 +21,7 @@ public class EnemyMissile : MonoBehaviour, IMissile, IDamageable
 			throw new MissingComponentException("No rigidbody attached to this Missile.");
 		}
 
-		damage = new RegularDamage(initialDamage);
+		damage = new EnemyDamage(initialDamage);
 	}
 
 	private void Start()
