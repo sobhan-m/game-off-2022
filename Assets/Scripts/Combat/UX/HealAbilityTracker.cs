@@ -20,6 +20,7 @@ public class HealAbilityTracker : MonoBehaviour
 		if (!abilityController.available.hasHeal)
 		{
 			gameObject.SetActive(false);
+			return;
 		}
 
 		healCooldown = abilityController.healCooldown;

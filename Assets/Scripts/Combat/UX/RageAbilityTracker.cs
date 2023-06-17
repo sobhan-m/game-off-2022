@@ -22,6 +22,7 @@ public class RageAbilityTracker : MonoBehaviour
 		if (!abilityController.available.hasRage)
 		{
 			gameObject.SetActive(false);
+			return;
 		}
 
 		// Cooldown.
