@@ -42,18 +42,18 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Rage Ability",
+                    "name": "Heal Ability",
                     "type": "Button",
-                    "id": "0d3baf08-b862-486c-a6cd-41d766dce6cc",
+                    "id": "590b64ad-a28a-48f8-80e2-b66310fe9b1d",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Heal Ability",
+                    "name": "Rage Ability",
                     "type": "Button",
-                    "id": "590b64ad-a28a-48f8-80e2-b66310fe9b1d",
+                    "id": "0d3baf08-b862-486c-a6cd-41d766dce6cc",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -152,7 +152,7 @@
                 {
                     "name": "",
                     "id": "f70edf3c-6b8e-499c-b34a-eec2aace781e",
-                    "path": "<Keyboard>/1",
+                    "path": "<Keyboard>/2",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -163,7 +163,7 @@
                 {
                     "name": "",
                     "id": "bc10bcaa-caba-4ae3-9530-5ec3bba0e217",
-                    "path": "<Keyboard>/2",
+                    "path": "<Keyboard>/1",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
