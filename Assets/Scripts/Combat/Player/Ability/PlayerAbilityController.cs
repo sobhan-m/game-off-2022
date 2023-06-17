@@ -92,7 +92,7 @@ public class PlayerAbilityController : MonoBehaviour
 		{
 			return;
 		}
-		if (!rageCooldown.IsEmpty())
+		if (!rageCooldown.IsEmpty() || isRaging)
 		{
 			return;
 		}
