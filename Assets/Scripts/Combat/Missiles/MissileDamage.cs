@@ -6,22 +6,22 @@ abstract public class MissileDamage
 {
 	public static float playerDamageMultiplier = 1;
 
-	public PlayerMissileType damageType { get; protected set; }
+	public MissileType damageType { get; protected set; }
 	public float damageAmount { get; protected set; }
 
 	abstract public void ApplyDamage(IDamageable damagedObject);
 
-	public static MissileDamage ConstructMissileDamage(PlayerMissileType damageType, float damageAmount)
+	public static MissileDamage ConstructMissileDamage(MissileType damageType, float damageAmount)
 	{
 		switch (damageType)
 		{
-			case PlayerMissileType.REGULAR:
+			case MissileType.REGULAR:
 				return new RegularDamage(damageAmount);
-			case PlayerMissileType.FIRE:
+			case MissileType.FIRE:
 				return new FireDamage(damageAmount);
-			case PlayerMissileType.PSYCHIC:
+			case MissileType.PSYCHIC:
 				return new PsychicDamage(damageAmount);
-			case PlayerMissileType.COLD:
+			case MissileType.COLD:
 				return new ColdDamage(damageAmount);
 			default:
 				throw new System.ArgumentException("Must have a valid damage type.");

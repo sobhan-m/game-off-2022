@@ -5,7 +5,7 @@ using UnityEngine;
 public class FireEffect : MissileEffect
 {
 	public FireDamage damage { get; private set; }
-	public FireEffect(PlayerMissileType type, float effectSeconds, float damagePerSecond)
+	public FireEffect(MissileType type, float effectSeconds, float damagePerSecond)
 	{
 		this.missileType = type;
 		this.secondsRemaining = effectSeconds;

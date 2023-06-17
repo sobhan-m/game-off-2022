@@ -3,13 +3,13 @@ public class ColdDamage : MissileDamage
 	public ColdDamage()
 	{
 		this.damageAmount = 0;
-		this.damageType = PlayerMissileType.COLD;
+		this.damageType = MissileType.COLD;
 	}
 
 	public ColdDamage(float damageAmount)
 	{
 		this.damageAmount = damageAmount;
-		this.damageType = PlayerMissileType.COLD;
+		this.damageType = MissileType.COLD;
 	}
 
 

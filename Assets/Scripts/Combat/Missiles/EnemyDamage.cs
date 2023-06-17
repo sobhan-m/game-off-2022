@@ -7,13 +7,13 @@ public class EnemyDamage : MissileDamage
 	public EnemyDamage()
 	{
 		this.damageAmount = 0;
-		this.damageType = PlayerMissileType.REGULAR;
+		this.damageType = MissileType.REGULAR;
 	}
 
 	public EnemyDamage(float damageAmount)
 	{
 		this.damageAmount = damageAmount;
-		this.damageType = PlayerMissileType.REGULAR;
+		this.damageType = MissileType.REGULAR;
 	}
 
 

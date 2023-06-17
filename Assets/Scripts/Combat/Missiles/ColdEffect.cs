@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ColdEffect : MissileEffect
 {
-	public ColdEffect(PlayerMissileType type, float effectSeconds)
+	public ColdEffect(MissileType type, float effectSeconds)
 	{
 		this.missileType = type;
 		this.secondsRemaining = effectSeconds;

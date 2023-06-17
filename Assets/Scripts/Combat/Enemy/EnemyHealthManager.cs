@@ -6,12 +6,12 @@ public class EnemyHealthManager : MonoBehaviour, IAffectable, IDamageable
 {
 	[SerializeField] private float initialMaxHealth;
 	public Health health { get; private set; }
-	public Dictionary<PlayerMissileType, MissileEffect> effects { get; private set; }
+	public Dictionary<MissileType, MissileEffect> effects { get; private set; }
 
 	private void Awake()
 	{
 		health = new Health(initialMaxHealth);
-		effects = new Dictionary<PlayerMissileType, MissileEffect>();
+		effects = new Dictionary<MissileType, MissileEffect>();
 	}
 
 	public void Die()

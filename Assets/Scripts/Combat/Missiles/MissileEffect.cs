@@ -5,7 +5,7 @@ using UnityEngine;
 public abstract class MissileEffect
 {
 	public float secondsRemaining { get; set; }
-	public PlayerMissileType missileType { get; protected set; }
+	public MissileType missileType { get; protected set; }
 	public bool isFinished
 	{
 		get
@@ -22,13 +22,13 @@ public abstract class MissileEffect
 		secondsRemaining -= seconds;
 	}
 
-	public static MissileEffect CreateMissileEffect(PlayerMissileType type, float duration, float value)
+	public static MissileEffect CreateMissileEffect(MissileType type, float duration, float value)
 	{
 		switch (type)
 		{
-			case PlayerMissileType.COLD:
+			case MissileType.COLD:
 				return new ColdEffect(type, duration);
-			case PlayerMissileType.FIRE:
+			case MissileType.FIRE:
 				return new FireEffect(type, duration, value);
 			default:
 				return null;

@@ -6,7 +6,7 @@ public class PlayerMissile : MonoBehaviour, IMissile
 {
 	[Header("Damage")]
 	[SerializeField] private float initialDamage;
-	[SerializeField] private PlayerMissileType initialDamageType;
+	[SerializeField] private MissileType initialDamageType;
 	[SerializeField] private int pierceCount = 3;
 	private MissileDamage damage;
 
