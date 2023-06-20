@@ -80,6 +80,15 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Shield Ability"",
+                    ""type"": ""Button"",
+                    ""id"": ""1f587c3c-27bb-40cf-aeca-3bbf4db756cc"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -192,6 +201,17 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""action"": ""Heal Ability"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""66992ca7-1a3f-4e7f-bb96-a1b683bb62fa"",
+                    ""path"": ""<Keyboard>/3"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Shield Ability"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -206,6 +226,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         m_Player_ChangeWeapons = m_Player.FindAction("Change Weapons", throwIfNotFound: true);
         m_Player_HealAbility = m_Player.FindAction("Heal Ability", throwIfNotFound: true);
         m_Player_RageAbility = m_Player.FindAction("Rage Ability", throwIfNotFound: true);
+        m_Player_ShieldAbility = m_Player.FindAction("Shield Ability", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -271,6 +292,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_ChangeWeapons;
     private readonly InputAction m_Player_HealAbility;
     private readonly InputAction m_Player_RageAbility;
+    private readonly InputAction m_Player_ShieldAbility;
     public struct PlayerActions
     {
         private @PlayerInputActions m_Wrapper;
@@ -281,6 +303,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         public InputAction @ChangeWeapons => m_Wrapper.m_Player_ChangeWeapons;
         public InputAction @HealAbility => m_Wrapper.m_Player_HealAbility;
         public InputAction @RageAbility => m_Wrapper.m_Player_RageAbility;
+        public InputAction @ShieldAbility => m_Wrapper.m_Player_ShieldAbility;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -308,6 +331,9 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                 @RageAbility.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRageAbility;
                 @RageAbility.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRageAbility;
                 @RageAbility.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRageAbility;
+                @ShieldAbility.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShieldAbility;
+                @ShieldAbility.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShieldAbility;
+                @ShieldAbility.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShieldAbility;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -330,6 +356,9 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                 @RageAbility.started += instance.OnRageAbility;
                 @RageAbility.performed += instance.OnRageAbility;
                 @RageAbility.canceled += instance.OnRageAbility;
+                @ShieldAbility.started += instance.OnShieldAbility;
+                @ShieldAbility.performed += instance.OnShieldAbility;
+                @ShieldAbility.canceled += instance.OnShieldAbility;
             }
         }
     }
@@ -342,5 +371,6 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         void OnChangeWeapons(InputAction.CallbackContext context);
         void OnHealAbility(InputAction.CallbackContext context);
         void OnRageAbility(InputAction.CallbackContext context);
+        void OnShieldAbility(InputAction.CallbackContext context);
     }
 }

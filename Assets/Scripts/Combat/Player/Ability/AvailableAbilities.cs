@@ -15,4 +15,9 @@ public class AvailableAbilities : ScriptableObject
 	public float rageMultiplier;
 	public float rageDuration;
 	public float rageCooldown;
+
+	[Header("Shield")]
+	public bool hasShield;
+	public GameObject shieldPrefab;
+	public float shieldCooldown;
 }

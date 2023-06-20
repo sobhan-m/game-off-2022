@@ -12,6 +12,8 @@ public class PlayerAbilityController : MonoBehaviour
 	public Meter rageCooldown { get; private set; }
 	public Meter rageDuration { get; private set; }
 	private bool isRaging;
+	public Meter shieldCooldown { get; private set; }
+	public bool hasShield { get; private set; }
 
 	private void Awake()
 	{
@@ -35,22 +37,31 @@ public class PlayerAbilityController : MonoBehaviour
 			rageDuration = new Meter(0, available.rageDuration);
 			isRaging = false;
 		}
+		if (available.hasShield)
+		{
+			abilities.Add(AbilityType.WIZARD, new ShieldAbility(this, available.shieldPrefab));
+			shieldCooldown = new Meter(0, available.shieldCooldown, available.shieldCooldown);
+			hasShield = false;
+		}
 
 		actions = new PlayerInputActions();
 		actions.Player.HealAbility.performed += Heal;
 		actions.Player.RageAbility.performed += Rage;
+		actions.Player.ShieldAbility.performed += Shield;
 	}
 
 	private void OnEnable()
 	{
 		actions.Player.HealAbility.Enable();
 		actions.Player.RageAbility.Enable();
+		actions.Player.ShieldAbility.Enable();
 	}
 
 	private void OnDisable()
 	{
 		actions.Player.HealAbility.Disable();
 		actions.Player.RageAbility.Disable();
+		actions.Player.ShieldAbility.Disable();
 	}
 
 	private void Heal(InputAction.CallbackContext obj)
@@ -126,6 +137,50 @@ public class PlayerAbilityController : MonoBehaviour
 		isRaging = false;
 	}
 
+	private void Shield(InputAction.CallbackContext obj)
+	{
+		Debug.Log("Trying to shield.");
+		if (PauseController.IsPaused())
+		{
+			return;
+		}
+		if (!available.hasShield)
+		{
+			return;
+		}
+		if (!abilities.TryGetValue(AbilityType.WIZARD, out Ability shield))
+		{
+			return;
+		}
+		if (!shieldCooldown.IsEmpty())
+		{
+			return;
+		}
+
+		shield.Activate();
+		hasShield = true;
+	}
+
+	public void EndShield()
+	{
+		if (!available.hasShield)
+		{
+			return;
+		}
+		if (!abilities.TryGetValue(AbilityType.WIZARD, out Ability shield))
+		{
+			return;
+		}
+		if (!shieldCooldown.IsEmpty())
+		{
+			return;
+		}
+
+		shield.Deactivate();
+		shieldCooldown.FillMeter();
+		hasShield = false;
+	}
+
 	private void TickHeal()
 	{
 		if (!available.hasHeal)
@@ -160,9 +215,24 @@ public class PlayerAbilityController : MonoBehaviour
 		rageCooldown.EmptyMeter(Time.deltaTime);
 	}
 
+	private void TickShield()
+	{
+		if (!available.hasShield)
+		{
+			return;
+		}
+		if (hasShield)
+		{
+			return;
+		}
+
+		shieldCooldown.EmptyMeter(Time.deltaTime);
+	}
+
 	private void Update()
 	{
 		TickHeal();
 		TickRage();
+		TickShield();
 	}
 }
