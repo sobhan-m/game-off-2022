@@ -5,5 +5,7 @@ using UnityEngine;
 public enum AbilityType
 {
 	CLERIC,
-	BARBARIAN
+	BARBARIAN,
+	WIZARD,
+	DRUID
 }
