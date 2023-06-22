@@ -14,6 +14,9 @@ public class PlayerAbilityController : MonoBehaviour
 	private bool isRaging;
 	public Meter shieldCooldown { get; private set; }
 	public bool hasShield { get; private set; }
+	public Meter entangleCooldown { get; private set; }
+	public Meter entangleDuration { get; private set; }
+	private bool isEntangling;
 
 	private void Awake()
 	{
@@ -43,11 +46,19 @@ public class PlayerAbilityController : MonoBehaviour
 			shieldCooldown = new Meter(0, available.shieldCooldown, available.shieldCooldown);
 			hasShield = false;
 		}
+		if (available.hasEntangle)
+		{
+			abilities.Add(AbilityType.DRUID, new EntangleAbility(available.entangleDuration, available.changeColour));
+			entangleCooldown = new Meter(0, available.entangleCooldown, available.entangleCooldown);
+			entangleDuration = new Meter(0, available.entangleDuration);
+		}
 
 		actions = new PlayerInputActions();
 		actions.Player.HealAbility.performed += Heal;
 		actions.Player.RageAbility.performed += Rage;
 		actions.Player.ShieldAbility.performed += Shield;
+		actions.Player.EntangleAbility.performed += Entangle;
+
 	}
 
 	private void OnEnable()
@@ -55,6 +66,7 @@ public class PlayerAbilityController : MonoBehaviour
 		actions.Player.HealAbility.Enable();
 		actions.Player.RageAbility.Enable();
 		actions.Player.ShieldAbility.Enable();
+		actions.Player.EntangleAbility.Enable();
 	}
 
 	private void OnDisable()
@@ -62,6 +74,7 @@ public class PlayerAbilityController : MonoBehaviour
 		actions.Player.HealAbility.Disable();
 		actions.Player.RageAbility.Disable();
 		actions.Player.ShieldAbility.Disable();
+		actions.Player.EntangleAbility.Disable();
 	}
 
 	private void Heal(InputAction.CallbackContext obj)
@@ -181,6 +194,55 @@ public class PlayerAbilityController : MonoBehaviour
 		hasShield = false;
 	}
 
+	private void Entangle(InputAction.CallbackContext obj)
+	{
+		Debug.Log("Trying to entangle.");
+		if (PauseController.IsPaused())
+		{
+			return;
+		}
+		if (!available.hasEntangle)
+		{
+			return;
+		}
+		if (!abilities.TryGetValue(AbilityType.DRUID, out Ability entangle))
+		{
+			return;
+		}
+		if (!entangleCooldown.IsEmpty() || isEntangling)
+		{
+			return;
+		}
+
+		// Cooldown is empty.
+		// Duration is full.
+		entangle.Activate();
+		entangleDuration.FillMeter();
+		isEntangling = true;
+	}
+
+	private void EndEntangle()
+	{
+		if (!available.hasEntangle)
+		{
+			return;
+		}
+		if (!abilities.TryGetValue(AbilityType.DRUID, out Ability entangle))
+		{
+			return;
+		}
+		if (!entangleDuration.IsEmpty())
+		{
+			return;
+		}
+
+		// Cooldown is full.
+		// Duration is empty.
+		entangle.Deactivate();
+		entangleCooldown.FillMeter();
+		isEntangling = false;
+	}
+
 	private void TickHeal()
 	{
 		if (!available.hasHeal)
@@ -229,10 +291,35 @@ public class PlayerAbilityController : MonoBehaviour
 		shieldCooldown.EmptyMeter(Time.deltaTime);
 	}
 
+	private void TickEntangle()
+	{
+		if (!available.hasEntangle)
+		{
+			return;
+		}
+
+		if (isEntangling)
+		{
+			entangleDuration.EmptyMeter(Time.deltaTime);
+			if (entangleDuration.IsEmpty())
+			{
+				EndEntangle();
+			}
+			else
+			{
+				return;
+
+			}
+		}
+
+		entangleCooldown.EmptyMeter(Time.deltaTime);
+	}
+
 	private void Update()
 	{
 		TickHeal();
 		TickRage();
 		TickShield();
+		TickEntangle();
 	}
 }

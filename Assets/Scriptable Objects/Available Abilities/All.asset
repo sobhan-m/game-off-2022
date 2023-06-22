@@ -22,3 +22,9 @@ MonoBehaviour:
   hasShield: 1
   shieldPrefab: {fileID: 6191510874715525268, guid: 708e9097d2ba5f949b17c33067fd2cb1, type: 3}
   shieldCooldown: 15
+  hasEntangle: 1
+  changeColour:
+    serializedVersion: 2
+    rgba: 4279863077
+  entangleDuration: 2
+  entangleCooldown: 10

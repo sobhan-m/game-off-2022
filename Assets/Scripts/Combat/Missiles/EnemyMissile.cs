@@ -24,7 +24,7 @@ public class EnemyMissile : MonoBehaviour, IMissile, IDamageable
 		damage = new EnemyDamage(initialDamage);
 	}
 
-	private void Start()
+	private void FixedUpdate()
 	{
 		Move();
 	}
@@ -49,7 +49,8 @@ public class EnemyMissile : MonoBehaviour, IMissile, IDamageable
 
 	public void Move()
 	{
-		rb.velocity = new Vector2(0, -speed);
+		Vector2 displacement = new Vector2(0, -speed * Time.fixedDeltaTime);
+		rb.MovePosition(rb.position + displacement);
 	}
 
 	public Health RetrieveHealth()

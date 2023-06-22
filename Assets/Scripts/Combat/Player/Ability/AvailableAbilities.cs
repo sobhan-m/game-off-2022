@@ -20,4 +20,10 @@ public class AvailableAbilities : ScriptableObject
 	public bool hasShield;
 	public GameObject shieldPrefab;
 	public float shieldCooldown;
+
+	[Header("Entangle")]
+	public bool hasEntangle;
+	public Color32 changeColour;
+	public float entangleDuration;
+	public float entangleCooldown;
 }

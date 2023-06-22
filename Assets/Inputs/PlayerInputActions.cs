@@ -89,6 +89,15 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Entangle Ability"",
+                    ""type"": ""Button"",
+                    ""id"": ""07e51a82-0ce3-476d-99ed-5ce56d481580"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -212,6 +221,17 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""action"": ""Shield Ability"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b3c25f29-46b4-4afc-9c04-d200038c572c"",
+                    ""path"": ""<Keyboard>/4"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Entangle Ability"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -227,6 +247,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         m_Player_HealAbility = m_Player.FindAction("Heal Ability", throwIfNotFound: true);
         m_Player_RageAbility = m_Player.FindAction("Rage Ability", throwIfNotFound: true);
         m_Player_ShieldAbility = m_Player.FindAction("Shield Ability", throwIfNotFound: true);
+        m_Player_EntangleAbility = m_Player.FindAction("Entangle Ability", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -293,6 +314,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_HealAbility;
     private readonly InputAction m_Player_RageAbility;
     private readonly InputAction m_Player_ShieldAbility;
+    private readonly InputAction m_Player_EntangleAbility;
     public struct PlayerActions
     {
         private @PlayerInputActions m_Wrapper;
@@ -304,6 +326,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         public InputAction @HealAbility => m_Wrapper.m_Player_HealAbility;
         public InputAction @RageAbility => m_Wrapper.m_Player_RageAbility;
         public InputAction @ShieldAbility => m_Wrapper.m_Player_ShieldAbility;
+        public InputAction @EntangleAbility => m_Wrapper.m_Player_EntangleAbility;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -334,6 +357,9 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                 @ShieldAbility.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShieldAbility;
                 @ShieldAbility.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShieldAbility;
                 @ShieldAbility.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShieldAbility;
+                @EntangleAbility.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnEntangleAbility;
+                @EntangleAbility.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnEntangleAbility;
+                @EntangleAbility.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnEntangleAbility;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -359,6 +385,9 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                 @ShieldAbility.started += instance.OnShieldAbility;
                 @ShieldAbility.performed += instance.OnShieldAbility;
                 @ShieldAbility.canceled += instance.OnShieldAbility;
+                @EntangleAbility.started += instance.OnEntangleAbility;
+                @EntangleAbility.performed += instance.OnEntangleAbility;
+                @EntangleAbility.canceled += instance.OnEntangleAbility;
             }
         }
     }
@@ -372,5 +401,6 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         void OnHealAbility(InputAction.CallbackContext context);
         void OnRageAbility(InputAction.CallbackContext context);
         void OnShieldAbility(InputAction.CallbackContext context);
+        void OnEntangleAbility(InputAction.CallbackContext context);
     }
 }
