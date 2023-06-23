@@ -10,6 +10,8 @@ public class FireEffect : MissileEffect
 		this.missileType = type;
 		this.secondsRemaining = effectSeconds;
 		damage = new FireDamage(damagePerSecond);
+		this.isSingleUse = false;
+		this.hasTriggeredOnce = false;
 	}
 
 	public override void ApplyEffect(IAffectable affectable)

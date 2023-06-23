@@ -46,7 +46,11 @@ public class EnemyHealthManager : MonoBehaviour, IAffectable, IDamageable
 		List<MissileEffect> values = new List<MissileEffect>(effects.Values);
 		foreach (MissileEffect missileEffect in values)
 		{
-			missileEffect.ApplyEffect(this);
+			if (!(missileEffect.isSingleUse && missileEffect.hasTriggeredOnce))
+			{
+				missileEffect.ApplyEffect(this);
+			}
+
 			missileEffect.ReduceRemainingTime(Time.deltaTime);
 			if (missileEffect.isFinished)
 			{

@@ -26,21 +26,21 @@ public class EntangleAbility : Ability
 		foreach (EnemyAttackManager enemy in enemyAttackManagers)
 		{
 			entangledObjects.Add(enemy);
-			enemy.enabled = false;
+			enemy.Freeze();
 			AddVisualEffect(enemy);
 		}
 
 		foreach (EnemyMovementManager enemy in enemyMovementManagers)
 		{
 			entangledObjects.Add(enemy);
-			enemy.enabled = false;
+			enemy.Freeze();
 			AddVisualEffect(enemy);
 		}
 
 		foreach (EnemyMissile enemy in enemyMissiles)
 		{
 			entangledObjects.Add(enemy);
-			enemy.enabled = false;
+			enemy.Freeze();
 			AddVisualEffect(enemy);
 		}
 	}
@@ -51,8 +51,12 @@ public class EntangleAbility : Ability
 		{
 			if (entangledObjects[i] != null)
 			{
-				entangledObjects[i].enabled = true;
 				RemoveVisualEffect(entangledObjects[i]);
+			}
+			IFreezable enemy = entangledObjects[i] as IFreezable;
+			if (enemy != null)
+			{
+				enemy.Unfreeze();
 			}
 		}
 		entangledObjects.Clear();

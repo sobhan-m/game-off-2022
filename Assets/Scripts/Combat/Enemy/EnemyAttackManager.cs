@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyAttackManager : MonoBehaviour
+public class EnemyAttackManager : MonoBehaviour, IFreezable
 {
 	[SerializeField] AttackPattern[] attacks;
 	[SerializeField] float secondsBetweenPatterns;
@@ -10,12 +10,15 @@ public class EnemyAttackManager : MonoBehaviour
 	public Meter attackWait { get; private set; }
 	public Meter patternProgress { get; private set; }
 	public AttackPattern currentAttack { get; private set; }
+	private int numOfFreezes;
 
 	private void Awake()
 	{
 		patternWait = new Meter(0, secondsBetweenPatterns);
 
 		ResetAttackPattern();
+
+		numOfFreezes = 0;
 	}
 
 	private void Attack()
@@ -55,5 +58,23 @@ public class EnemyAttackManager : MonoBehaviour
 		currentAttack = attacks[Random.Range(0, attacks.Length)];
 		attackWait = new Meter(0, currentAttack.secondsBetweenAttacks);
 		patternProgress = new Meter(0, currentAttack.numberOfAttacks);
+	}
+
+	public void Freeze()
+	{
+		numOfFreezes++;
+		if (numOfFreezes > 0)
+		{
+			this.enabled = false;
+		}
+	}
+
+	public void Unfreeze()
+	{
+		numOfFreezes = Mathf.Max(numOfFreezes - 1, 0);
+		if (numOfFreezes <= 0)
+		{
+			this.enabled = true;
+		}
 	}
 }

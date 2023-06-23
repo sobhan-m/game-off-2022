@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMovementManager : MonoBehaviour
+public class EnemyMovementManager : MonoBehaviour, IFreezable
 {
 	[SerializeField] List<Transform> initialTrack;
 	[SerializeField] float delaySeconds;
@@ -12,6 +12,7 @@ public class EnemyMovementManager : MonoBehaviour
 	private Meter waitMeter;
 	private Health health;
 	private Meter attackProgress;
+	private int numOfFreezes;
 
 	private void Awake()
 	{
@@ -19,6 +20,8 @@ public class EnemyMovementManager : MonoBehaviour
 		transform.position = track.CurrentPosition().position;
 
 		waitMeter = new Meter(0, delaySeconds);
+
+		numOfFreezes = 0;
 
 		player = FindObjectOfType<PlayerMovementController>();
 		if (!player)
@@ -160,6 +163,24 @@ public class EnemyMovementManager : MonoBehaviour
 		}
 
 		return riskFactor / 3;
+	}
+
+	public void Freeze()
+	{
+		numOfFreezes++;
+		if (numOfFreezes > 0)
+		{
+			this.enabled = false;
+		}
+	}
+
+	public void Unfreeze()
+	{
+		numOfFreezes = Mathf.Max(numOfFreezes - 1, 0);
+		if (numOfFreezes <= 0)
+		{
+			this.enabled = true;
+		}
 	}
 
 }

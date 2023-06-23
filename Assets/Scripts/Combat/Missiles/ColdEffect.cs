@@ -8,6 +8,8 @@ public class ColdEffect : MissileEffect
 	{
 		this.missileType = type;
 		this.secondsRemaining = effectSeconds;
+		this.isSingleUse = true;
+		this.hasTriggeredOnce = false;
 	}
 
 	public override void ApplyEffect(IAffectable affectable)
@@ -20,12 +22,12 @@ public class ColdEffect : MissileEffect
 
 		if (mono.TryGetComponent<EnemyMovementManager>(out EnemyMovementManager enemy))
 		{
-			enemy.enabled = false;
+			enemy.Freeze();
 		}
 
 		if (mono.TryGetComponent<EnemyAttackManager>(out EnemyAttackManager enemyAttacker))
 		{
-			enemyAttacker.enabled = false;
+			enemyAttacker.Freeze();
 		}
 
 		// Modifying visuals.
@@ -33,6 +35,8 @@ public class ColdEffect : MissileEffect
 		{
 			spriteRenderer.color = Color.blue;
 		}
+
+		this.hasTriggeredOnce = true;
 	}
 
 	public override void EndEffect(IAffectable affectable)
@@ -45,12 +49,12 @@ public class ColdEffect : MissileEffect
 
 		if (mono.TryGetComponent<EnemyMovementManager>(out EnemyMovementManager enemy))
 		{
-			enemy.enabled = true;
+			enemy.Unfreeze();
 		}
 
 		if (mono.TryGetComponent<EnemyAttackManager>(out EnemyAttackManager enemyAttacker))
 		{
-			enemyAttacker.enabled = true;
+			enemyAttacker.Unfreeze();
 		}
 
 		// Modifying visuals.

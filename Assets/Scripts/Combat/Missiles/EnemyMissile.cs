@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMissile : MonoBehaviour, IMissile, IDamageable
+public class EnemyMissile : MonoBehaviour, IMissile, IDamageable, IFreezable
 {
 	[Header("Damage")]
 	[SerializeField] private float initialDamage;
@@ -11,6 +11,7 @@ public class EnemyMissile : MonoBehaviour, IMissile, IDamageable
 	[Header("Movement")]
 	[SerializeField] public float speed;
 	private Rigidbody2D rb;
+	private int numOfFreezes;
 
 
 
@@ -61,5 +62,23 @@ public class EnemyMissile : MonoBehaviour, IMissile, IDamageable
 	public void Die()
 	{
 		Destroy(this.gameObject);
+	}
+
+	public void Freeze()
+	{
+		numOfFreezes++;
+		if (numOfFreezes > 0)
+		{
+			this.enabled = false;
+		}
+	}
+
+	public void Unfreeze()
+	{
+		numOfFreezes = Mathf.Max(numOfFreezes - 1, 0);
+		if (numOfFreezes <= 0)
+		{
+			this.enabled = true;
+		}
 	}
 }

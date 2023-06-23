@@ -13,6 +13,8 @@ public abstract class MissileEffect
 			return secondsRemaining <= float.Epsilon;
 		}
 	}
+	public bool isSingleUse { get; protected set; }
+	public bool hasTriggeredOnce { get; protected set; }
 
 	public abstract void ApplyEffect(IAffectable affectable);
 	public abstract void EndEffect(IAffectable affectable);
