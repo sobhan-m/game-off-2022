@@ -48,7 +48,7 @@ public class PlayerAbilityController : MonoBehaviour
 		}
 		if (available.hasEntangle)
 		{
-			abilities.Add(AbilityType.DRUID, new EntangleAbility(available.entangleDuration, available.changeColour));
+			abilities.Add(AbilityType.DRUID, new EntangleAbility(available.entangleDuration, available.effectPrefab));
 			entangleCooldown = new Meter(0, available.entangleCooldown, available.entangleCooldown);
 			entangleDuration = new Meter(0, available.entangleDuration);
 		}
@@ -79,7 +79,6 @@ public class PlayerAbilityController : MonoBehaviour
 
 	private void Heal(InputAction.CallbackContext obj)
 	{
-		Debug.Log("Trying to heal.");
 		if (PauseController.IsPaused())
 		{
 			return;
@@ -103,7 +102,6 @@ public class PlayerAbilityController : MonoBehaviour
 
 	private void Rage(InputAction.CallbackContext obj)
 	{
-		Debug.Log("Trying to rage.");
 		if (PauseController.IsPaused())
 		{
 			return;
@@ -152,7 +150,6 @@ public class PlayerAbilityController : MonoBehaviour
 
 	private void Shield(InputAction.CallbackContext obj)
 	{
-		Debug.Log("Trying to shield.");
 		if (PauseController.IsPaused())
 		{
 			return;
@@ -196,7 +193,6 @@ public class PlayerAbilityController : MonoBehaviour
 
 	private void Entangle(InputAction.CallbackContext obj)
 	{
-		Debug.Log("Trying to entangle.");
 		if (PauseController.IsPaused())
 		{
 			return;

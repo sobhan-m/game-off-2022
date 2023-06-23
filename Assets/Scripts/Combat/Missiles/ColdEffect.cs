@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class ColdEffect : MissileEffect
 {
-	public ColdEffect(MissileType type, float effectSeconds)
+	private GameObject visualEffectPrefab;
+	private GameObject visualEffect;
+	public ColdEffect(MissileType type, float effectSeconds, GameObject visualEffectPrefab)
 	{
 		this.missileType = type;
 		this.secondsRemaining = effectSeconds;
 		this.isSingleUse = true;
 		this.hasTriggeredOnce = false;
+		this.visualEffectPrefab = visualEffectPrefab;
+		visualEffect = null;
 	}
 
 	public override void ApplyEffect(IAffectable affectable)
@@ -30,10 +34,9 @@ public class ColdEffect : MissileEffect
 			enemyAttacker.Freeze();
 		}
 
-		// Modifying visuals.
-		if (mono.gameObject.TryGetComponent<SpriteRenderer>(out SpriteRenderer spriteRenderer))
+		if (visualEffect == null)
 		{
-			spriteRenderer.color = Color.blue;
+			visualEffect = Transform.Instantiate(visualEffectPrefab, mono.transform.position, Quaternion.identity, mono.transform);
 		}
 
 		this.hasTriggeredOnce = true;
@@ -57,10 +60,10 @@ public class ColdEffect : MissileEffect
 			enemyAttacker.Unfreeze();
 		}
 
-		// Modifying visuals.
-		if (mono.gameObject.TryGetComponent<SpriteRenderer>(out SpriteRenderer spriteRenderer))
+		if (visualEffect != null)
 		{
-			spriteRenderer.color = Color.white;
+			Object.Destroy(visualEffect);
+			visualEffect = null;
 		}
 	}
 }

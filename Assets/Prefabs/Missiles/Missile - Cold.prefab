@@ -101,6 +101,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialDamage: 10
   initialDamageType: 3
+  pierceCount: 3
+  durationInSeconds: 3
+  optionalValue: 5
+  visualEffectPrefab: {fileID: 3350679666611440445, guid: 237d610c6fcaf8c40a2ca9deba786fad, type: 3}
   speed: 3
 --- !u!50 &3227519156579726545
 Rigidbody2D:

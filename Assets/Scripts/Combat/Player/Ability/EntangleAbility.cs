@@ -6,13 +6,15 @@ public class EntangleAbility : Ability
 {
 	public float entangleDuration { get; private set; }
 	private List<MonoBehaviour> entangledObjects;
-	private Color32 colourChange;
+	private GameObject visualEffectPrefab;
+	private List<GameObject> visualEffects;
 
-	public EntangleAbility(float entangleDuration, Color32 colourChange)
+	public EntangleAbility(float entangleDuration, GameObject visualEffectPrefab)
 	{
 		this.entangleDuration = entangleDuration;
-		this.colourChange = colourChange;
+		this.visualEffectPrefab = visualEffectPrefab;
 		entangledObjects = new List<MonoBehaviour>();
+		visualEffects = new List<GameObject>();
 
 		this.type = AbilityType.DRUID;
 	}
@@ -49,10 +51,6 @@ public class EntangleAbility : Ability
 	{
 		for (int i = 0; i < entangledObjects.Count; ++i)
 		{
-			if (entangledObjects[i] != null)
-			{
-				RemoveVisualEffect(entangledObjects[i]);
-			}
 			IFreezable enemy = entangledObjects[i] as IFreezable;
 			if (enemy != null)
 			{
@@ -60,25 +58,23 @@ public class EntangleAbility : Ability
 			}
 		}
 		entangledObjects.Clear();
+		RemoveVisualEffects();
 	}
 
 	private void AddVisualEffect(MonoBehaviour enemy)
 	{
-		if (!enemy.TryGetComponent<SpriteRenderer>(out SpriteRenderer spriteRenderer))
-		{
-			return;
-		}
-
-		spriteRenderer.color = colourChange;
+		visualEffects.Add(Object.Instantiate(visualEffectPrefab, enemy.transform.position, Quaternion.identity, enemy.transform));
 	}
 
-	private void RemoveVisualEffect(MonoBehaviour enemy)
+	private void RemoveVisualEffects()
 	{
-		if (!enemy.TryGetComponent<SpriteRenderer>(out SpriteRenderer spriteRenderer))
+		for (int i = 0; i < visualEffects.Count; ++i)
 		{
-			return;
+			if (visualEffects[i] != null)
+			{
+				Object.Destroy(visualEffects[i]);
+			}
 		}
-
-		spriteRenderer.color = new Color32(255, 255, 255, 255);
+		visualEffects.Clear();
 	}
 }

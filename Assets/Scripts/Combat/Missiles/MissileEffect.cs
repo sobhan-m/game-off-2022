@@ -24,14 +24,14 @@ public abstract class MissileEffect
 		secondsRemaining -= seconds;
 	}
 
-	public static MissileEffect CreateMissileEffect(MissileType type, float duration, float value)
+	public static MissileEffect CreateMissileEffect(MissileType type, float duration, float value, GameObject visualEffectPrefab)
 	{
 		switch (type)
 		{
 			case MissileType.COLD:
-				return new ColdEffect(type, duration);
+				return new ColdEffect(type, duration, visualEffectPrefab);
 			case MissileType.FIRE:
-				return new FireEffect(type, duration, value);
+				return new FireEffect(type, duration, value, visualEffectPrefab);
 			default:
 				return null;
 		}

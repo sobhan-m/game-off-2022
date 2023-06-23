@@ -13,6 +13,7 @@ public class PlayerMissile : MonoBehaviour, IMissile
 	[Header("Effect")]
 	[SerializeField] private float durationInSeconds = 3;
 	[SerializeField] private float optionalValue = 5;
+	[SerializeField] private GameObject visualEffectPrefab;
 	private MissileEffect effect;
 
 	[Header("Movement")]
@@ -28,7 +29,7 @@ public class PlayerMissile : MonoBehaviour, IMissile
 		}
 
 		damage = MissileDamage.ConstructMissileDamage(initialDamageType, initialDamage);
-		effect = MissileEffect.CreateMissileEffect(initialDamageType, durationInSeconds, optionalValue);
+		effect = MissileEffect.CreateMissileEffect(initialDamageType, durationInSeconds, optionalValue, visualEffectPrefab);
 	}
 
 	private void Start()

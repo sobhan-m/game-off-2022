@@ -5,13 +5,17 @@ using UnityEngine;
 public class FireEffect : MissileEffect
 {
 	public FireDamage damage { get; private set; }
-	public FireEffect(MissileType type, float effectSeconds, float damagePerSecond)
+	private GameObject visualEffectPrefab;
+	private GameObject visualEffect;
+	public FireEffect(MissileType type, float effectSeconds, float damagePerSecond, GameObject visualEffectPrefab)
 	{
 		this.missileType = type;
 		this.secondsRemaining = effectSeconds;
 		damage = new FireDamage(damagePerSecond);
 		this.isSingleUse = false;
 		this.hasTriggeredOnce = false;
+		this.visualEffectPrefab = visualEffectPrefab;
+		visualEffect = null;
 	}
 
 	public override void ApplyEffect(IAffectable affectable)
@@ -37,24 +41,20 @@ public class FireEffect : MissileEffect
 			return;
 		}
 
-		if (mono.gameObject.TryGetComponent<SpriteRenderer>(out SpriteRenderer spriteRenderer))
+		if (visualEffect == null)
 		{
-			spriteRenderer.color = Color.red;
+			visualEffect = Transform.Instantiate(visualEffectPrefab, mono.transform.position, Quaternion.identity, mono.transform);
 		}
+
+		hasTriggeredOnce = true;
 	}
 
 	public override void EndEffect(IAffectable affectable)
 	{
-		// Modifying visuals.
-		MonoBehaviour mono = affectable as MonoBehaviour;
-		if (mono == null)
+		if (visualEffect != null)
 		{
-			return;
-		}
-
-		if (mono.gameObject.TryGetComponent<SpriteRenderer>(out SpriteRenderer spriteRenderer))
-		{
-			spriteRenderer.color = Color.white;
+			Object.Destroy(visualEffect);
+			visualEffect = null;
 		}
 	}
 }

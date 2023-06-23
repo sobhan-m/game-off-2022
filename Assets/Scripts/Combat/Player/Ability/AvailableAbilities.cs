@@ -23,7 +23,7 @@ public class AvailableAbilities : ScriptableObject
 
 	[Header("Entangle")]
 	public bool hasEntangle;
-	public Color32 changeColour;
+	public GameObject effectPrefab;
 	public float entangleDuration;
 	public float entangleCooldown;
 }
