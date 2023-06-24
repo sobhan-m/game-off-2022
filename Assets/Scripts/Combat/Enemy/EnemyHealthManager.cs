@@ -29,6 +29,7 @@ public class EnemyHealthManager : MonoBehaviour, IAffectable, IDamageable
 		// Replaces the effect instead of stacking them.
 		if (effects.ContainsKey(missileEffect.missileType))
 		{
+			effects[missileEffect.missileType].EndEffect(this);
 			effects[missileEffect.missileType] = missileEffect;
 			return;
 		}
