@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Test_Dialogue 2
   m_EditorClassIdentifier: 
-  dialogueText: Well, that's rude...
-  responseTexts: []
-  responseDialogues: []
+  speaker: Baddie
+  text: General Kenobi!
+  nextDialogue: {fileID: 11400000, guid: 2475883b5282f924eb6d879441e93a47, type: 2}

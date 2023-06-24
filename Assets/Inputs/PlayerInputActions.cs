@@ -234,6 +234,34 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Dialogue"",
+            ""id"": ""fbc9b266-7c61-48e6-b073-61822840e667"",
+            ""actions"": [
+                {
+                    ""name"": ""Progress"",
+                    ""type"": ""Button"",
+                    ""id"": ""f8010363-e21c-4cfd-8ff2-f4599799426c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""4664a67e-ddaa-49da-8eaa-fa5d71895446"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Progress"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -248,6 +276,9 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         m_Player_RageAbility = m_Player.FindAction("Rage Ability", throwIfNotFound: true);
         m_Player_ShieldAbility = m_Player.FindAction("Shield Ability", throwIfNotFound: true);
         m_Player_EntangleAbility = m_Player.FindAction("Entangle Ability", throwIfNotFound: true);
+        // Dialogue
+        m_Dialogue = asset.FindActionMap("Dialogue", throwIfNotFound: true);
+        m_Dialogue_Progress = m_Dialogue.FindAction("Progress", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -392,6 +423,39 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         }
     }
     public PlayerActions @Player => new PlayerActions(this);
+
+    // Dialogue
+    private readonly InputActionMap m_Dialogue;
+    private IDialogueActions m_DialogueActionsCallbackInterface;
+    private readonly InputAction m_Dialogue_Progress;
+    public struct DialogueActions
+    {
+        private @PlayerInputActions m_Wrapper;
+        public DialogueActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Progress => m_Wrapper.m_Dialogue_Progress;
+        public InputActionMap Get() { return m_Wrapper.m_Dialogue; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(DialogueActions set) { return set.Get(); }
+        public void SetCallbacks(IDialogueActions instance)
+        {
+            if (m_Wrapper.m_DialogueActionsCallbackInterface != null)
+            {
+                @Progress.started -= m_Wrapper.m_DialogueActionsCallbackInterface.OnProgress;
+                @Progress.performed -= m_Wrapper.m_DialogueActionsCallbackInterface.OnProgress;
+                @Progress.canceled -= m_Wrapper.m_DialogueActionsCallbackInterface.OnProgress;
+            }
+            m_Wrapper.m_DialogueActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Progress.started += instance.OnProgress;
+                @Progress.performed += instance.OnProgress;
+                @Progress.canceled += instance.OnProgress;
+            }
+        }
+    }
+    public DialogueActions @Dialogue => new DialogueActions(this);
     public interface IPlayerActions
     {
         void OnMovement(InputAction.CallbackContext context);
@@ -402,5 +466,9 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         void OnRageAbility(InputAction.CallbackContext context);
         void OnShieldAbility(InputAction.CallbackContext context);
         void OnEntangleAbility(InputAction.CallbackContext context);
+    }
+    public interface IDialogueActions
+    {
+        void OnProgress(InputAction.CallbackContext context);
     }
 }
