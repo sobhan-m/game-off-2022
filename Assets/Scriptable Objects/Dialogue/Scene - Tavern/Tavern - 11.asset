@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
+  m_Name: Tavern - 11
+  m_EditorClassIdentifier: 
+  speaker: 
+  text: 'You wake up Barbarian and the two of you head off to the Shining Cave. '
+  nextDialogue: {fileID: 0}
+  characterImage: {fileID: 5371032539380992584, guid: 6d059033c9387f74d96a71be6e636bd8, type: 3}

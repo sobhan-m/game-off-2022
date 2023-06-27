@@ -8,4 +8,5 @@ public class Dialogue : ScriptableObject
 	public string speaker;
 	[TextArea] public string text;
 	public Dialogue nextDialogue;
+	public GameObject characterImage;
 }
