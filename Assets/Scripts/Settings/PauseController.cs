@@ -5,88 +5,88 @@ using UnityEngine.InputSystem;
 
 public class PauseController : MonoBehaviour
 {
-    public bool isActive { set; get; }
-    [SerializeField] GameObject pauseMenu;
+	public bool isActive { set; get; }
+	[SerializeField] GameObject pauseMenu;
 
-    private static bool isPaused;
+	private static bool isPaused;
 
-    private InputAction pause;
-    private PlayerInputActions playerInputActions;
+	private InputAction pause;
+	private PlayerInputActions playerInputActions;
 
-    private void Awake()
-    {
-        playerInputActions = new PlayerInputActions();
-    }
+	private void Awake()
+	{
+		playerInputActions = new PlayerInputActions();
+	}
 
-    private void Update()
-    {
-        if (pause.triggered)
-        {
-            if (isPaused)
-            {
-                Resume();
-            }
-            else
-            {
-                Pause();
-            }
-        }
-    }
+	private void Update()
+	{
+		if (pause.triggered)
+		{
+			if (isPaused)
+			{
+				Resume();
+			}
+			else
+			{
+				Pause();
+			}
+		}
+	}
 
-    private void Start()
-    {
-        Resume();
-    }
+	private void Start()
+	{
+		Resume();
+	}
 
-    private void OnEnable()
-    {
-        pause = playerInputActions.Player.Pause;
-        pause.Enable();
+	private void OnEnable()
+	{
+		pause = playerInputActions.Combat.Pause;
+		pause.Enable();
 
-        Resume();
-    }
+		Resume();
+	}
 
-    private void OnDisable()
-    {
-        pause.Disable();
+	private void OnDisable()
+	{
+		pause.Disable();
 
-        Resume();
-    }
+		Resume();
+	}
 
-    public void Pause()
-    {
-        if (!isActive)
-        {
-            return;
-        }
+	public void Pause()
+	{
+		if (!isActive)
+		{
+			return;
+		}
 
-        isPaused = true;
-        Time.timeScale = 0;
-        if (pauseMenu)
-        {
-            pauseMenu.SetActive(true);
-        }
-    }
+		isPaused = true;
+		Time.timeScale = 0;
+		if (pauseMenu)
+		{
+			pauseMenu.SetActive(true);
+		}
+	}
 
-    public void Resume()
-    {
-        if (!isActive)
-        {
-            return;
-        }
+	public void Resume()
+	{
+		if (!isActive)
+		{
+			return;
+		}
 
-        isPaused = false;
-        Time.timeScale = 1;
+		isPaused = false;
+		Time.timeScale = 1;
 
-        if (pauseMenu)
-        {
-            pauseMenu.SetActive(false);
-        }
-    }
+		if (pauseMenu)
+		{
+			pauseMenu.SetActive(false);
+		}
+	}
 
-    public static bool IsPaused()
-    {
-        return isPaused;
-    }
+	public static bool IsPaused()
+	{
+		return isPaused;
+	}
 
 }

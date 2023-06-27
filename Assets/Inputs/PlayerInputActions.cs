@@ -24,7 +24,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
     ""name"": ""PlayerInputActions"",
     ""maps"": [
         {
-            ""name"": ""Player"",
+            ""name"": ""Combat"",
             ""id"": ""5de689d1-8341-4f87-a925-845bded2cf19"",
             ""actions"": [
                 {
@@ -266,16 +266,16 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
     ],
     ""controlSchemes"": []
 }");
-        // Player
-        m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
-        m_Player_Movement = m_Player.FindAction("Movement", throwIfNotFound: true);
-        m_Player_Pause = m_Player.FindAction("Pause", throwIfNotFound: true);
-        m_Player_Attack = m_Player.FindAction("Attack", throwIfNotFound: true);
-        m_Player_ChangeWeapons = m_Player.FindAction("Change Weapons", throwIfNotFound: true);
-        m_Player_HealAbility = m_Player.FindAction("Heal Ability", throwIfNotFound: true);
-        m_Player_RageAbility = m_Player.FindAction("Rage Ability", throwIfNotFound: true);
-        m_Player_ShieldAbility = m_Player.FindAction("Shield Ability", throwIfNotFound: true);
-        m_Player_EntangleAbility = m_Player.FindAction("Entangle Ability", throwIfNotFound: true);
+        // Combat
+        m_Combat = asset.FindActionMap("Combat", throwIfNotFound: true);
+        m_Combat_Movement = m_Combat.FindAction("Movement", throwIfNotFound: true);
+        m_Combat_Pause = m_Combat.FindAction("Pause", throwIfNotFound: true);
+        m_Combat_Attack = m_Combat.FindAction("Attack", throwIfNotFound: true);
+        m_Combat_ChangeWeapons = m_Combat.FindAction("Change Weapons", throwIfNotFound: true);
+        m_Combat_HealAbility = m_Combat.FindAction("Heal Ability", throwIfNotFound: true);
+        m_Combat_RageAbility = m_Combat.FindAction("Rage Ability", throwIfNotFound: true);
+        m_Combat_ShieldAbility = m_Combat.FindAction("Shield Ability", throwIfNotFound: true);
+        m_Combat_EntangleAbility = m_Combat.FindAction("Entangle Ability", throwIfNotFound: true);
         // Dialogue
         m_Dialogue = asset.FindActionMap("Dialogue", throwIfNotFound: true);
         m_Dialogue_Progress = m_Dialogue.FindAction("Progress", throwIfNotFound: true);
@@ -335,64 +335,64 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         return asset.FindBinding(bindingMask, out action);
     }
 
-    // Player
-    private readonly InputActionMap m_Player;
-    private IPlayerActions m_PlayerActionsCallbackInterface;
-    private readonly InputAction m_Player_Movement;
-    private readonly InputAction m_Player_Pause;
-    private readonly InputAction m_Player_Attack;
-    private readonly InputAction m_Player_ChangeWeapons;
-    private readonly InputAction m_Player_HealAbility;
-    private readonly InputAction m_Player_RageAbility;
-    private readonly InputAction m_Player_ShieldAbility;
-    private readonly InputAction m_Player_EntangleAbility;
-    public struct PlayerActions
+    // Combat
+    private readonly InputActionMap m_Combat;
+    private ICombatActions m_CombatActionsCallbackInterface;
+    private readonly InputAction m_Combat_Movement;
+    private readonly InputAction m_Combat_Pause;
+    private readonly InputAction m_Combat_Attack;
+    private readonly InputAction m_Combat_ChangeWeapons;
+    private readonly InputAction m_Combat_HealAbility;
+    private readonly InputAction m_Combat_RageAbility;
+    private readonly InputAction m_Combat_ShieldAbility;
+    private readonly InputAction m_Combat_EntangleAbility;
+    public struct CombatActions
     {
         private @PlayerInputActions m_Wrapper;
-        public PlayerActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Movement => m_Wrapper.m_Player_Movement;
-        public InputAction @Pause => m_Wrapper.m_Player_Pause;
-        public InputAction @Attack => m_Wrapper.m_Player_Attack;
-        public InputAction @ChangeWeapons => m_Wrapper.m_Player_ChangeWeapons;
-        public InputAction @HealAbility => m_Wrapper.m_Player_HealAbility;
-        public InputAction @RageAbility => m_Wrapper.m_Player_RageAbility;
-        public InputAction @ShieldAbility => m_Wrapper.m_Player_ShieldAbility;
-        public InputAction @EntangleAbility => m_Wrapper.m_Player_EntangleAbility;
-        public InputActionMap Get() { return m_Wrapper.m_Player; }
+        public CombatActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Movement => m_Wrapper.m_Combat_Movement;
+        public InputAction @Pause => m_Wrapper.m_Combat_Pause;
+        public InputAction @Attack => m_Wrapper.m_Combat_Attack;
+        public InputAction @ChangeWeapons => m_Wrapper.m_Combat_ChangeWeapons;
+        public InputAction @HealAbility => m_Wrapper.m_Combat_HealAbility;
+        public InputAction @RageAbility => m_Wrapper.m_Combat_RageAbility;
+        public InputAction @ShieldAbility => m_Wrapper.m_Combat_ShieldAbility;
+        public InputAction @EntangleAbility => m_Wrapper.m_Combat_EntangleAbility;
+        public InputActionMap Get() { return m_Wrapper.m_Combat; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(PlayerActions set) { return set.Get(); }
-        public void SetCallbacks(IPlayerActions instance)
+        public static implicit operator InputActionMap(CombatActions set) { return set.Get(); }
+        public void SetCallbacks(ICombatActions instance)
         {
-            if (m_Wrapper.m_PlayerActionsCallbackInterface != null)
+            if (m_Wrapper.m_CombatActionsCallbackInterface != null)
             {
-                @Movement.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMovement;
-                @Movement.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMovement;
-                @Movement.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMovement;
-                @Pause.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
-                @Pause.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
-                @Pause.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
-                @Attack.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnAttack;
-                @Attack.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnAttack;
-                @Attack.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnAttack;
-                @ChangeWeapons.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnChangeWeapons;
-                @ChangeWeapons.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnChangeWeapons;
-                @ChangeWeapons.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnChangeWeapons;
-                @HealAbility.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnHealAbility;
-                @HealAbility.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnHealAbility;
-                @HealAbility.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnHealAbility;
-                @RageAbility.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRageAbility;
-                @RageAbility.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRageAbility;
-                @RageAbility.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRageAbility;
-                @ShieldAbility.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShieldAbility;
-                @ShieldAbility.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShieldAbility;
-                @ShieldAbility.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShieldAbility;
-                @EntangleAbility.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnEntangleAbility;
-                @EntangleAbility.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnEntangleAbility;
-                @EntangleAbility.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnEntangleAbility;
+                @Movement.started -= m_Wrapper.m_CombatActionsCallbackInterface.OnMovement;
+                @Movement.performed -= m_Wrapper.m_CombatActionsCallbackInterface.OnMovement;
+                @Movement.canceled -= m_Wrapper.m_CombatActionsCallbackInterface.OnMovement;
+                @Pause.started -= m_Wrapper.m_CombatActionsCallbackInterface.OnPause;
+                @Pause.performed -= m_Wrapper.m_CombatActionsCallbackInterface.OnPause;
+                @Pause.canceled -= m_Wrapper.m_CombatActionsCallbackInterface.OnPause;
+                @Attack.started -= m_Wrapper.m_CombatActionsCallbackInterface.OnAttack;
+                @Attack.performed -= m_Wrapper.m_CombatActionsCallbackInterface.OnAttack;
+                @Attack.canceled -= m_Wrapper.m_CombatActionsCallbackInterface.OnAttack;
+                @ChangeWeapons.started -= m_Wrapper.m_CombatActionsCallbackInterface.OnChangeWeapons;
+                @ChangeWeapons.performed -= m_Wrapper.m_CombatActionsCallbackInterface.OnChangeWeapons;
+                @ChangeWeapons.canceled -= m_Wrapper.m_CombatActionsCallbackInterface.OnChangeWeapons;
+                @HealAbility.started -= m_Wrapper.m_CombatActionsCallbackInterface.OnHealAbility;
+                @HealAbility.performed -= m_Wrapper.m_CombatActionsCallbackInterface.OnHealAbility;
+                @HealAbility.canceled -= m_Wrapper.m_CombatActionsCallbackInterface.OnHealAbility;
+                @RageAbility.started -= m_Wrapper.m_CombatActionsCallbackInterface.OnRageAbility;
+                @RageAbility.performed -= m_Wrapper.m_CombatActionsCallbackInterface.OnRageAbility;
+                @RageAbility.canceled -= m_Wrapper.m_CombatActionsCallbackInterface.OnRageAbility;
+                @ShieldAbility.started -= m_Wrapper.m_CombatActionsCallbackInterface.OnShieldAbility;
+                @ShieldAbility.performed -= m_Wrapper.m_CombatActionsCallbackInterface.OnShieldAbility;
+                @ShieldAbility.canceled -= m_Wrapper.m_CombatActionsCallbackInterface.OnShieldAbility;
+                @EntangleAbility.started -= m_Wrapper.m_CombatActionsCallbackInterface.OnEntangleAbility;
+                @EntangleAbility.performed -= m_Wrapper.m_CombatActionsCallbackInterface.OnEntangleAbility;
+                @EntangleAbility.canceled -= m_Wrapper.m_CombatActionsCallbackInterface.OnEntangleAbility;
             }
-            m_Wrapper.m_PlayerActionsCallbackInterface = instance;
+            m_Wrapper.m_CombatActionsCallbackInterface = instance;
             if (instance != null)
             {
                 @Movement.started += instance.OnMovement;
@@ -422,7 +422,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
             }
         }
     }
-    public PlayerActions @Player => new PlayerActions(this);
+    public CombatActions @Combat => new CombatActions(this);
 
     // Dialogue
     private readonly InputActionMap m_Dialogue;
@@ -456,7 +456,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         }
     }
     public DialogueActions @Dialogue => new DialogueActions(this);
-    public interface IPlayerActions
+    public interface ICombatActions
     {
         void OnMovement(InputAction.CallbackContext context);
         void OnPause(InputAction.CallbackContext context);

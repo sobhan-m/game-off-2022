@@ -54,27 +54,27 @@ public class PlayerAbilityController : MonoBehaviour
 		}
 
 		actions = new PlayerInputActions();
-		actions.Player.HealAbility.performed += Heal;
-		actions.Player.RageAbility.performed += Rage;
-		actions.Player.ShieldAbility.performed += Shield;
-		actions.Player.EntangleAbility.performed += Entangle;
+		actions.Combat.HealAbility.performed += Heal;
+		actions.Combat.RageAbility.performed += Rage;
+		actions.Combat.ShieldAbility.performed += Shield;
+		actions.Combat.EntangleAbility.performed += Entangle;
 
 	}
 
 	private void OnEnable()
 	{
-		actions.Player.HealAbility.Enable();
-		actions.Player.RageAbility.Enable();
-		actions.Player.ShieldAbility.Enable();
-		actions.Player.EntangleAbility.Enable();
+		actions.Combat.HealAbility.Enable();
+		actions.Combat.RageAbility.Enable();
+		actions.Combat.ShieldAbility.Enable();
+		actions.Combat.EntangleAbility.Enable();
 	}
 
 	private void OnDisable()
 	{
-		actions.Player.HealAbility.Disable();
-		actions.Player.RageAbility.Disable();
-		actions.Player.ShieldAbility.Disable();
-		actions.Player.EntangleAbility.Disable();
+		actions.Combat.HealAbility.Disable();
+		actions.Combat.RageAbility.Disable();
+		actions.Combat.ShieldAbility.Disable();
+		actions.Combat.EntangleAbility.Disable();
 	}
 
 	private void Heal(InputAction.CallbackContext obj)

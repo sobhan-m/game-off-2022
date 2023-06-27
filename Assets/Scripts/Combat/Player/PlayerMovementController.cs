@@ -20,7 +20,7 @@ public class PlayerMovementController : MonoBehaviour
 		rb = GetComponent<Rigidbody2D>();
 		transform.position = track.CurrentPosition().position;
 
-		movement = (new PlayerInputActions()).Player.Movement;
+		movement = (new PlayerInputActions()).Combat.Movement;
 		movement.performed += ctx => Move();
 	}
 

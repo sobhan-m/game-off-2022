@@ -19,8 +19,8 @@ public class PlayerAttackController : MonoBehaviour
 	{
 		// Setting up input.
 		playerInputActions = new PlayerInputActions();
-		attackAction = playerInputActions.Player.Attack;
-		weaponChangeAction = playerInputActions.Player.ChangeWeapons;
+		attackAction = playerInputActions.Combat.Attack;
+		weaponChangeAction = playerInputActions.Combat.ChangeWeapons;
 		attackAction.performed += Attack;
 		weaponChangeAction.performed += ChangeWeapon;
 

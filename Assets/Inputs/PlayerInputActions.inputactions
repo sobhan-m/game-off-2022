@@ -2,7 +2,7 @@
     "name": "PlayerInputActions",
     "maps": [
         {
-            "name": "Player",
+            "name": "Combat",
             "id": "5de689d1-8341-4f87-a925-845bded2cf19",
             "actions": [
                 {
