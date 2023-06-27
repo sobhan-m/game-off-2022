@@ -11,7 +11,7 @@ public class HealthTracker : MonoBehaviour
 
 	private void Start()
 	{
-		playerHealth = FindObjectOfType<Player>().playerHealth;
+		playerHealth = FindObjectOfType<PlayerHealthManager>().playerHealth;
 
 		healthSlider.minValue = 0;
 		healthSlider.maxValue = playerHealth.maxHealth;

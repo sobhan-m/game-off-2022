@@ -42,7 +42,7 @@ public class EnemyMissile : MonoBehaviour, IMissile, IDamageable, IFreezable
 			damage.ApplyDamage(damageable);
 		}
 
-		if (collision.TryGetComponent<Player>(out Player player))
+		if (collision.TryGetComponent<PlayerHealthManager>(out PlayerHealthManager player))
 		{
 			Destroy(gameObject);
 		}

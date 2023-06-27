@@ -5,9 +5,9 @@ using UnityEngine;
 public class HealAbility : Ability
 {
 	public float healAmount { get; private set; }
-	private Player player;
+	private PlayerHealthManager player;
 
-	public HealAbility(float healAmount, Player player)
+	public HealAbility(float healAmount, PlayerHealthManager player)
 	{
 		this.healAmount = healAmount;
 		this.player = player;

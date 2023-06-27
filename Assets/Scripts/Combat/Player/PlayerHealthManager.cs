@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour, IDamageable
+public class PlayerHealthManager : MonoBehaviour, IDamageable
 {
 	[Header("Health")]
 	[SerializeField] float maxHealth;

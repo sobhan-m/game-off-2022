@@ -24,7 +24,7 @@ public class PlayerAbilityController : MonoBehaviour
 
 		if (available.hasHeal)
 		{
-			Player player = FindObjectOfType<Player>();
+			PlayerHealthManager player = FindObjectOfType<PlayerHealthManager>();
 			if (!player)
 			{
 				throw new MissingReferenceException("No players in scene.");
