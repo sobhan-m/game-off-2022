@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-using System;
 
 public class ButtonSoundManager : MonoBehaviour
 {
 	[Tooltip("This field is not currently in use.")]
-	[SerializeField] AudioClip mouseOverSound;
-	[SerializeField] AudioClip clickSound;
+	[SerializeField] AudioClip[] mouseOverSound;
+	[SerializeField] AudioClip[] clickSound;
 
 	private List<Button> buttons;
 	private Camera mainCamera;
@@ -36,11 +35,13 @@ public class ButtonSoundManager : MonoBehaviour
 
 	public void PlayClickSound()
 	{
-		AudioSource.PlayClipAtPoint(clickSound, mainCamera.transform.position);
+		int i = Random.Range(0, clickSound.Length);
+		AudioSource.PlayClipAtPoint(clickSound[i], mainCamera.transform.position);
 	}
 
 	public void PlayMouseOverSound(BaseEventData arg)
 	{
-		AudioSource.PlayClipAtPoint(mouseOverSound, mainCamera.transform.position);
+		int i = Random.Range(0, mouseOverSound.Length);
+		AudioSource.PlayClipAtPoint(mouseOverSound[i], mainCamera.transform.position);
 	}
 }

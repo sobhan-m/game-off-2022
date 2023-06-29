@@ -548,6 +548,62 @@ PrefabInstance:
       propertyPath: m_Name
       value: Systems
       objectReference: {fileID: 0}
+    - target: {fileID: 4215927342732465853, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: clickSound.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215927342732465853, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: clickSound.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 7f84a7ef32221d74fa99c627f114f3bc, type: 3}
+    - target: {fileID: 4215927342732465853, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: clickSound.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: ab17625939e1f8343ba80187d19a67e0, type: 3}
+    - target: {fileID: 4215927342732465853, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: clickSound.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 9e7092d1d47f87f409cdec1cfd7639a3, type: 3}
+    - target: {fileID: 4215927342732465853, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: clickSound.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: c793f972e1ba6004c9b34f770417479d, type: 3}
+    - target: {fileID: 4215927342732465853, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: mouseOverSound.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215927342732465853, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: mouseOverSound.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8451124475d67a9439d1caad9bff2e45, type: 3}
+    - target: {fileID: 4215927342732465853, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: mouseOverSound.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: a29b8bafd62fa064b9ac2ae8f8c91c4b, type: 3}
+    - target: {fileID: 4215927342732465853, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: mouseOverSound.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: d3c9b1b29fbe72c43933fdb4bc065cca, type: 3}
+    - target: {fileID: 4215927342732465853, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: mouseOverSound.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 95a076439b41f024098dfb06ad7dba82, type: 3}
+    - target: {fileID: 4215927342732465853, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: mouseOverSound.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 9f3c670bf27e0484e92c4e8314640287, type: 3}
+    - target: {fileID: 4215927342732465853, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: mouseOverSound.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 95a076439b41f024098dfb06ad7dba82, type: 3}
+    - target: {fileID: 4215927342732465853, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: mouseOverSound.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 9f3c670bf27e0484e92c4e8314640287, type: 3}
+    - target: {fileID: 4215927342732465853, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: mouseOverSound.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: 9f3c670bf27e0484e92c4e8314640287, type: 3}
     m_RemovedComponents:
     - {fileID: 3981539058084432261, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
     m_AddedGameObjects: []
