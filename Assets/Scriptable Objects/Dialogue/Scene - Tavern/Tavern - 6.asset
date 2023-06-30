@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tavern - 6
   m_EditorClassIdentifier: 
-  speaker: Bard
-  text: Ok great elder i get it. I'm the savior of our world, you were born at the
-    dawn of time, and I press the x button to jump. What is it you need me to do?!
-  nextDialogue: {fileID: 11400000, guid: 59165b5943fe75549bf48fbb39fc36d0, type: 2}
+  speaker: 
+  text: The only time he stopped talking was when he had to re-adjust his magical
+    dentures.
+  nextDialogue: {fileID: 11400000, guid: 082141bca75a33a49b2233e88121b937, type: 2}
   characterImage: {fileID: 2186985249399650446, guid: 5c89fd13f7b05cf42abcd1a4436878d6, type: 3}

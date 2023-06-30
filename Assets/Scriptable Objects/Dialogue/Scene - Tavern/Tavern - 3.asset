@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Tavern - 3
   m_EditorClassIdentifier: 
   speaker: 
-  text: The old fossil has been giving you the typical " you are prophesied to save
-    us all" speech, but it's taking way too long. The only time he stopped talking
-    was when he had to re-adjust his magical dentures.
-  nextDialogue: {fileID: 11400000, guid: 15e8f189765c8ce41818d02eb8d65d19, type: 2}
-  characterImage: {fileID: 1122596115756121921, guid: bf4cd4fb22062c940a2f635bee53462f, type: 3}
+  text: A wizard older than time itself has found you, and proclaimed that you are
+    the long awaited chosen one.
+  nextDialogue: {fileID: 11400000, guid: 5b212bc6c1b695444afe71316389473a, type: 2}
+  characterImage: {fileID: 2186985249399650446, guid: 5c89fd13f7b05cf42abcd1a4436878d6, type: 3}

@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Tavern - 1
   m_EditorClassIdentifier: 
   speaker: 
-  text: Your journey begins in a tavern, like all great fantasy adventures do. You
-    are a bard from humble beginnings in a small town.
-  nextDialogue: {fileID: 11400000, guid: 909ad1ecb8549e24b87d81b66bd32be8, type: 2}
-  characterImage: {fileID: 2186985249399650446, guid: 5c89fd13f7b05cf42abcd1a4436878d6, type: 3}
+  text: Your journey begins in a tavern, like all great fantasy adventures do.
+  nextDialogue: {fileID: 11400000, guid: 5c227208960218c40bcecec9414c3b1e, type: 2}
+  characterImage: {fileID: 0}

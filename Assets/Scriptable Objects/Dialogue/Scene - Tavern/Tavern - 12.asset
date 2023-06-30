@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
-  m_Name: Tavern - 8
+  m_Name: Tavern - 12
   m_EditorClassIdentifier: 
-  speaker: 
-  text: So you nodded your head while the monologue went on.
-  nextDialogue: {fileID: 11400000, guid: b1f9311150ec2064a811f2c1224e36e4, type: 2}
+  speaker: Bard
+  text: '"What is it you need me to do?!"'
+  nextDialogue: {fileID: 11400000, guid: 6f8be6eae4ade9040b984cfd0823159f, type: 2}
   characterImage: {fileID: 2186985249399650446, guid: 5c89fd13f7b05cf42abcd1a4436878d6, type: 3}

@@ -11,6 +11,7 @@ public class DialogueController : MonoBehaviour
 	[SerializeField] TextMeshProUGUI speakerText;
 	[SerializeField] Dialogue dialogue;
 	[SerializeField] GameObject sceneHolder;
+	[SerializeField] GameObject speakerArea;
 	private PlayerInputActions inputs;
 	private GameObject previousScene;
 
@@ -41,13 +42,23 @@ public class DialogueController : MonoBehaviour
 			return;
 		}
 
+		// Updating text.
 		dialogueText.text = dialogue.text;
 		speakerText.text = dialogue.speaker;
+
+		// Updating speaker area.
+		bool hasSpeaker = speakerText.text != "";
+		speakerArea.SetActive(hasSpeaker);
+
+		// Updating scene.
 		if (previousScene != null)
 		{
 			Destroy(previousScene);
 		}
-		previousScene = Instantiate(dialogue.characterImage, sceneHolder.transform.position, Quaternion.identity, sceneHolder.transform);
+		if (dialogue.characterImage != null)
+		{
+			previousScene = Instantiate(dialogue.characterImage, sceneHolder.transform.position, Quaternion.identity, sceneHolder.transform);
+		}
 	}
 
 	private void NextDialogue(InputAction.CallbackContext context)

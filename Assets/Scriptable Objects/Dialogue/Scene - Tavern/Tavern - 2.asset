@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Tavern - 2
   m_EditorClassIdentifier: 
   speaker: 
-  text: A wizard older than time itself has found you, and proclaimed that you are
-    the long awaited chosen one. You always knew you were special, so you were eager
-    to hear what else he had to say....but that was 2 hours ago.
-  nextDialogue: {fileID: 11400000, guid: 57650bef029782c49b47d2347ab97c89, type: 2}
-  characterImage: {fileID: 2186985249399650446, guid: 5c89fd13f7b05cf42abcd1a4436878d6, type: 3}
+  text: You are a bard from humble beginnings in a small town.
+  nextDialogue: {fileID: 11400000, guid: b0e2bb03e5e9df54caee73567825322b, type: 2}
+  characterImage: {fileID: 0}

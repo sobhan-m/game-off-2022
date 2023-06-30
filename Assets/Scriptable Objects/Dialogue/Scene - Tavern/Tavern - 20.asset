@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
-  m_Name: Tavern - 8
+  m_Name: Tavern - 20
   m_EditorClassIdentifier: 
   speaker: 
-  text: So you nodded your head while the monologue went on.
-  nextDialogue: {fileID: 11400000, guid: b1f9311150ec2064a811f2c1224e36e4, type: 2}
-  characterImage: {fileID: 2186985249399650446, guid: 5c89fd13f7b05cf42abcd1a4436878d6, type: 3}
+  text: 'You wake up Barbarian and the two of you head off to the Shining Cave. '
+  nextDialogue: {fileID: 0}
+  characterImage: {fileID: 5371032539380992584, guid: 6d059033c9387f74d96a71be6e636bd8, type: 3}

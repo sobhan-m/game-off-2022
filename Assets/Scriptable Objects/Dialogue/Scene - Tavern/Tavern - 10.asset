@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tavern - 10
   m_EditorClassIdentifier: 
-  speaker: Bard
-  text: Don't worry, I'll get the sword and we'll be back faster than you can change
-    your arcane adult diaper
-  nextDialogue: {fileID: 11400000, guid: acfba296104ccc44fb0f602b023d77de, type: 2}
+  speaker: 
+  text: 'And now you have reached your limit as well. '
+  nextDialogue: {fileID: 11400000, guid: 8151b2a97090ed540a612397725167a5, type: 2}
   characterImage: {fileID: 2186985249399650446, guid: 5c89fd13f7b05cf42abcd1a4436878d6, type: 3}

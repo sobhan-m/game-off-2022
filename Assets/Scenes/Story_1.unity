@@ -181,6 +181,7 @@ MonoBehaviour:
   speakerText: {fileID: 1353034563}
   dialogue: {fileID: 11400000, guid: f70d1a2a5f40d04479ea9caaff4f414a, type: 2}
   sceneHolder: {fileID: 2118790193}
+  speakerArea: {fileID: 2104186846039753235}
 --- !u!1 &478559894 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 478559894, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
@@ -780,6 +781,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 667620093}
     m_Modifications:
+    - target: {fileID: 2104186846078897586, guid: 1320a843496e90c4f90a6b0fa0ca9c21, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2104186846101594157, guid: 1320a843496e90c4f90a6b0fa0ca9c21, type: 3}
       propertyPath: m_Name
       value: Dialogue
@@ -868,9 +873,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2104186846266900182, guid: 1320a843496e90c4f90a6b0fa0ca9c21, type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2104186846266900182, guid: 1320a843496e90c4f90a6b0fa0ca9c21, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: ecb5a2d5ae8d66240bab3541af1d8c94, type: 2}
+    - target: {fileID: 2104186846266900182, guid: 1320a843496e90c4f90a6b0fa0ca9c21, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2104186846266900182, guid: 1320a843496e90c4f90a6b0fa0ca9c21, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 7712202641153167787, guid: ecb5a2d5ae8d66240bab3541af1d8c94, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 1320a843496e90c4f90a6b0fa0ca9c21, type: 3}
+--- !u!1 &2104186846039753235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2104186846078897586, guid: 1320a843496e90c4f90a6b0fa0ca9c21, type: 3}
+  m_PrefabInstance: {fileID: 2104186846039753234}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3981539059527735999
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Tavern - 5
   m_EditorClassIdentifier: 
   speaker: 
-  text: "So you nodded your head while the monologue went on. Your best friend and
-    wingman, Barbarian, fell asleep in his chair listening to this about an hour
-    ago. And now you have reached your limit as well. \r"
-  nextDialogue: {fileID: 11400000, guid: 95754b860b5f6eb44b87117091766539, type: 2}
-  characterImage: {fileID: 2186985249399650446, guid: 5c89fd13f7b05cf42abcd1a4436878d6, type: 3}
+  text: The old fossil has been giving you the typical " you are prophesied to save
+    us all" speech, but it's taking way too long.
+  nextDialogue: {fileID: 11400000, guid: 73004f3ca228d0d4db32b532fc441ef0, type: 2}
+  characterImage: {fileID: 1122596115756121921, guid: bf4cd4fb22062c940a2f635bee53462f, type: 3}
