@@ -104,7 +104,9 @@ MonoBehaviour:
   pierceCount: 3
   durationInSeconds: 3
   optionalValue: 5
+  visualEffectPrefab: {fileID: 0}
   speed: 5
+  particles: {fileID: 6296168961990749487, guid: 73eafa13db76a3542aef9bdbf9aec3ad, type: 3}
 --- !u!50 &3227519156579726545
 Rigidbody2D:
   serializedVersion: 4

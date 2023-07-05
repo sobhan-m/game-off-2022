@@ -20,6 +20,9 @@ public class PlayerMissile : MonoBehaviour, IMissile
 	[SerializeField] public float speed;
 	private Rigidbody2D rb;
 
+	[Header("Visuals")]
+	[SerializeField] GameObject particles;
+
 	private void Awake()
 	{
 		rb = FindObjectOfType<Rigidbody2D>();
@@ -57,6 +60,7 @@ public class PlayerMissile : MonoBehaviour, IMissile
 
 		if (pierceCount <= 0 || other.TryGetComponent<EnemyHealthManager>(out EnemyHealthManager enemy))
 		{
+			Instantiate(particles, transform.position, particles.transform.rotation);
 			Destroy(gameObject);
 		}
 	}
