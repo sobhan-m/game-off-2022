@@ -13,6 +13,9 @@ public class EnemyMissile : MonoBehaviour, IMissile, IDamageable, IFreezable
 	private Rigidbody2D rb;
 	private int numOfFreezes;
 
+	[Header("Visuals")]
+	[SerializeField] GameObject deathParticleEffect;
+
 
 
 	private void Awake()
@@ -61,6 +64,7 @@ public class EnemyMissile : MonoBehaviour, IMissile, IDamageable, IFreezable
 
 	public void Die()
 	{
+		Instantiate(deathParticleEffect, transform.position, deathParticleEffect.transform.rotation);
 		Destroy(this.gameObject);
 	}
 

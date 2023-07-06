@@ -102,6 +102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialDamage: 20
   speed: 8
+  deathParticleEffect: {fileID: 6504501064155523704, guid: 59ebe5460dd603f4886459a3f179897c, type: 3}
 --- !u!50 &7970511147898226316
 Rigidbody2D:
   serializedVersion: 4
