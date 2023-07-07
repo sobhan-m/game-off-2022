@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5017927337242690509}
   - component: {fileID: 5017927337242690511}
   - component: {fileID: 5829168959977202552}
+  - component: {fileID: 8162241871730536540}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -170,5 +171,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a190d2fccc4423a4d88effa2a6dad738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerProjectilePrefab: {fileID: 3227519156579726549, guid: 48d5eabe0a5186340a6fbbd15c5fc083, type: 3}
+  availableMissiles: {fileID: 0}
   buildUpTime: 2
+--- !u!114 &8162241871730536540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5017927337242690505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc549072f59d98d4fadc19346ea5eb6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  available: {fileID: 11400000, guid: 5a54d7caa66f65f4985b2763ca205726, type: 2}
+  healVFXPrefab: {fileID: 6067012284185664263, guid: 624d8a2d07750c94ba936abbf57d2a61, type: 3}

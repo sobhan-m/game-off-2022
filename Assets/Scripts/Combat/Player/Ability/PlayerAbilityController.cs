@@ -17,6 +17,8 @@ public class PlayerAbilityController : MonoBehaviour
 	public Meter entangleCooldown { get; private set; }
 	public Meter entangleDuration { get; private set; }
 	private bool isEntangling;
+	[Header("VFX")]
+	[SerializeField] GameObject healVFXPrefab;
 
 	private void Awake()
 	{
@@ -95,6 +97,8 @@ public class PlayerAbilityController : MonoBehaviour
 		{
 			return;
 		}
+
+		Instantiate(healVFXPrefab, transform.position, healVFXPrefab.transform.rotation, transform);
 
 		heal.Activate();
 		healCooldown.FillMeter();
