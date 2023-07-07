@@ -15,6 +15,7 @@ public class EnemyMissile : MonoBehaviour, IMissile, IDamageable, IFreezable
 
 	[Header("Visuals")]
 	[SerializeField] GameObject deathParticleEffect;
+	[SerializeField] GameObject hitParticleEffect;
 
 
 
@@ -47,6 +48,7 @@ public class EnemyMissile : MonoBehaviour, IMissile, IDamageable, IFreezable
 
 		if (collision.TryGetComponent<PlayerHealthManager>(out PlayerHealthManager player))
 		{
+			Instantiate(hitParticleEffect, transform.position, hitParticleEffect.transform.rotation);
 			Destroy(gameObject);
 		}
 	}
