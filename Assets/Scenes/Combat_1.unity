@@ -1811,6 +1811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialMaxHealth: 100
+  deathParticles: {fileID: 6504501064155523704, guid: ab4159d2598e4a649a3cb69b3f1561c1, type: 3}
 --- !u!50 &1534827433
 Rigidbody2D:
   serializedVersion: 4

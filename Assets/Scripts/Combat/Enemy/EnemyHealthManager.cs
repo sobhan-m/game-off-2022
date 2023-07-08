@@ -7,6 +7,8 @@ public class EnemyHealthManager : MonoBehaviour, IAffectable, IDamageable
 	[SerializeField] private float initialMaxHealth;
 	public Health health { get; private set; }
 	public Dictionary<MissileType, MissileEffect> effects { get; private set; }
+	[Header("VFX")]
+	[SerializeField] GameObject deathParticles;
 
 	private void Awake()
 	{
@@ -16,6 +18,7 @@ public class EnemyHealthManager : MonoBehaviour, IAffectable, IDamageable
 
 	public void Die()
 	{
+		Instantiate(deathParticles, transform.position, deathParticles.transform.rotation);
 		Destroy(gameObject);
 	}
 
