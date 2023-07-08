@@ -3047,6 +3047,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5017927337242690510, guid: f76b94735b3f48648a0c7b1e23cdda2b, type: 3}
+      propertyPath: deathParticles
+      value: 
+      objectReference: {fileID: 6504501064155523704, guid: ab4159d2598e4a649a3cb69b3f1561c1, type: 3}
     - target: {fileID: 5829168959977202552, guid: f76b94735b3f48648a0c7b1e23cdda2b, type: 3}
       propertyPath: availableMissiles
       value: 

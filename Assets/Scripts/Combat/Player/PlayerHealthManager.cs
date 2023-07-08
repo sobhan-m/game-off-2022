@@ -7,6 +7,8 @@ public class PlayerHealthManager : MonoBehaviour, IDamageable
 	[Header("Health")]
 	[SerializeField] float maxHealth;
 	public Health playerHealth { get; private set; }
+	[Header("VFX")]
+	[SerializeField] GameObject deathParticles;
 
 	private void Awake()
 	{
@@ -23,6 +25,8 @@ public class PlayerHealthManager : MonoBehaviour, IDamageable
 
 	public void Die()
 	{
+		Instantiate(deathParticles, transform.position, deathParticles.transform.rotation);
+
 		PlayerMovementController playerMovement = gameObject.GetComponent<PlayerMovementController>();
 		playerMovement.enabled = false;
 
