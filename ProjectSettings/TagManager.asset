@@ -39,9 +39,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: VFX_Under
+    uniqueID: 1769461257
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Visual Effect
+  - name: VFX_Above
     uniqueID: 3477891315
     locked: 0
