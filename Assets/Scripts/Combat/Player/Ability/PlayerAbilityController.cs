@@ -17,8 +17,6 @@ public class PlayerAbilityController : MonoBehaviour
 	public Meter entangleCooldown { get; private set; }
 	public Meter entangleDuration { get; private set; }
 	private bool isEntangling;
-	[Header("VFX")]
-	[SerializeField] GameObject healVFXPrefab;
 
 	private void Awake()
 	{
@@ -32,7 +30,7 @@ public class PlayerAbilityController : MonoBehaviour
 				throw new MissingReferenceException("No players in scene.");
 			}
 
-			abilities.Add(AbilityType.CLERIC, new HealAbility(available.healAmount, player));
+			abilities.Add(AbilityType.CLERIC, new HealAbility(available.healAmount, player, available.healVFX));
 			healCooldown = new Meter(0, available.healCooldown, available.healCooldown);
 		}
 		if (available.hasRage)
@@ -97,8 +95,6 @@ public class PlayerAbilityController : MonoBehaviour
 		{
 			return;
 		}
-
-		Instantiate(healVFXPrefab, transform.position, healVFXPrefab.transform.rotation, transform);
 
 		heal.Activate();
 		healCooldown.FillMeter();

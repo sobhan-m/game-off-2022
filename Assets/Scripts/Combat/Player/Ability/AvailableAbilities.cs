@@ -9,6 +9,7 @@ public class AvailableAbilities : ScriptableObject
 	public bool hasHeal;
 	public float healAmount;
 	public float healCooldown;
+	public GameObject healVFX;
 
 	[Header("Rage")]
 	public bool hasRage;
