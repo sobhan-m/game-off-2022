@@ -166,6 +166,10 @@ public class PlayerAbilityController : MonoBehaviour
 		{
 			return;
 		}
+		if (hasShield)
+		{
+			return;
+		}
 
 		shield.Activate();
 		hasShield = true;
