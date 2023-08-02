@@ -20,6 +20,7 @@ MonoBehaviour:
   rageMultiplier: 3
   rageDuration: 3
   rageCooldown: 10
+  rageVFX: {fileID: 2237298337106859969, guid: ce64335e1b874d0449180a5eeb5f0110, type: 3}
   hasShield: 1
   shieldPrefab: {fileID: 6191510874715525268, guid: 708e9097d2ba5f949b17c33067fd2cb1, type: 3}
   shieldCooldown: 15

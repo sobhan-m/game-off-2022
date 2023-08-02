@@ -35,7 +35,7 @@ public class PlayerAbilityController : MonoBehaviour
 		}
 		if (available.hasRage)
 		{
-			abilities.Add(AbilityType.BARBARIAN, new RageAbility(available.rageMultiplier));
+			abilities.Add(AbilityType.BARBARIAN, new RageAbility(available.rageMultiplier, this, available.rageVFX));
 			rageCooldown = new Meter(0, available.rageCooldown, available.rageCooldown);
 			rageDuration = new Meter(0, available.rageDuration);
 			isRaging = false;

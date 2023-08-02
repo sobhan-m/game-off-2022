@@ -16,6 +16,7 @@ public class AvailableAbilities : ScriptableObject
 	public float rageMultiplier;
 	public float rageDuration;
 	public float rageCooldown;
+	public GameObject rageVFX;
 
 	[Header("Shield")]
 	public bool hasShield;
