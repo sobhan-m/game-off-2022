@@ -137,3 +137,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   remainingHits: 1
+  shatterVFX: {fileID: 5354294592397384826, guid: 9d90a75023251db4cbfc4355e13e4cda, type: 3}
