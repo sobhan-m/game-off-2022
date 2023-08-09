@@ -104,7 +104,7 @@ MonoBehaviour:
   pierceCount: 3
   durationInSeconds: 3
   optionalValue: 5
-  visualEffectPrefab: {fileID: 1946732377214625964, guid: 6315698a08408f4429019e19d34c454a, type: 3}
+  visualEffectPrefab: {fileID: 6402048359783772127, guid: bee92685bc3fecb478a483841393d624, type: 3}
   speed: 7
   particles: {fileID: 6296168961990749487, guid: 982d975a916c7064bb6801add5ffda2f, type: 3}
 --- !u!50 &3227519156579726545
