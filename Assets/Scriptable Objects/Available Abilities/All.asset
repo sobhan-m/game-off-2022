@@ -25,6 +25,6 @@ MonoBehaviour:
   shieldPrefab: {fileID: 6191510874715525268, guid: 708e9097d2ba5f949b17c33067fd2cb1, type: 3}
   shieldCooldown: 15
   hasEntangle: 1
-  effectPrefab: {fileID: 1688354150900519713, guid: fd7afb0cec289334b80bb6820881aebc, type: 3}
+  effectPrefab: {fileID: 3522901826812092710, guid: 992af3eb2ca2c1649a1259a2a2aee2d8, type: 3}
   entangleDuration: 2
   entangleCooldown: 10
