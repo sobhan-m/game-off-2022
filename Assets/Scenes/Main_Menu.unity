@@ -549,6 +549,10 @@ PrefabInstance:
       value: Systems
       objectReference: {fileID: 0}
     - target: {fileID: 4215927342732465853, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
+      propertyPath: delayInSeconds
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215927342732465853, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
       propertyPath: clickSound.Array.size
       value: 0
       objectReference: {fileID: 0}

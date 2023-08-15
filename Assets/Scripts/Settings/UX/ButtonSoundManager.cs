@@ -9,9 +9,16 @@ public class ButtonSoundManager : MonoBehaviour
 	[Tooltip("This field is not currently in use.")]
 	[SerializeField] AudioClip[] mouseOverSound;
 	[SerializeField] AudioClip[] clickSound;
+	[SerializeField] float delayInSeconds = 0.5f;
 
 	private List<Button> buttons;
 	private Camera mainCamera;
+	private bool isPlaying;
+
+	private void Awake()
+	{
+		isPlaying = false;
+	}
 
 	private void Start()
 	{
@@ -41,7 +48,18 @@ public class ButtonSoundManager : MonoBehaviour
 
 	public void PlayMouseOverSound(BaseEventData arg)
 	{
-		int i = Random.Range(0, mouseOverSound.Length);
-		AudioSource.PlayClipAtPoint(mouseOverSound[i], mainCamera.transform.position);
+		if (!isPlaying)
+		{
+			int i = Random.Range(0, mouseOverSound.Length);
+			AudioSource.PlayClipAtPoint(mouseOverSound[i], mainCamera.transform.position);
+			isPlaying = true;
+			StartCoroutine("ResetPlaying");
+		}
+	}
+
+	public IEnumerator ResetPlaying()
+	{
+		yield return new WaitForSeconds(delayInSeconds);
+		isPlaying = false;
 	}
 }
