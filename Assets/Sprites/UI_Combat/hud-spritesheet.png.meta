@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 259f8a9b6b5ca454bbadaadcd8b2ee1e
+guid: 8343121b7820c9e4cb7076358076c7e7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -118,7 +118,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ui-combat_0
+      name: hud-spritesheet_0
       rect:
         serializedVersion: 2
         x: 7
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 761d1a4cf2c46c54da540b4d033f9a80
-      internalID: 1132838053
+      spriteID: 5f42cbb83ec794c48ab0d8a5d7769da6
+      internalID: -320885721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui-combat_1
+      name: hud-spritesheet_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 108
-        width: 72
-        height: 7
+        x: 102
+        y: 104
+        width: 20
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,14 +153,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba52e655c95a6ad4398772d0ce86f29c
-      internalID: -1772056872
+      spriteID: cdd682b0b6606ba4fbca1fd35708114c
+      internalID: 1741504545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui-combat_2
+      name: hud-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 104
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7431c0fb4c01fd46afe28db1833d542
+      internalID: 620656802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 107
+        width: 73
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95fab6d264b49a4e9f754483183fa7b
+      internalID: -109786402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud-spritesheet_4
       rect:
         serializedVersion: 2
         x: 16
@@ -174,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 977aff88e650ee744be42597f2478914
-      internalID: 1702569360
+      spriteID: 42b67eede76b03c419ec405a985fd491
+      internalID: 157245854
       vertices: []
       indices: 
       edges: []
@@ -191,9 +233,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ui-combat_1: -1772056872
-      ui-combat_0: 1132838053
-      ui-combat_2: 1702569360
+      hud-spritesheet_2: 620656802
+      hud-spritesheet_1: 1741504545
+      hud-spritesheet_4: 157245854
+      hud-spritesheet_0: -320885721
+      hud-spritesheet_3: -109786402
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
