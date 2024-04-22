@@ -7,63 +7,119 @@ using UnityEngine.InputSystem;
 
 public class DialogueController : MonoBehaviour
 {
-	[SerializeField] TextMeshProUGUI dialogueText;
-	[SerializeField] TextMeshProUGUI speakerText;
-	[SerializeField] Dialogue dialogue;
-	[SerializeField] GameObject sceneHolder;
-	[SerializeField] GameObject speakerArea;
-	private PlayerInputActions inputs;
-	private GameObject previousScene;
+    [SerializeField] TextMeshProUGUI dialogueText;
+    [SerializeField] TextMeshProUGUI speakerText;
+    [SerializeField] Dialogue dialogue;
+    [SerializeField] GameObject sceneHolder;
+    [SerializeField] GameObject speakerArea;
+    [SerializeField] float secondsBetweenCharacters;
+    private PlayerInputActions inputs;
+    private GameObject previousScene;
+    private bool isPrinting;
+    private Coroutine printingProcess;
 
-	private void Awake()
-	{
-		Populate();
+    private void Awake()
+    {
+        Populate();
 
-		inputs = new PlayerInputActions();
-		inputs.Dialogue.Progress.performed += NextDialogue;
-	}
+        inputs = new PlayerInputActions();
+        inputs.Dialogue.Progress.performed += NextDialogue;
+        isPrinting = false;
+    }
 
-	private void OnEnable()
-	{
-		inputs.Dialogue.Progress.Enable();
-	}
+    private void OnEnable()
+    {
+        inputs.Dialogue.Progress.Enable();
+    }
 
-	private void OnDisable()
-	{
-		inputs.Dialogue.Progress.Disable();
-	}
+    private void OnDisable()
+    {
+        inputs.Dialogue.Progress.Disable();
+    }
 
-	private void Populate()
-	{
-		if (dialogue == null)
-		{
-			SceneChangeManager sceneManager = FindObjectOfType<SceneChangeManager>();
-			sceneManager.LoadNextScene();
-			return;
-		}
+    private void Populate()
+    {
+        if (dialogue == null)
+        {
+            LoadNextScene();
+            return;
+        }
 
-		// Updating text.
-		dialogueText.text = dialogue.text;
-		speakerText.text = dialogue.speaker;
+        UpdateSceneText();
+        ActivateSpeakerAreaIfNeeded();
+        UpdateSceneImage();
+    }
 
-		// Updating speaker area.
-		bool hasSpeaker = speakerText.text != "";
-		speakerArea.SetActive(hasSpeaker);
+    private void UpdateSceneText()
+    {
+        speakerText.text = dialogue.speaker;
+        printingProcess = StartCoroutine(UpdateText());
+    }
 
-		// Updating scene.
-		if (previousScene != null)
-		{
-			Destroy(previousScene);
-		}
-		if (dialogue.characterImage != null)
-		{
-			previousScene = Instantiate(dialogue.characterImage, sceneHolder.transform.position, Quaternion.identity, sceneHolder.transform);
-		}
-	}
+    private IEnumerator UpdateText()
+    {
+        isPrinting = true;
 
-	private void NextDialogue(InputAction.CallbackContext context)
-	{
-		dialogue = dialogue.nextDialogue;
-		Populate();
-	}
+        for (int i = 1; i <= dialogue.text.Length; ++i)
+        {
+            dialogueText.text = dialogue.text.Substring(0, i);
+            yield return new WaitForSeconds(secondsBetweenCharacters);
+        }
+
+        isPrinting = false;
+    }
+
+    private void ActivateSpeakerAreaIfNeeded()
+    {
+        bool hasSpeaker = speakerText.text != "";
+        speakerArea.SetActive(hasSpeaker);
+    }
+
+    private void UpdateSceneImage()
+    {
+        DeleteOldSceneImage();
+        CreateNewSceneImage();
+    }
+
+    private void CreateNewSceneImage()
+    {
+        if (dialogue.characterImage != null)
+        {
+            previousScene = Instantiate(dialogue.characterImage, sceneHolder.transform.position, Quaternion.identity, sceneHolder.transform);
+        }
+    }
+
+    private void DeleteOldSceneImage()
+    {
+        if (previousScene != null)
+        {
+            Destroy(previousScene);
+        }
+    }
+
+    private void LoadNextScene()
+    {
+        SceneChangeManager sceneManager = FindObjectOfType<SceneChangeManager>();
+        sceneManager.LoadNextScene();
+    }
+
+    private void NextDialogue(InputAction.CallbackContext context)
+    {
+        if (isPrinting)
+        {
+            CancelPrinting();
+            isPrinting = false;
+        }
+        else
+        {
+            dialogue = dialogue.nextDialogue;
+            Populate();
+        }
+    }
+
+    private void CancelPrinting()
+    {
+        StopCoroutine(printingProcess);
+        dialogueText.text = dialogue.text;
+    }
 }

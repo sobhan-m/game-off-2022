@@ -182,6 +182,7 @@ MonoBehaviour:
   dialogue: {fileID: 11400000, guid: c08a333b6ef34454e969f5263c2eab16, type: 2}
   sceneHolder: {fileID: 2118790193}
   speakerArea: {fileID: 2104186846039753235}
+  secondsBetweenCharacters: 0.05
 --- !u!1 &478559894 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 478559894, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
