@@ -179,7 +179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1945533636}
   speakerText: {fileID: 1353034563}
-  dialogue: {fileID: 11400000, guid: f70d1a2a5f40d04479ea9caaff4f414a, type: 2}
+  dialogue: {fileID: 11400000, guid: c08a333b6ef34454e969f5263c2eab16, type: 2}
   sceneHolder: {fileID: 2118790193}
   speakerArea: {fileID: 2104186846039753235}
 --- !u!1 &478559894 stripped
@@ -1076,7 +1076,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7927740162198954462, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.000030517578
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7927740162198954462, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
       propertyPath: m_AnchoredPosition.y
