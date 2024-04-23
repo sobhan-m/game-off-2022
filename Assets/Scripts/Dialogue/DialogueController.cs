@@ -20,11 +20,11 @@ public class DialogueController : MonoBehaviour
 
     private void Awake()
     {
-        Populate();
-
         inputs = new PlayerInputActions();
         inputs.Dialogue.Progress.performed += NextDialogue;
         isPrinting = false;
+
+        Populate();
     }
 
     private void OnEnable()
