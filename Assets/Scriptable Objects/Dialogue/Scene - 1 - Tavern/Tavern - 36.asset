@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Not my usual request, but I don't see why not?
   nextDialogue: {fileID: 11400000, guid: 011b8495110ae4b49b01294e0fe5c752, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5757213098883137962, guid: 6eac8dab924aba44d8c7046052de7edb, type: 3}

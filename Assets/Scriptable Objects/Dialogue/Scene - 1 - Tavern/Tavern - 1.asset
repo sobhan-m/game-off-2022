@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARBARIAN
   text: '*drinks two cups simultaneously*'
   nextDialogue: {fileID: 11400000, guid: 9283068495fe83541809bea1b7c412a7, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 9143228136818788913, guid: d02834776b8e62943b5a1a2f28e19b6e, type: 3}

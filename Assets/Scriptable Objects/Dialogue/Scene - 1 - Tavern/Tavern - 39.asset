@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: What's the quest?
   nextDialogue: {fileID: 11400000, guid: 351637618bb862f48a512f5e4dcb15ce, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5757213098883137962, guid: 6eac8dab924aba44d8c7046052de7edb, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: '*to Witch*'
   nextDialogue: {fileID: 11400000, guid: 01aa51e7527363a4db268739141e913a, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3592361571450117600, guid: 33ef71156ffd6844eb681dc6dae5b866, type: 3}

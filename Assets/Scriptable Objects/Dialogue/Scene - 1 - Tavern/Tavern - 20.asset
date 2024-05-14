@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: I've come a long way to find you.
   nextDialogue: {fileID: 11400000, guid: 23829bfa077419d41a0d996a3efdaaa0, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3592361571450117600, guid: 33ef71156ffd6844eb681dc6dae5b866, type: 3}

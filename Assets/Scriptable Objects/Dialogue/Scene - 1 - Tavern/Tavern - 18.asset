@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: I'm Wi-Witch.
   nextDialogue: {fileID: 11400000, guid: 586b28f3017ce3b438785819881fc206, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3592361571450117600, guid: 33ef71156ffd6844eb681dc6dae5b866, type: 3}

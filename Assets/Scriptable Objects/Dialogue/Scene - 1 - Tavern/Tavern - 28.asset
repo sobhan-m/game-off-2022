@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARBARIAN
   text: You see, I come from a tribe of roaming warriors, and-
   nextDialogue: {fileID: 11400000, guid: 0cc6bca90be94234eaa719fad86e4cde, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3886906333900443137, guid: a67f8d5724a894d4eaa9f6cf2c8266eb, type: 3}

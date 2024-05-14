@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Yeah, yeah.
   nextDialogue: {fileID: 11400000, guid: 34f45e4a9a241b745a3e88aeb3746e23, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: '*to Barbarian*'
   nextDialogue: {fileID: 11400000, guid: 4904339f5a9337640942775d04037ac3, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3592361571450117600, guid: 33ef71156ffd6844eb681dc6dae5b866, type: 3}

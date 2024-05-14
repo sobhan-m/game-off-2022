@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: But you have a serious drinking problem.
   nextDialogue: {fileID: 11400000, guid: 541547a88c4fc2246beaf021d2c5adb0, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 9143228136818788913, guid: d02834776b8e62943b5a1a2f28e19b6e, type: 3}

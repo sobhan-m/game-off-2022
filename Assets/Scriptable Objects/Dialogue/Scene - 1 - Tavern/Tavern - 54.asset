@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Get the girl.
   nextDialogue: {fileID: 11400000, guid: fead331830189994891be7378e37a62b, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}
