@@ -71,7 +71,7 @@ public class DialogueController : MonoBehaviour
 
     private void ActivateSpeakerAreaIfNeeded()
     {
-        bool hasSpeaker = speakerText.text != "";
+        bool hasSpeaker = speakerText.text != "" && speakerText.text.ToLower() != "bard";
         speakerArea.SetActive(hasSpeaker);
     }
 
