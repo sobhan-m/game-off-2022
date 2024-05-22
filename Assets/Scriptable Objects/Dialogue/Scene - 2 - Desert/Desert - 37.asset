@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: DRACO
   text: '*raises an eyebrow*'
   nextDialogue: {fileID: 11400000, guid: 3287dbc155d4c1b4a9477015e556d855, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}

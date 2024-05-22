@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: DRAGON
   text: ...
   nextDialogue: {fileID: 11400000, guid: 8d199bb59361f04438f4385e87c2d77d, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6113587006318535564, guid: 5ee549b3db75d724d856ffc9d6df469b, type: 3}

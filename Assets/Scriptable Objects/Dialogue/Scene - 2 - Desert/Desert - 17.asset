@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Want me to stroke something of yours too?
   nextDialogue: {fileID: 11400000, guid: 5c5e6c2dc95f84048be6b8c3346a207e, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5218132324603279604, guid: 62ec53e71c51e5e45b0fa3493699f632, type: 3}

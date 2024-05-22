@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: DRACO
   text: ...
-  nextDialogue: {fileID: 11400000, guid: 5573fea1efcab5f4cb70b56904c1d74a, type: 2}
-  characterImage: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: ff92200b506046c4d84b9fc40a82848a, type: 2}
+  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}

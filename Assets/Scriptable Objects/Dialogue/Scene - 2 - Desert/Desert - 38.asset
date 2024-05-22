@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: You give me Hexcalibur, and in return...
   nextDialogue: {fileID: 11400000, guid: b3d0b860539f2c74d8507678ca51a24f, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}

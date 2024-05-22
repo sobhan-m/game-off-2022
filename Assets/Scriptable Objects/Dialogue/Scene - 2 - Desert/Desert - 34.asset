@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: DRACO
   text: You would dare insult me?
   nextDialogue: {fileID: 11400000, guid: c0bb339c04159bd45aef2070ef0373ce, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 323783148149406915, guid: 17f08415dc85c0a4c88e44d0c8eed3d4, type: 3}

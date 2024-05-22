@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Wait, wait, wait...
   nextDialogue: {fileID: 11400000, guid: d90a7d666cb839d469bec453ca3b748d, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}

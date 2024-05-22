@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
-  m_Name: Desert - 9
+  m_Name: Desert - 40a
   m_EditorClassIdentifier: 
-  speaker: ???
-  text: There are dragons in these parts, so it's best to be cautious.
-  nextDialogue: {fileID: 11400000, guid: 25e05198db23b4548bd5472f345b658d, type: 2}
-  characterImage: {fileID: 323783148149406915, guid: 17f08415dc85c0a4c88e44d0c8eed3d4, type: 3}
+  speaker: DRACO
+  text: ...
+  nextDialogue: {fileID: 11400000, guid: 5573fea1efcab5f4cb70b56904c1d74a, type: 2}
+  characterImage: {fileID: 7372787876637421295, guid: a9c3604314c47bc4bacfd14eea10d6bc, type: 3}

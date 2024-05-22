@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: ???
   text: Pray tell.
   nextDialogue: {fileID: 11400000, guid: eca2a5d28de330e4ea4c2f6978a992fd, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}

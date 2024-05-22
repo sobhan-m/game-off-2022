@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: DRAGON
   text: Better luck next life.
   nextDialogue: {fileID: 11400000, guid: 94d94c536a65aa545a8524da7016cb83, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5622738271496909197, guid: 9cf57acb09e5ccf4e9676fd63de4cf79, type: 3}

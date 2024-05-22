@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: I don't doubt "Draco" is a good name for a dragon.
   nextDialogue: {fileID: 11400000, guid: fb602d076f05a2944b21f8874a870e0e, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}

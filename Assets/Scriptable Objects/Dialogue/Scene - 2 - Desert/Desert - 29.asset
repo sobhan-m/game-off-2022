@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: You went through all this effort, but ended up picking a name like Draco?
   nextDialogue: {fileID: 11400000, guid: 9963e556e86461347b182df59985f6c8, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5218132324603279604, guid: 62ec53e71c51e5e45b0fa3493699f632, type: 3}

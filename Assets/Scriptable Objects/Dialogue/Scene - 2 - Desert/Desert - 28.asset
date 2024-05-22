@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: That's not the point.
   nextDialogue: {fileID: 11400000, guid: e13251ccd41127046b0952c43556730a, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5218132324603279604, guid: 62ec53e71c51e5e45b0fa3493699f632, type: 3}

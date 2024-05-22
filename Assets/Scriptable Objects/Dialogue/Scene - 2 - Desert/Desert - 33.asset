@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: I just doubt your writing skills.
   nextDialogue: {fileID: 11400000, guid: 75ee55d5b7e1edd4db60022d0d7a28f4, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
