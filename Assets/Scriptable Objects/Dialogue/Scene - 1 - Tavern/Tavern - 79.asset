@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: Time is of the essence.
   nextDialogue: {fileID: 11400000, guid: 6687c38142be93c42ad9cd61dd74135b, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5050334715069906279, guid: cfcb4dee1136db746a292fbfeaca1032, type: 3}

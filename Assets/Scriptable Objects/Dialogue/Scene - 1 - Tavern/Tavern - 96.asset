@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Not to worry, sweetheart.
   nextDialogue: {fileID: 11400000, guid: 6708d090d9364254386431c115e03bd0, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}

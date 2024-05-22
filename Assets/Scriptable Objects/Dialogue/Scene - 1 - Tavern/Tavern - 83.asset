@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: '*continues trying to wake up Barbarian*'
   nextDialogue: {fileID: 11400000, guid: dadeecbfb8c3d5345aa2a9db093dd230, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5050334715069906279, guid: cfcb4dee1136db746a292fbfeaca1032, type: 3}

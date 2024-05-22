@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARBARIAN
   text: '*continues snoring*'
   nextDialogue: {fileID: 11400000, guid: 8dbefc83e20005c41a7449aea00e6840, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5050334715069906279, guid: cfcb4dee1136db746a292fbfeaca1032, type: 3}

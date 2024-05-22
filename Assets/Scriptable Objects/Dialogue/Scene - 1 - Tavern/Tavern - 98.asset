@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARBARIAN
   text: '*snores*'
   nextDialogue: {fileID: 11400000, guid: d8b6c8f24cbcc2b47a910cf8a8b051eb, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5050334715069906279, guid: cfcb4dee1136db746a292fbfeaca1032, type: 3}
