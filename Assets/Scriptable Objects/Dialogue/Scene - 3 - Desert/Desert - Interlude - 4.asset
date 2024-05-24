@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: DRAGON
   text: Die already!
   nextDialogue: {fileID: 0}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3262351891295167754, guid: 44f231300bb48984eb97e7847b7c1a0d, type: 3}

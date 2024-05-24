@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: That's what she said.
   nextDialogue: {fileID: 11400000, guid: 9e7bd743fc8373447808dee5b3740ce6, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}

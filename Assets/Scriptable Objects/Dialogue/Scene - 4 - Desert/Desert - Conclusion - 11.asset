@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: DRAGON
   text: Most were simple creatures.
   nextDialogue: {fileID: 11400000, guid: 8b6d1da3925ea5a49a99e989494d96dd, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}

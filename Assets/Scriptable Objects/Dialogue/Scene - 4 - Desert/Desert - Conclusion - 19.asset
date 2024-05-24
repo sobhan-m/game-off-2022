@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: DRAGON
   text: '*presents a sword*'
   nextDialogue: {fileID: 11400000, guid: 3f9e349007352b24bb2d5c0d8c38f29a, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6362842799475670867, guid: 2ae05e140fa766942ab4aed186766650, type: 3}

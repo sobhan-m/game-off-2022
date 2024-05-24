@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: I'll take that maybe.
   nextDialogue: {fileID: 11400000, guid: ed256c73976fc8042b38869cb2cdc8dc, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: A compliment from a dragon?
   nextDialogue: {fileID: 11400000, guid: d2462b8c4eab1064e8cec86d89074dd0, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6113587006318535564, guid: 5ee549b3db75d724d856ffc9d6df469b, type: 3}

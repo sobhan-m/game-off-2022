@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: DRAGON
   text: You've earned your life.
   nextDialogue: {fileID: 11400000, guid: 411a8563c380ba3458d8d7c5a72fe324, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}

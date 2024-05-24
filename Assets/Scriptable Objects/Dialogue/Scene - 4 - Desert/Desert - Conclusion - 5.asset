@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: DRAGON
   text: You never cease to amaze me.
   nextDialogue: {fileID: 11400000, guid: dc8e8e310638f184ca9178f26c9ae751, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3262351891295167754, guid: 44f231300bb48984eb97e7847b7c1a0d, type: 3}

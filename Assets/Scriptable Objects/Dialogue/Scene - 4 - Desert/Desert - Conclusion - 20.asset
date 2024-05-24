@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: DRAGON
   text: And Hexcalibur.
   nextDialogue: {fileID: 11400000, guid: 87e89e14a3b40b140b48224bd6e36d82, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6362842799475670867, guid: 2ae05e140fa766942ab4aed186766650, type: 3}

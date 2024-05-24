@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: DRAGON
   text: Perhaps if you survive your ordeal.
   nextDialogue: {fileID: 11400000, guid: e133863dbab4beb44bd19a5f2c2a8b02, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}

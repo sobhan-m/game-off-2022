@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: There's no chance of us fucking, is there?
   nextDialogue: {fileID: 11400000, guid: d1ff9dd65e912584aba3125c15e0f390, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: DRAGON
   text: You are not.
   nextDialogue: {fileID: 11400000, guid: 5a7950fc6b75a424b9ba0131b218971d, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}

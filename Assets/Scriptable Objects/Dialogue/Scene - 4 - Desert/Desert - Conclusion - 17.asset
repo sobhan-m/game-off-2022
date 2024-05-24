@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Does this mean you're done trying to kill me?
   nextDialogue: {fileID: 11400000, guid: 58b93b35909ee424a8244fd6b4b2bc3f, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}

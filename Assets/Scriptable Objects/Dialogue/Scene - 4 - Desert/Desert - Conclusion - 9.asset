@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: I'm a simple person.
   nextDialogue: {fileID: 11400000, guid: 0709f7d8e3f77c7488899d72081fe441, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}
