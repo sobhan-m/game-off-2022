@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: Hexcalibur is dangerous for spellcasters like myself.
   nextDialogue: {fileID: 11400000, guid: ddfdbbaafda899c4c9f9dfe2e1964e4c, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 448173832603405664, guid: ab3aedc3093bcae42b071148cd7b5cdf, type: 3}

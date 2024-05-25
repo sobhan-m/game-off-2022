@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: You actually did it!
   nextDialogue: {fileID: 11400000, guid: ae6730e9ef7ea594bae9cf2258c7a722, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5757213098883137962, guid: 6eac8dab924aba44d8c7046052de7edb, type: 3}

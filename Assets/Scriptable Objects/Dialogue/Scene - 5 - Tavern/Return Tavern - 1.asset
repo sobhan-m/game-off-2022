@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Did you miss me?
   nextDialogue: {fileID: 11400000, guid: 88582417059da3d41bf1f90947b9096c, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 9143228136818788913, guid: d02834776b8e62943b5a1a2f28e19b6e, type: 3}

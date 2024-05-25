@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: I got a room at the tavern if you wanna-
   nextDialogue: {fileID: 11400000, guid: 78e8921f86c846c4fa920d3daf37cc3c, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5757213098883137962, guid: 6eac8dab924aba44d8c7046052de7edb, type: 3}

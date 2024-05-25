@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: And you have Hexcalibur!
   nextDialogue: {fileID: 11400000, guid: 76069f1e10d9f0b4da36e2bbb7c81e62, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5757213098883137962, guid: 6eac8dab924aba44d8c7046052de7edb, type: 3}

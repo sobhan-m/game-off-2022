@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Why would she go there?
   nextDialogue: {fileID: 11400000, guid: 942b9d51ec3e7354cbe53698fc597c0c, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}

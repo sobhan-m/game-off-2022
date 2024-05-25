@@ -16,4 +16,4 @@ MonoBehaviour:
   text: I believe Sorceress has gone there to find his laboratory, and use the knowledge
     he had accumulated before the Holy Order destroyed him, to complete her spell.
   nextDialogue: {fileID: 11400000, guid: cfdd3d888e73b6a46984e4f2ae7927ab, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 1058945478727646133, guid: c53bbb4e3b869424f99ee089dd13d249, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: I have heard rumours that sorceress was spotted in the area.
   nextDialogue: {fileID: 11400000, guid: 14c8b6132082d50499fcb3b25eca5733, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 1058945478727646133, guid: c53bbb4e3b869424f99ee089dd13d249, type: 3}

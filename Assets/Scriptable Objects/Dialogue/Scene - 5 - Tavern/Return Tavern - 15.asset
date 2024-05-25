@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: '*rolls their eyes*'
   nextDialogue: {fileID: 11400000, guid: b2b9cfe47bfc7e2439a40eeae9949c5e, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5757213098883137962, guid: 6eac8dab924aba44d8c7046052de7edb, type: 3}

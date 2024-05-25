@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: Among the arcane circles, many believe the tundra holds the lair of Necromancer.
   nextDialogue: {fileID: 11400000, guid: 69e13dacd90816c46bbd59d2ed0d72b7, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 1058945478727646133, guid: c53bbb4e3b869424f99ee089dd13d249, type: 3}

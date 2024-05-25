@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Alright, Barbarian, time to go.
   nextDialogue: {fileID: 11400000, guid: 5459843e651d54f42b59fbb076b4bdf4, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}

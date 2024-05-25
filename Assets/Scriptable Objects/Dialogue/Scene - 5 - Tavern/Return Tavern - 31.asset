@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: We just need a single scratch, and she'll be powerless.
   nextDialogue: {fileID: 11400000, guid: 810d4a75684335946a676687b71087cd, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}

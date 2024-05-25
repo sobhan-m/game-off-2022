@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH & BARBARIAN
   text: Yes!
   nextDialogue: {fileID: 11400000, guid: 0ba2324c3aa5663418c90e36b4ba7dca, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 4257596691099774234, guid: 33c50641dbbe1bf4292bc940851ee2d6, type: 3}

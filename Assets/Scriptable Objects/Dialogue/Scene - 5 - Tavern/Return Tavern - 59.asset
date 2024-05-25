@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: '*places a few coins on the table*'
   nextDialogue: {fileID: 11400000, guid: dd1a206103f9e3e4ab995f71736da9a6, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5050334715069906279, guid: cfcb4dee1136db746a292fbfeaca1032, type: 3}

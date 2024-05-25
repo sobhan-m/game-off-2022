@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: He never sleeps this much...
   nextDialogue: {fileID: 11400000, guid: 1a925e7ed17fe6a46b3dd69eae531c5b, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5050334715069906279, guid: cfcb4dee1136db746a292fbfeaca1032, type: 3}
