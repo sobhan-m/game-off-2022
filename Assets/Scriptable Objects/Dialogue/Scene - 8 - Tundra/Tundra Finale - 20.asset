@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: I'm still confused about the "father" bit.
   nextDialogue: {fileID: 11400000, guid: edc19e6276afd344e923bddede50b493, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}

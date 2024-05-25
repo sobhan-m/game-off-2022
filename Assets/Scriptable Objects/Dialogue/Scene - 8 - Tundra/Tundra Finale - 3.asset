@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: '*eyes widen* Hexcalibur...'
   nextDialogue: {fileID: 11400000, guid: c03e9dfb21f71b2428da545524aaac5e, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6499909294383916323, guid: c956704458a796043b202f284e07015b, type: 3}

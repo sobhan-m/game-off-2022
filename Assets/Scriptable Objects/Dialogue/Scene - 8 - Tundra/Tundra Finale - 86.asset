@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARBARIAN
   text: I suppose a few drinks never hurt anybody.
   nextDialogue: {fileID: 11400000, guid: 711473515b6b9054d9bfb0abe8ce8e9e, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7041728326836656205, guid: ddb137ac8930a204dbb3d2d39c25554b, type: 3}

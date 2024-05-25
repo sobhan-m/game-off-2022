@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WIZARD
   text: And not enough time actually raising her.
   nextDialogue: {fileID: 11400000, guid: 91368e55eaf439c46adc22277c3fc187, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3714349217196605790, guid: 47f7f0a90007b204a83875f1bdc51eec, type: 3}

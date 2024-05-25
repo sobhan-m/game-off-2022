@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: We're even now.
   nextDialogue: {fileID: 11400000, guid: f400c7a23591b824fbd9608143822413, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7041728326836656205, guid: ddb137ac8930a204dbb3d2d39c25554b, type: 3}

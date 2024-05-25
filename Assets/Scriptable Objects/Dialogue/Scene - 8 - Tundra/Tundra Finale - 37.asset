@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WIZARD
   text: I spent too much time trying to hone her magic.
   nextDialogue: {fileID: 11400000, guid: 7a1d8541dc07a9e489dd1b6827d16c79, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3714349217196605790, guid: 47f7f0a90007b204a83875f1bdc51eec, type: 3}

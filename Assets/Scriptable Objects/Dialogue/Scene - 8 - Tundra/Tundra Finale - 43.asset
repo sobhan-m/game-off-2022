@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 43
   m_EditorClassIdentifier: 
   speaker: WIZARD
-  text: A pretty witch in this case.
+  text: A pretty Witch in this case.
   nextDialogue: {fileID: 11400000, guid: 0853571f76a2f9b4a9a17ee1612ec166, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3714349217196605790, guid: 47f7f0a90007b204a83875f1bdc51eec, type: 3}

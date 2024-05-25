@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: So does this complete your little tribal quest?
   nextDialogue: {fileID: 11400000, guid: 58a4170926918e84f8d5e0b40ac9bf99, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7041728326836656205, guid: ddb137ac8930a204dbb3d2d39c25554b, type: 3}

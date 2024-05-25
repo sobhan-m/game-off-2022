@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: '*places Hexcalibur on Barbarian''s body*'
   nextDialogue: {fileID: 11400000, guid: a8bf46f5f2dfbe94391f755f3e4baa71, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 1865386523202311867, guid: 3d8a84cbc0dedb2468f52b776071d972, type: 3}

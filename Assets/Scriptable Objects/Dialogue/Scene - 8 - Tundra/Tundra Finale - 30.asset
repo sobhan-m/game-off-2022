@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WIZARD
   text: '*cuts his palm on Hexcalibur''s blade*'
   nextDialogue: {fileID: 11400000, guid: 4eaca21d61bd7fc47ae6d0aea590af81, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}

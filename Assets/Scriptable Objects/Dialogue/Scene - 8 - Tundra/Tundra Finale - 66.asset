@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARBARIAN
   text: Hangover.
   nextDialogue: {fileID: 11400000, guid: aa7480ed017af5c44ac37e6cae2d960b, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 1865386523202311867, guid: 3d8a84cbc0dedb2468f52b776071d972, type: 3}

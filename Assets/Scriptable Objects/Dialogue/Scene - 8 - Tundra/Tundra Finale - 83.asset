@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARBARIAN
   text: This is a great boon to my people.
   nextDialogue: {fileID: 11400000, guid: 3e28de10e33f168438c32419dc5ab24b, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7041728326836656205, guid: ddb137ac8930a204dbb3d2d39c25554b, type: 3}

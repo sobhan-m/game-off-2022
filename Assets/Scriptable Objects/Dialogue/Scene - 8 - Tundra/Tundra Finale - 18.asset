@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: You couldn't even let me have what made me special, could you?
   nextDialogue: {fileID: 11400000, guid: b44ff103b8ddbb0449e2590d16c99e59, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7449303328373876258, guid: ecb0f58e3c68cfc48aca473e93f22fd3, type: 3}

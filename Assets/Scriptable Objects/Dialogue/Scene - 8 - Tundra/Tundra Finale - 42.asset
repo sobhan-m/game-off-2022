@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WIZARD
   text: And that you'd only help if you thought you could get something out of it.
   nextDialogue: {fileID: 11400000, guid: deecc6f3a8f299a42a80b04ab9e3791a, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3714349217196605790, guid: 47f7f0a90007b204a83875f1bdc51eec, type: 3}

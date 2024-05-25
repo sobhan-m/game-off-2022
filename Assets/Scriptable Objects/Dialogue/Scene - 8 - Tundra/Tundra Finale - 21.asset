@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: BARD
   text: What do you mean wanting it for himself?
-  nextDialogue: {fileID: 11400000, guid: 525e15bf63363924a9f433abfe284872, type: 2}
-  characterImage: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 408e25a4bed57c744aa6fc84f0188989, type: 2}
+  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WIZARD
   text: No.
   nextDialogue: {fileID: 11400000, guid: cfe27677695ebef4087128869f72590a, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3714349217196605790, guid: 47f7f0a90007b204a83875f1bdc51eec, type: 3}

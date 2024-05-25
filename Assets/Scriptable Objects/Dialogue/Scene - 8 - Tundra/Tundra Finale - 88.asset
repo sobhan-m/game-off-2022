@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Turns out I was loved all along.
   nextDialogue: {fileID: 11400000, guid: 20a9af2309285a146a94a70636fe5e23, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5073775132615349288, guid: 321a8b89fc48d4042911d2998d3452a7, type: 3}

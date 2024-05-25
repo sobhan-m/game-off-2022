@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: I sorta kinda gave you the power of two powerful magic users.
   nextDialogue: {fileID: 11400000, guid: f3745d006e79f2d498de2c6fcfebe3f9, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7041728326836656205, guid: ddb137ac8930a204dbb3d2d39c25554b, type: 3}

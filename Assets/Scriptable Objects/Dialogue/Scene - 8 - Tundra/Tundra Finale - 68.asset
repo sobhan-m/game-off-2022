@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: '*laughs, with tears in their eyes*'
   nextDialogue: {fileID: 11400000, guid: 0373bfecc728a1f4db09fdc9cf644cce, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7041728326836656205, guid: ddb137ac8930a204dbb3d2d39c25554b, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: You want it all for yourself.
   nextDialogue: {fileID: 11400000, guid: d8e7da9f9c5d97f4bb1739796c785f0f, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7449303328373876258, guid: ecb0f58e3c68cfc48aca473e93f22fd3, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: But why'd you lie to me.
   nextDialogue: {fileID: 11400000, guid: 9b4872816046f4d489a65ca1e7e11825, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
