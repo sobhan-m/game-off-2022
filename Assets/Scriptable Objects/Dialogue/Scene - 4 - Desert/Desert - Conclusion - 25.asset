@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - Conclusion - 25
   m_EditorClassIdentifier: 
-  speaker: DRAGON
+  speaker: DRACO
   text: Perhaps if you survive your ordeal.
   nextDialogue: {fileID: 11400000, guid: e133863dbab4beb44bd19a5f2c2a8b02, type: 2}
   characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
