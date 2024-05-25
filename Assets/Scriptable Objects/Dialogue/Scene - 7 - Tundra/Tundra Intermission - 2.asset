@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: But you gave it all up.
   nextDialogue: {fileID: 11400000, guid: e83b7db5bba0f604c9f93ec2ee8dd567, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5073775132615349288, guid: 321a8b89fc48d4042911d2998d3452a7, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: '*looking at Witch* To impress a girl.'
   nextDialogue: {fileID: 11400000, guid: 63bf2a8386bcaa24093089fbb451c603, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8363595306203500070, guid: c90445d44bb628747843639159b4713a, type: 3}

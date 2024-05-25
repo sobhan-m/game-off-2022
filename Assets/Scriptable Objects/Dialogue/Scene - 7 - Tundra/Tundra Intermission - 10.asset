@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intermission - 10
   m_EditorClassIdentifier: 
-  speaker: Nothing to worry about now.
+  speaker: BARBARIAN
   text: '*looks at you* I guess we''re even know.'
   nextDialogue: {fileID: 11400000, guid: 5ec6ce2eea67a694094bc6c245a6cbae, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 6808072648702381728, guid: 770e39393efb0c043b703938fe7b5828, type: 3}

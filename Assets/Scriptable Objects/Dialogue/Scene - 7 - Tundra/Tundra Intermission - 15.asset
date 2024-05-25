@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: I'm not letting you get away with that.
   nextDialogue: {fileID: 11400000, guid: 9caef1bb91637c1409b57f8e29828023, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5073775132615349288, guid: 321a8b89fc48d4042911d2998d3452a7, type: 3}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intermission - 7
   m_EditorClassIdentifier: 
-  speaker: Nothing to worry about now.
-  text: Know what?
-  nextDialogue: {fileID: 11400000, guid: 355a87a46331fbb41b5e316e2634a00c, type: 2}
-  characterImage: {fileID: 0}
+  speaker: SORCERESS
+  text: Nothing to worry about now.
+  nextDialogue: {fileID: 11400000, guid: 1439be17fdb52414b90d8649b03ec1a7, type: 2}
+  characterImage: {fileID: 5073775132615349288, guid: 321a8b89fc48d4042911d2998d3452a7, type: 3}

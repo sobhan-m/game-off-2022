@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: '*you brandish Hexcalibur*'
   nextDialogue: {fileID: 0}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5073775132615349288, guid: 321a8b89fc48d4042911d2998d3452a7, type: 3}
