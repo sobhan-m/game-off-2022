@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: We need to stop her.
   nextDialogue: {fileID: 11400000, guid: 4f3bb899961008241bb0181627871434, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 1422711182151667592, guid: fa918e06343e24546bcfe96067e529d5, type: 3}

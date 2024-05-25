@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: You want to sleep with me, don't you?
   nextDialogue: {fileID: 11400000, guid: 011bdee93bd411c40b5c2649d8778633, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: We'd all be slaves to love.
   nextDialogue: {fileID: 11400000, guid: 3ecaf371a6037e44e9f434c0dfe12def, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}

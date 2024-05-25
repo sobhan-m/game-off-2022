@@ -16,4 +16,4 @@ MonoBehaviour:
   text: He was almost killed by assassins because he was trying to take care of a
     bunch of orphans nobody else cared about.
   nextDialogue: {fileID: 11400000, guid: b051944686276704a901f41c2db504c1, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}

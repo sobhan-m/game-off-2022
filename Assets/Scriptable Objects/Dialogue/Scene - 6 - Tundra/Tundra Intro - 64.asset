@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: Because you were never around.
   nextDialogue: {fileID: 11400000, guid: a7698bf9e187f72439664b23ee09c364, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}

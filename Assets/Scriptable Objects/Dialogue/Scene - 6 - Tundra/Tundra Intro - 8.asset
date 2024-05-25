@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: Do I know you?
   nextDialogue: {fileID: 11400000, guid: 6e5df49d4d9190945b7d3d3626487a91, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: That's what real love is.
   nextDialogue: {fileID: 11400000, guid: d5a4dd915c01b8342bf99790587d3622, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}

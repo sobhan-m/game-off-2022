@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: We'd all be under a charm.
   nextDialogue: {fileID: 11400000, guid: 4e726a635d2ccbf46ba7cdded954f4ef, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}

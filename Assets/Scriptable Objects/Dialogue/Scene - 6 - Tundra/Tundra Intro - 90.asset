@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: He only survived because he ran into the tavern I was playing at.
   nextDialogue: {fileID: 11400000, guid: 8b7924a683183e2458bce2707ef3318d, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}

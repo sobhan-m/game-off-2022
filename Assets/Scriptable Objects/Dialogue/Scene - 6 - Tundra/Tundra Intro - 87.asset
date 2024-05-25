@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: '*to Sorceress* But this isn''t how you do it.'
   nextDialogue: {fileID: 11400000, guid: 6d8e28717f678a24594aad26d3e68517, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}

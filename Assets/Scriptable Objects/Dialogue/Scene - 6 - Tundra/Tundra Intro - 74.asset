@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: '*looks at you*'
   nextDialogue: {fileID: 11400000, guid: 01dc2bfbcc7af964f9e7a5f15c0bdfa3, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}

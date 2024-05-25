@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: Sorceress.
   nextDialogue: {fileID: 11400000, guid: 33874e5f3320e9742a282436411c6f94, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 1422711182151667592, guid: fa918e06343e24546bcfe96067e529d5, type: 3}

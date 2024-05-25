@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: I've been hurt.
   nextDialogue: {fileID: 11400000, guid: 5ed479f911834594b9a24de50b9d90d8, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: That's all I've ever wanted.
   nextDialogue: {fileID: 11400000, guid: c65b24912369c5b4f9ea896aaacd451a, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}

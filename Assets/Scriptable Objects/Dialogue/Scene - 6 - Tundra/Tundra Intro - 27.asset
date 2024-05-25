@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: '*ignores Witch*'
   nextDialogue: {fileID: 11400000, guid: 082bb1440a9e7064ca598e687156283a, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: Don't listen to him.
   nextDialogue: {fileID: 11400000, guid: 28f5ad674ba5ffb4eb39d0cdae1ed2d5, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}

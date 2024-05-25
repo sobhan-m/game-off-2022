@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: You want to enslave everyone.
   nextDialogue: {fileID: 11400000, guid: 934f91697285449418d018fb8ccffbd9, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 1422711182151667592, guid: fa918e06343e24546bcfe96067e529d5, type: 3}

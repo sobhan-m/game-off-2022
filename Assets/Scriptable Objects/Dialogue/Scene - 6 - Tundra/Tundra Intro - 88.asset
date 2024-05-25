@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: My buddy, Barbarian, he's the most loving and caring person I know.
   nextDialogue: {fileID: 11400000, guid: b43c6bc8de718c74ababe0da6d51c33e, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}

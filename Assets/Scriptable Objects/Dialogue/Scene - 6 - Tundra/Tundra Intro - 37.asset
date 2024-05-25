@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: That we all have someone that loves us.
   nextDialogue: {fileID: 11400000, guid: 4e0bd2c0bf6511844b284a582b1daf0d, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}

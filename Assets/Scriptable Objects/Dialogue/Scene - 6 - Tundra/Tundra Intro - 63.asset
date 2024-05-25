@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: Because of you.
   nextDialogue: {fileID: 11400000, guid: 635e6f14d59ef66469edeea0eb0d58de, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}

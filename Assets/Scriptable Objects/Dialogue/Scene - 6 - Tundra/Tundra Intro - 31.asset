@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: Because you feel empty unless you're with someone.
   nextDialogue: {fileID: 11400000, guid: 242e3bf965c1139428bb3f4a7c585a0b, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}

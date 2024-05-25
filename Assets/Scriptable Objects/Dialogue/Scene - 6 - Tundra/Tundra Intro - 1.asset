@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Are we there yet?
   nextDialogue: {fileID: 11400000, guid: 9daa6a3e7f58fbb469942ccc3af5079e, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3283450025675480871, guid: 440dfa01e46883448b6cd0193134fced, type: 3}

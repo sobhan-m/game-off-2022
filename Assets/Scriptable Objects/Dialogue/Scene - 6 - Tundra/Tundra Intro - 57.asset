@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: I want to make sure no one wields and weaponizes their love against us.
   nextDialogue: {fileID: 11400000, guid: 2f96df10d9af37546801359527f20146, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}

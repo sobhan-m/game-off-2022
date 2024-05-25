@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: Or I'll make you leave.
   nextDialogue: {fileID: 11400000, guid: 2b2da039007d7d945ae382db763b5cf5, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}

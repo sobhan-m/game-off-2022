@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: I know it's hard to believe, but I've been there myself.
   nextDialogue: {fileID: 11400000, guid: 3768e8e5a535ce046ae85fbdd39d269f, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}

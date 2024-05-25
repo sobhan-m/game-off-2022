@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: Aren't we all already?
   nextDialogue: {fileID: 11400000, guid: b1e059eec2d30ea4781d18a7147b8386, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}
