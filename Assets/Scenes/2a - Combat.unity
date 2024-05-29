@@ -2083,6 +2083,10 @@ PrefabInstance:
       propertyPath: initialTrackPositions.Array.data[4]
       value: 
       objectReference: {fileID: 1271262005}
+    - target: {fileID: 2962295168045500009, guid: 241970f1192b6f142ba4b2105f4a18c8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -154237965, guid: a5aa0ad170a405742a9c5d82fb581406, type: 3}
     - target: {fileID: 2962295168045500011, guid: 241970f1192b6f142ba4b2105f4a18c8, type: 3}
       propertyPath: m_Name
       value: Bard
