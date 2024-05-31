@@ -11,6 +11,7 @@ public class PlayerMovementController : MonoBehaviour
 	private InputAction movement;
 
 	private Rigidbody2D rb;
+	private Animator animator;
 	public Track track { get; private set; }
 
 	void Awake()
@@ -22,6 +23,8 @@ public class PlayerMovementController : MonoBehaviour
 
 		movement = (new PlayerInputActions()).Combat.Movement;
 		movement.performed += ctx => Move();
+
+		animator = GetComponent<Animator>();
 	}
 
 	void OnEnable()
@@ -50,10 +53,12 @@ public class PlayerMovementController : MonoBehaviour
 		}
 		else if (Mathf.Sign(movementCommand) > 0)
 		{
+			animator.SetTrigger("Right");
 			transform.position = track.MoveNext().position;
 		}
 		else
 		{
+			animator.SetTrigger("Left");
 			transform.position = track.MovePrevious().position;
 		}
 	}
