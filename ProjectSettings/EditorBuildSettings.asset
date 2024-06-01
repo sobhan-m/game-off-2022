@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/2 - Desert.unity
     guid: 160f27987081e22409ee703325b4057f
   - enabled: 1
+    path: Assets/Scenes/2a - Combat.unity
+    guid: 67eb423b430683c448232e93bb8df87c
+  - enabled: 1
     path: Assets/Scenes/3 - Desert Interlude.unity
     guid: 3c1acd702c2939541b731ab156b9af86
   - enabled: 1
