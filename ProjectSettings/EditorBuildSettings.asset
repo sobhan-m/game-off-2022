@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/3 - Desert Interlude.unity
     guid: 3c1acd702c2939541b731ab156b9af86
   - enabled: 1
+    path: Assets/Scenes/3a - Combat.unity
+    guid: bbc97789816a5874398d2d40eb22c47a
+  - enabled: 1
     path: Assets/Scenes/4 - Desert Conclusion.unity
     guid: a63c6252cc3d37c4fb30e926981b6775
   - enabled: 1
@@ -30,8 +33,14 @@ EditorBuildSettings:
     path: Assets/Scenes/6 - Tundra.unity
     guid: 9c53193cf1c87b0488f1c58615419449
   - enabled: 1
+    path: Assets/Scenes/6a - Combat.unity
+    guid: 2774869f387bbb14d912a4c8d199531b
+  - enabled: 1
     path: Assets/Scenes/7 - Tundra Interlude.unity
     guid: 58f76ec4c2ac9af418a62fc298c7c116
+  - enabled: 1
+    path: Assets/Scenes/7a - Combat.unity
+    guid: 5598fb95c28893a41843930370811d48
   - enabled: 1
     path: Assets/Scenes/8 - Tundra Conclusion.unity
     guid: 2c0e58c38644c534ab4d8120bb02effc
