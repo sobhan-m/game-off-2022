@@ -25,6 +25,7 @@ public class Lightning : MonoBehaviour
         if (!isDone)
         {
             secondsElapsed += Time.deltaTime;
+            IncreaseGlow();
         }
 
         if (secondsElapsed > secondsUntilDamage)
@@ -34,12 +35,13 @@ public class Lightning : MonoBehaviour
             secondsElapsed = 0;
             isDone = true;
         }
-        IncreaseGlow();
     }
 
     private void IncreaseGlow()
     {
-        ChangeGlow(secondsElapsed / secondsUntilDamage);
+        float fraction = secondsElapsed / secondsUntilDamage;
+        float fractionSquared = fraction * fraction;
+        ChangeGlow(fractionSquared);
     }
 
     private void ChangeGlow(float alpha)
@@ -50,7 +52,7 @@ public class Lightning : MonoBehaviour
 
     private void DoLightning()
     {
-        ChangeGlow(0);
+        // ChangeGlow(0);
         lightning.sprite = sprites[UnityEngine.Random.Range(0, sprites.Length)];
         TryToDealDamage();
     }
