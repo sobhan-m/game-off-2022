@@ -5,11 +5,12 @@ using UnityEngine;
 
 public class SorceressAttackManager : MonoBehaviour
 {
-    
+
     [SerializeField] float secondsBetweenAttacks;
     [SerializeField] float secondsBetweenAttackGaps;
     [SerializeField] Transform[] attackingPositions;
     [SerializeField] GameObject missile;
+    [SerializeField] SorceressAttackWeights weights;
     private Track playerTrack;
     private Meter attackWait;
     private bool isAttacking;
@@ -36,7 +37,7 @@ public class SorceressAttackManager : MonoBehaviour
         attackWait.FillMeter(Time.deltaTime);
         if (attackWait.IsFull())
         {
-            StartCoroutine(AttackFollowingPlayer());
+            PerformRandomAttack();
             attackWait.EmptyMeter();
         }
     }
@@ -129,5 +130,40 @@ public class SorceressAttackManager : MonoBehaviour
         {
             BasicAttack(i);
         }
+    }
+
+    private void PerformRandomAttack()
+    {
+        int result = UnityEngine.Random.Range(0, 100);
+        if (IsWithinRange(result, weights.attackAllButOneDiceRange))
+        {
+            AttackAllButOne();
+        }
+        else if (IsWithinRange(result, weights.attackThreeRange))
+        {
+            AttackThree();
+        }
+        else if (IsWithinRange(result, weights.attackOddThenEvenRange))
+        {
+            StartCoroutine(AttackOddThenEven());
+        }
+        else if (IsWithinRange(result, weights.attackEvenThenOddRange))
+        {
+            StartCoroutine(AttackEvensThenOdds());
+        }
+        else if (IsWithinRange(result, weights.attackFollowingPlayerRange))
+        {
+            StartCoroutine(AttackFollowingPlayer());
+        }
+        else
+        {
+            throw new ArgumentException($"No attack range supports a result of {result}");
+        }
+
+    }
+
+    private bool IsWithinRange(int result, int[] range)
+    {
+        return result >= range[0] && result < range[1];
     }
 }

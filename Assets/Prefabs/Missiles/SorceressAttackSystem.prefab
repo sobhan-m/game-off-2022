@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5894575334525089351
 MonoBehaviour:
@@ -53,3 +53,4 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   missile: {fileID: 7970511147898226314, guid: d1100fda77f370140b38c64d932eeadc, type: 3}
+  weights: {fileID: 11400000, guid: fb8a0df3cce4fce4280deb3aff0f1fbc, type: 2}

@@ -6,7 +6,9 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "SorceressAttackWeights", menuName = "SorceressAttackWeights", order = 0)]
 public class SorceressAttackWeights : ScriptableObject
 {
-	public Vector2 attackAllButOneDiceRange;
-	// public Vector2 attackAllButOneDiceRange;
-
+	public int[] attackAllButOneDiceRange;
+	public int[] attackThreeRange;
+	public int[] attackOddThenEvenRange;
+	public int[] attackEvenThenOddRange;
+	public int[] attackFollowingPlayerRange;
 }
