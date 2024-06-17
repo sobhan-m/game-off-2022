@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ public class DragonAttackManager : MonoBehaviour
     [SerializeField] float secondsBetweenAttackGaps;
     [SerializeField] Transform[] attackingPositions;
     [SerializeField] GameObject lightning;
+    [SerializeField] DragonAttackWeights weights;
     private Track playerTrack;
     private Meter attackWait;
     private bool isAttacking;
@@ -34,7 +36,7 @@ public class DragonAttackManager : MonoBehaviour
         attackWait.FillMeter(Time.deltaTime);
         if (attackWait.IsFull())
         {
-            StartCoroutine(AttackInnerToOuter());
+            PerformRandomAttack();
             attackWait.EmptyMeter();
         }
     }
@@ -102,5 +104,40 @@ public class DragonAttackManager : MonoBehaviour
             }
         }
         isAttacking = false;
+    }
+
+    private void PerformRandomAttack()
+    {
+        int result = UnityEngine.Random.Range(0, 100);
+        if (IsWithinRange(result, weights.attackPlayerPositionRange))
+        {
+            AttackPlayerPosition();
+        }
+        else if (IsWithinRange(result, weights.attackOuterToInnerRange))
+        {
+            StartCoroutine(AttackOuterToInner());
+        }
+        else if (IsWithinRange(result, weights.attackInnerToOuterRange))
+        {
+            StartCoroutine(AttackInnerToOuter());
+        }
+        else if (IsWithinRange(result, weights.attackAllExceptRightmostRange))
+        {
+            StartCoroutine(AttackAllExceptRightmost());
+        }
+        else if (IsWithinRange(result, weights.attackAllExceptLeftmostRange))
+        {
+            StartCoroutine(AttackAllExceptLeftmost());
+        }
+        else
+        {
+            throw new ArgumentException($"No attack range supports a result of {result}");
+        }
+
+    }
+
+    private bool IsWithinRange(int result, int[] range)
+    {
+        return result >= range[0] && result < range[1];
     }
 }
