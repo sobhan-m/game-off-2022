@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Finale - 19
   m_EditorClassIdentifier: 
-  speaker: SORCERESS
-  text: You want it all for yourself.
-  nextDialogue: {fileID: 11400000, guid: d8e7da9f9c5d97f4bb1739796c785f0f, type: 2}
-  characterImage: {fileID: 7449303328373876258, guid: ecb0f58e3c68cfc48aca473e93f22fd3, type: 3}
+  speaker: WIZARD
+  text: No.
+  nextDialogue: {fileID: 11400000, guid: 7df55c209c6dc2c48ae035b963734521, type: 2}
+  characterImage: {fileID: 0}

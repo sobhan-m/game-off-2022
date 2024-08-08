@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 59
   m_EditorClassIdentifier: 
-  speaker: SORCERESS
-  text: Without having that love withdrawn at the merest slight.
-  nextDialogue: {fileID: 11400000, guid: ac696d37ce5b53a499db15b17d32fc06, type: 2}
-  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}
+  speaker: WITCH
+  text: We need to stop her.
+  nextDialogue: {fileID: 11400000, guid: 0cec5ed85044df240b44f65725bb083c, type: 2}
+  characterImage: {fileID: 0}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Finale - 48
   m_EditorClassIdentifier: 
-  speaker: WIZARD
-  text: I'm sorry about your friend.
-  nextDialogue: {fileID: 11400000, guid: 32c8d5752d0b7d842bef33510a7147de, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  speaker: BARD
+  text: Wake up buddy.
+  nextDialogue: {fileID: 11400000, guid: 877259a9c46e89642963c59ec8976c52, type: 2}
+  characterImage: {fileID: 0}

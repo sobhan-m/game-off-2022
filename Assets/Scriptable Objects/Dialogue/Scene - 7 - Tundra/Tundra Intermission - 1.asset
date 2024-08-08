@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intermission - 1
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: You could have lived and been loved like everyone else.
-  nextDialogue: {fileID: 11400000, guid: 3fe35e2d70a05b64db09084559176c92, type: 2}
-  characterImage: {fileID: 5073775132615349288, guid: 321a8b89fc48d4042911d2998d3452a7, type: 3}
+  text: That's enough.
+  nextDialogue: {fileID: 11400000, guid: 11ce3cfcb83fb704abc3f8068e01bde6, type: 2}
+  characterImage: {fileID: 0}

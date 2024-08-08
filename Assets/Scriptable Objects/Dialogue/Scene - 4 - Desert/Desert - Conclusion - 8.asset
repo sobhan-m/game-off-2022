@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - Conclusion - 8
   m_EditorClassIdentifier: 
   speaker: DRAGON
-  text: Despite being on the verge of death, you still can't help yourself.
-  nextDialogue: {fileID: 11400000, guid: e43cffd1f127c774eab0d54a57e9a3a9, type: 2}
+  text: I've met many humans in my lifetime.
+  nextDialogue: {fileID: 11400000, guid: acc4ffa0483f20542b006a9664130016, type: 2}
   characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}

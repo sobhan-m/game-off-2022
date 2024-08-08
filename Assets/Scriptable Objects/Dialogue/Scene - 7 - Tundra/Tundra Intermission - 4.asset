@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intermission - 4
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: '*looking at Witch* To impress a girl.'
-  nextDialogue: {fileID: 11400000, guid: 63bf2a8386bcaa24093089fbb451c603, type: 2}
-  characterImage: {fileID: 8363595306203500070, guid: c90445d44bb628747843639159b4713a, type: 3}
+  speaker: SORCERESS
+  text: You could've been surrounded by people who love and adore you.
+  nextDialogue: {fileID: 11400000, guid: c48dff77f9957394997219ea2f38f6f6, type: 2}
+  characterImage: {fileID: 0}

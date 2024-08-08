@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 73
   m_EditorClassIdentifier: 
-  speaker: SORCERESS
-  text: Or I'll make you leave.
-  nextDialogue: {fileID: 11400000, guid: 2b2da039007d7d945ae382db763b5cf5, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  speaker: BARD
+  text: He was almost killed by assassins because he was trying to save of a bunch
+    of kids nobody else cared about.
+  nextDialogue: {fileID: 11400000, guid: 44beb1e4d99d89544b65d94bd6870689, type: 2}
+  characterImage: {fileID: 0}

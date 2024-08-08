@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 61
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: ...
-  nextDialogue: {fileID: 11400000, guid: c43a0475c7808714798d1572a0fd6a97, type: 2}
-  characterImage: {fileID: 1865386523202311867, guid: 3d8a84cbc0dedb2468f52b776071d972, type: 3}
+  text: I sorta kinda gave you the power of two powerful magic users.
+  nextDialogue: {fileID: 11400000, guid: 6d0dad8e579977141ab18e908ac22f22, type: 2}
+  characterImage: {fileID: 0}

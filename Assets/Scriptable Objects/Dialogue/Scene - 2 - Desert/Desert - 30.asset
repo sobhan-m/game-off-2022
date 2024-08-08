@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - 30
   m_EditorClassIdentifier: 
-  speaker: DRACO
-  text: I spent a lot of time coming up with that name.
-  nextDialogue: {fileID: 11400000, guid: 1eb5edb28c72fb846b6d27f81b9ac58f, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  speaker: BARD
+  text: I'm just suggesting an exchange.
+  nextDialogue: {fileID: 11400000, guid: f8b817e1f0eb4604cabb2358e87d0cab, type: 2}
+  characterImage: {fileID: 0}

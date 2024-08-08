@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tavern - 32
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Should we head to my room?
-  nextDialogue: {fileID: 11400000, guid: 12caa7199386921419f52eba4efa7c90, type: 2}
-  characterImage: {fileID: 5757213098883137962, guid: 6eac8dab924aba44d8c7046052de7edb, type: 3}
+  text: Come back.
+  nextDialogue: {fileID: 11400000, guid: f9ab823b369d3654e9aa16320b47b892, type: 2}
+  characterImage: {fileID: 0}

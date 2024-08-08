@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - 21
   m_EditorClassIdentifier: 
-  speaker: ???
-  text: How about names first?
-  nextDialogue: {fileID: 11400000, guid: e6f95817af741e447834f6e8aff2bd23, type: 2}
-  characterImage: {fileID: 323783148149406915, guid: 17f08415dc85c0a4c88e44d0c8eed3d4, type: 3}
+  speaker: DRACO
+  text: I believe you're the one who flirted with me.
+  nextDialogue: {fileID: 11400000, guid: b9fb69a6ea3d1da4c836ce6d36c78916, type: 2}
+  characterImage: {fileID: 0}

@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Return Tavern - 40
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: I have heard rumours that sorceress was spotted in the area.
-  nextDialogue: {fileID: 11400000, guid: 14c8b6132082d50499fcb3b25eca5733, type: 2}
-  characterImage: {fileID: 1058945478727646133, guid: c53bbb4e3b869424f99ee089dd13d249, type: 3}
+  speaker: BARD
+  text: Right, because super powerful sorceress combined with evil necromancer magic
+    would be a bad thing.
+  nextDialogue: {fileID: 11400000, guid: e7feb66c6e7b78142a4f6cf5eb3f5b63, type: 2}
+  characterImage: {fileID: 0}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 3
   m_EditorClassIdentifier: 
-  speaker: SORCERESS
-  text: Who are you?
-  nextDialogue: {fileID: 11400000, guid: 6379091ce7362254f817e22e23a149d2, type: 2}
-  characterImage: {fileID: 4412031543439465622, guid: bf58278a0a3957044b1dec4e43c5510f, type: 3}
+  speaker: WITCH
+  text: Almost. The lair should be-
+  nextDialogue: {fileID: 11400000, guid: 61beb0b9d53ab4e408206f401730f846, type: 2}
+  characterImage: {fileID: 0}

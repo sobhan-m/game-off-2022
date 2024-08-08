@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: WITCH
   text: You're back!
-  nextDialogue: {fileID: 11400000, guid: 3571c9ab887b0c94faf88e9473446eb5, type: 2}
-  characterImage: {fileID: 5757213098883137962, guid: 6eac8dab924aba44d8c7046052de7edb, type: 3}
+  nextDialogue: {fileID: 11400000, guid: 880ffb1c6fa1bf54e8d613ee9917d3ab, type: 2}
+  characterImage: {fileID: 0}

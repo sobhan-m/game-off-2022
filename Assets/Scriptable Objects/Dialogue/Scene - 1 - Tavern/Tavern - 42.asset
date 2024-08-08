@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tavern - 42
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: Enslave them all, using forbidden ancient magic.
-  nextDialogue: {fileID: 11400000, guid: 9334da318e69ba243b208ab65a128407, type: 2}
-  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}
+  speaker: BARD
+  text: So just me and BARBARIAN then.
+  nextDialogue: {fileID: 11400000, guid: cff8a2bf1814dc74587e834242d12da0, type: 2}
+  characterImage: {fileID: 0}

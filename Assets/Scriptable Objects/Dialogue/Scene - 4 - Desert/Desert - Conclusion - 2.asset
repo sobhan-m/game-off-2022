@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: DRAGON
   text: You should be proud of yourself.
-  nextDialogue: {fileID: 11400000, guid: 375178e6192d17e48a516481f49a628b, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 3c38d75333c72bc46861769ab0532ad7, type: 2}
   characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}

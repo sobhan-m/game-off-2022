@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Return Tavern - 39
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: Why there?
-  nextDialogue: {fileID: 11400000, guid: 9f6956e8ab06f6a45900cad0894b5e65, type: 2}
-  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}
+  speaker: WITCH
+  text: I believe SORCERESS has gone there to find his laboratory, and use the knowledge
+    he had accumulated before the HOLY ORDER destroyed him, to complete her spell.
+  nextDialogue: {fileID: 11400000, guid: 2c0700dd958b11142b525ea08e33ff03, type: 2}
+  characterImage: {fileID: 0}

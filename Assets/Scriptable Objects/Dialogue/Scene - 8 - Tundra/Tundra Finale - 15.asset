@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 15
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: That's all he ever does.
-  nextDialogue: {fileID: 11400000, guid: 156a30d5812a1544abb041397247ee1d, type: 2}
-  characterImage: {fileID: 7449303328373876258, guid: ecb0f58e3c68cfc48aca473e93f22fd3, type: 3}
+  text: Magic is stored in the sword.
+  nextDialogue: {fileID: 11400000, guid: 226a252ed44c9cc49bdf90898d244489, type: 2}
+  characterImage: {fileID: 0}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 12
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Wait...
-  nextDialogue: {fileID: 11400000, guid: 4d3c40ea89133ff46b8d90a9c8691b1f, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  text: Wait, you know each other?
+  nextDialogue: {fileID: 11400000, guid: 1d643b22f31d1574d9351b015ce5da56, type: 2}
+  characterImage: {fileID: 0}

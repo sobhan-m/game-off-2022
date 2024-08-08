@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Return Tavern - 50
   m_EditorClassIdentifier: 
   speaker: WITCH
-  text: I summoned a coach the moment you entered.
-  nextDialogue: {fileID: 11400000, guid: ef4e963f7a3e3034ea1b3efac9dc2fa4, type: 2}
-  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}
+  text: No matter.
+  nextDialogue: {fileID: 11400000, guid: 3552c858645b2ab4483216a9fed79bce, type: 2}
+  characterImage: {fileID: 0}

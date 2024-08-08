@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - Conclusion - 11
   m_EditorClassIdentifier: 
-  speaker: DRAGON
-  text: Most were simple creatures.
-  nextDialogue: {fileID: 11400000, guid: 8b6d1da3925ea5a49a99e989494d96dd, type: 2}
+  speaker: BARD
+  text: A compliment from a dragon? I'm flattered.
+  nextDialogue: {fileID: 11400000, guid: d355fa5e8d30b7642ba633ddbd335d6a, type: 2}
   characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}

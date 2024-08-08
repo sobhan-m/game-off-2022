@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tavern - 48
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: So what do I need to do?
-  nextDialogue: {fileID: 11400000, guid: 72852da628db5de46afe15456403780a, type: 2}
-  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}
+  text: Right.
+  nextDialogue: {fileID: 11400000, guid: 737be4b27c68b0842ba5251c9540dac6, type: 2}
+  characterImage: {fileID: 0}

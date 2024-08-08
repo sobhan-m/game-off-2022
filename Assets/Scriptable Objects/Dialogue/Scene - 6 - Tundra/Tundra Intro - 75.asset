@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 75
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: We need to stop her.
-  nextDialogue: {fileID: 11400000, guid: 4f3bb899961008241bb0181627871434, type: 2}
-  characterImage: {fileID: 1422711182151667592, guid: fa918e06343e24546bcfe96067e529d5, type: 3}
+  speaker: BARD
+  text: That's what real love is.
+  nextDialogue: {fileID: 11400000, guid: eb9334b0fedb5bf4595527bdf45ba1f2, type: 2}
+  characterImage: {fileID: 0}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 43
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: What about you?
-  nextDialogue: {fileID: 11400000, guid: aadb672914af3324bb1fe223bb65dc38, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  text: Is that really so bad?
+  nextDialogue: {fileID: 11400000, guid: ce6a4d57fb5b88246896d2afc45f1d66, type: 2}
+  characterImage: {fileID: 0}

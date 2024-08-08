@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tavern - 64
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: I need to keep an eye on Sorceress, so I cannot come with you.
-  nextDialogue: {fileID: 11400000, guid: ea687d6a23828c946bfcea35b91785de, type: 2}
-  characterImage: {fileID: 1058945478727646133, guid: c53bbb4e3b869424f99ee089dd13d249, type: 3}
+  speaker: BARD
+  text: Not to worry, sweetheart.
+  nextDialogue: {fileID: 11400000, guid: 63e0ad812503d9a4dbd81e8cd47be8ca, type: 2}
+  characterImage: {fileID: 0}

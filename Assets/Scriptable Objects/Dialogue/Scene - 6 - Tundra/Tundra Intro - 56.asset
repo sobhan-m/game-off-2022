@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 56
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: I just want it to be fair.
-  nextDialogue: {fileID: 11400000, guid: 0188d372529dde6459e760d47cc3f10c, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  text: That's too little too late.
+  nextDialogue: {fileID: 11400000, guid: db854b89634f3974b99be175ceb165c5, type: 2}
+  characterImage: {fileID: 0}

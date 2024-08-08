@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 49
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Me too.
-  nextDialogue: {fileID: 11400000, guid: 87fe0bea419460f4ab839fbc503dc1cd, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  text: Please.
+  nextDialogue: {fileID: 11400000, guid: 4d045bf23c2a5584b931313700594e5e, type: 2}
+  characterImage: {fileID: 0}

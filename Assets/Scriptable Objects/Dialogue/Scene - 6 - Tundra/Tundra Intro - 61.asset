@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 61
   m_EditorClassIdentifier: 
-  speaker: SORCERESS
-  text: Why do you think?
-  nextDialogue: {fileID: 11400000, guid: f0e6be0fb3b48cd448ca82493f9365c4, type: 2}
-  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}
+  speaker: WITCH
+  text: What?
+  nextDialogue: {fileID: 11400000, guid: 715621c2185d38c4f84c0a0e507a9a28, type: 2}
+  characterImage: {fileID: 0}

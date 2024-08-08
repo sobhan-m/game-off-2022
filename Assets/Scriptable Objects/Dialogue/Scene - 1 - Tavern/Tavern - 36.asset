@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tavern - 36
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: Not my usual request, but I don't see why not?
-  nextDialogue: {fileID: 11400000, guid: 011b8495110ae4b49b01294e0fe5c752, type: 2}
-  characterImage: {fileID: 5757213098883137962, guid: 6eac8dab924aba44d8c7046052de7edb, type: 3}
+  speaker: WITCH
+  text: Yes. The sword is believed to be in the hoard of a blue dragon, so you-
+  nextDialogue: {fileID: 11400000, guid: c576214bd594fa5409994efdc83fe5e3, type: 2}
+  characterImage: {fileID: 0}

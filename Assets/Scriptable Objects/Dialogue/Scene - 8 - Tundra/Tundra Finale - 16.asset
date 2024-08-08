@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 16
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: Lie.
-  nextDialogue: {fileID: 11400000, guid: ecf65336709135e46b4f311db4bf0645, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  text: It can be transferred to anyone.
+  nextDialogue: {fileID: 11400000, guid: 68915ccaf52bdd441a0293cfd9b142d8, type: 2}
+  characterImage: {fileID: 0}

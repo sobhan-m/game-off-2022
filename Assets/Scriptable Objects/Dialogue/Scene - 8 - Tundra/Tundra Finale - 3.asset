@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 3
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: '*eyes widen* Hexcalibur...'
-  nextDialogue: {fileID: 11400000, guid: c03e9dfb21f71b2428da545524aaac5e, type: 2}
-  characterImage: {fileID: 6499909294383916323, guid: c956704458a796043b202f284e07015b, type: 3}
+  text: You couldn't even let me have this, could you father?
+  nextDialogue: {fileID: 11400000, guid: 53c7b87a75e9e7142a2bbfe8a9d647cb, type: 2}
+  characterImage: {fileID: 0}

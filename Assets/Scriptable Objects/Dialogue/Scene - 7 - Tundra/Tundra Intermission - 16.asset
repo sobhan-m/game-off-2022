@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intermission - 16
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: '*you brandish Hexcalibur*'
-  nextDialogue: {fileID: 0}
-  characterImage: {fileID: 5073775132615349288, guid: 321a8b89fc48d4042911d2998d3452a7, type: 3}
+  text: '*wipes away a tear*'
+  nextDialogue: {fileID: 11400000, guid: c0b84b63ea90a874791d1da84902da3c, type: 2}
+  characterImage: {fileID: 0}

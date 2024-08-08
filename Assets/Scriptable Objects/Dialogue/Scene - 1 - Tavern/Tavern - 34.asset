@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tavern - 34
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: I actually have a quest.
-  nextDialogue: {fileID: 11400000, guid: 0d64c8f227ad18f4682f41ac5a4f4cb9, type: 2}
-  characterImage: {fileID: 5757213098883137962, guid: 6eac8dab924aba44d8c7046052de7edb, type: 3}
+  speaker: BARD
+  text: Get the girl.
+  nextDialogue: {fileID: 11400000, guid: 48aa6c3558b718649a6f5383be1a4f34, type: 2}
+  characterImage: {fileID: 0}

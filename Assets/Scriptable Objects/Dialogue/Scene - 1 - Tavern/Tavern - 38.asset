@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tavern - 38
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: So do you accept?
-  nextDialogue: {fileID: 11400000, guid: e84f714cb4fcdb043bf914ea78d20749, type: 2}
-  characterImage: {fileID: 448173832603405664, guid: ab3aedc3093bcae42b071148cd7b5cdf, type: 3}
+  speaker: BARD
+  text: Shouldn't be a problem, sweetheart.
+  nextDialogue: {fileID: 11400000, guid: 1b628ee68202dd448a0e410a65a5513b, type: 2}
+  characterImage: {fileID: 0}

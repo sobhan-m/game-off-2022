@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - 28
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: That's not the point.
-  nextDialogue: {fileID: 11400000, guid: e13251ccd41127046b0952c43556730a, type: 2}
-  characterImage: {fileID: 5218132324603279604, guid: 62ec53e71c51e5e45b0fa3493699f632, type: 3}
+  speaker: DRACO
+  text: You would dare insult me?
+  nextDialogue: {fileID: 11400000, guid: defbc0d27cf348342b882ec2d6b7f9cc, type: 2}
+  characterImage: {fileID: 0}

@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Tavern - 37
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: I mean, I always knew I'd be destined for greatness, despite what my mother
-    would say.
-  nextDialogue: {fileID: 11400000, guid: 4f6ec239e8b0eb743ba93009d741d72f, type: 2}
-  characterImage: {fileID: 5757213098883137962, guid: 6eac8dab924aba44d8c7046052de7edb, type: 3}
+  text: Yeah, yeah. Got it.
+  nextDialogue: {fileID: 11400000, guid: 90935caba613a5546b02cb9ccb686d88, type: 2}
+  characterImage: {fileID: 0}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - 32
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: I don't doubt "Draco" is a good name for a dragon.
-  nextDialogue: {fileID: 11400000, guid: fb602d076f05a2944b21f8874a870e0e, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  text: I'll suggest a name that isn't so shitty.
+  nextDialogue: {fileID: 11400000, guid: 6cc18950c56dca34e93acaa44f9de195, type: 2}
+  characterImage: {fileID: 0}

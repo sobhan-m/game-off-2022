@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Tavern - 11
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: We are, but I'd rather be buying drinks for some pretty people.
-  nextDialogue: {fileID: 11400000, guid: 420383346772f6f42979191a6eb829b2, type: 2}
-  characterImage: {fileID: 9143228136818788913, guid: d02834776b8e62943b5a1a2f28e19b6e, type: 3}
+  text: I knew I had sex appeal, but having a groupie travel all this way for me
+    is a new record.
+  nextDialogue: {fileID: 11400000, guid: 079415373de075f4ea6ed348588877f3, type: 2}
+  characterImage: {fileID: 0}

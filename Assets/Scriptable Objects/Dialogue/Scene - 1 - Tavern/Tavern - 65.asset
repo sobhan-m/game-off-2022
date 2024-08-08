@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tavern - 65
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: So just me and Barbarian then.
-  nextDialogue: {fileID: 11400000, guid: dd0333a379c18ce4596869c9e7d5bb51, type: 2}
-  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}
+  text: I'll be back before you know it.
+  nextDialogue: {fileID: 11400000, guid: c31b4389df0ced447913ade3eae6f253, type: 2}
+  characterImage: {fileID: 0}

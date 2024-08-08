@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 55
   m_EditorClassIdentifier: 
-  speaker: SORCERESS
-  text: '*nods*'
-  nextDialogue: {fileID: 11400000, guid: f77f82497003a5648856dedc9337f20e, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  speaker: WITCH
+  text: I know I made my mistakes, but this isn't way forward.
+  nextDialogue: {fileID: 11400000, guid: 89b738a909b52464588ea5e93645dd30, type: 2}
+  characterImage: {fileID: 0}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Credit - 1
   m_EditorClassIdentifier: 
   speaker: DRACO
-  text: That was a fun little story, Bard.
+  text: That was a fun little story, BARD.
   nextDialogue: {fileID: 11400000, guid: 6a9a1e6cf74814f4a8560f4ee2a2fbec, type: 2}
   characterImage: {fileID: 0}

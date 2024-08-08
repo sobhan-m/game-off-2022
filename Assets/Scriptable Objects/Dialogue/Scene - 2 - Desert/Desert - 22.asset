@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - 22
   m_EditorClassIdentifier: 
-  speaker: DRACO
-  text: Mine's Draco.
-  nextDialogue: {fileID: 11400000, guid: 8afd41785e708aa45bb4c73ae6640212, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  speaker: BARD
+  text: Semantics!
+  nextDialogue: {fileID: 11400000, guid: 97efc38972cb9f44eaf91e952d28d3c9, type: 2}
+  characterImage: {fileID: 0}

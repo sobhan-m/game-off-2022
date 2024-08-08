@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Return Tavern - 26
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: It is?
-  nextDialogue: {fileID: 11400000, guid: e399f51615395924683e8b0d33d3ba1d, type: 2}
-  characterImage: {fileID: 5757213098883137962, guid: 6eac8dab924aba44d8c7046052de7edb, type: 3}
+  text: So... You want to attack SORCERESS with this and get rid of all her powers?
+  nextDialogue: {fileID: 11400000, guid: d48ac64c036a84a43a7f45dd854bfed1, type: 2}
+  characterImage: {fileID: 0}

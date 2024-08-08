@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - 38
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: You give me Hexcalibur, and in return...
-  nextDialogue: {fileID: 11400000, guid: b3d0b860539f2c74d8507678ca51a24f, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  speaker: DRAGON
+  text: I'm afraid you've lost your chance.
+  nextDialogue: {fileID: 11400000, guid: 96fbb080c7e8fdd489b79af910e7d902, type: 2}
+  characterImage: {fileID: 0}

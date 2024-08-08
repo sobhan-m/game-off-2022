@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 2
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: Almost. The lair should be-
-  nextDialogue: {fileID: 11400000, guid: df00cd63458ed754c8b31cf0d1be38a4, type: 2}
-  characterImage: {fileID: 3283450025675480871, guid: 440dfa01e46883448b6cd0193134fced, type: 3}
+  speaker: BARD
+  text: Are we there yet?
+  nextDialogue: {fileID: 11400000, guid: 80898d029b57b9a4aa09630c4371e056, type: 2}
+  characterImage: {fileID: 0}

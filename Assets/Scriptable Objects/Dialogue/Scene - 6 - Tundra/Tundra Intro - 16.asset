@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 16
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: I'm getting the impression that we don't have the same definition of dirty
-    work.
-  nextDialogue: {fileID: 11400000, guid: fe062cef105c8504ba127c1f74887099, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  speaker: WITCH
+  text: She's trying to-
+  nextDialogue: {fileID: 11400000, guid: 94ff0c507259bf74fa67b48f50b2026c, type: 2}
+  characterImage: {fileID: 0}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Finale - 26
   m_EditorClassIdentifier: 
-  speaker: SORCERESS
-  text: It can be transferred to anyone else.
-  nextDialogue: {fileID: 11400000, guid: e1191d94d83947f4c9ec019cc2b6978c, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  speaker: WIZARD
+  text: I spent too much time trying to hone her magic.
+  nextDialogue: {fileID: 11400000, guid: c75519b2fc0f7414383598b14554b50a, type: 2}
+  characterImage: {fileID: 0}

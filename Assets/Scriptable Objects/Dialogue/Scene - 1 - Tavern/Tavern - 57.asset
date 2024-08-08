@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tavern - 57
   m_EditorClassIdentifier: 
   speaker: WITCH
-  text: Yes.
-  nextDialogue: {fileID: 11400000, guid: 6731243cd3f451d4e80dae6e813861ad, type: 2}
-  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}
+  text: Can you not do this on your own?
+  nextDialogue: {fileID: 11400000, guid: 77ff5ad3ee7680349b9d4a032fef0ca9, type: 2}
+  characterImage: {fileID: 0}

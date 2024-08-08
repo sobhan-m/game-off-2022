@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Tavern - 29
   m_EditorClassIdentifier: 
   speaker: WITCH
-  text: Actually, I had something else in mind.
-  nextDialogue: {fileID: 11400000, guid: fb06ba2fa5e2a764db7df3dfdb593439, type: 2}
-  characterImage: {fileID: 448173832603405664, guid: ab3aedc3093bcae42b071148cd7b5cdf, type: 3}
+  text: 'You need to retrieve the sword, SONGCALIBUR, which is believed to be able
+    to strip an arcanist of their power and transfer it-
+
+'
+  nextDialogue: {fileID: 11400000, guid: 3300d7c8364e7c3498f3a422fda97d83, type: 2}
+  characterImage: {fileID: 0}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - 36
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: I'm just suggesting an exchange.
-  nextDialogue: {fileID: 11400000, guid: b21087cf18e2232448e48446b1eba479, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  text: Wait, hold on a second.
+  nextDialogue: {fileID: 11400000, guid: 787eacd84f6605a47ae79b99d862ce89, type: 2}
+  characterImage: {fileID: 0}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tavern - 41
   m_EditorClassIdentifier: 
   speaker: WITCH
-  text: There's a powerful sorceress with plans to shackle the world.
-  nextDialogue: {fileID: 11400000, guid: ad02b6b578a176c47a193685a935f525, type: 2}
-  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}
+  text: I need to keep an eye on SORCERESS, so I cannot come with you.
+  nextDialogue: {fileID: 11400000, guid: 077f3e47807bf7d478d0a8381c8bc564, type: 2}
+  characterImage: {fileID: 0}

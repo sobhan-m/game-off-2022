@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Finale - 47
   m_EditorClassIdentifier: 
-  speaker: WIZARD
-  text: ...
-  nextDialogue: {fileID: 11400000, guid: ea51fa0663222d443ac684ce4fa73f6d, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  speaker: BARD
+  text: '*goes to BARBARIAN*'
+  nextDialogue: {fileID: 11400000, guid: c80443f222bf34840825745e1f58dd0b, type: 2}
+  characterImage: {fileID: 0}

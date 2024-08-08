@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 41
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: Yes.
-  nextDialogue: {fileID: 11400000, guid: 67da0fb92f7df244485da0985c134588, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  text: I want to use magic to get rid of all the hate and neglect in the world.
+  nextDialogue: {fileID: 11400000, guid: ff320bc067451224cb32df39817e2272, type: 2}
+  characterImage: {fileID: 0}

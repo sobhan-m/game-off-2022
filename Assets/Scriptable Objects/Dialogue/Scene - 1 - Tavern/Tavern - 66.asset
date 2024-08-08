@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tavern - 66
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: You ready, buddy?
-  nextDialogue: {fileID: 11400000, guid: 536749a2b0d5e3c4080fdf9eaeddc3b5, type: 2}
-  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}
+  speaker: BARBARIAN
+  text: '*snores* Zzz...'
+  nextDialogue: {fileID: 11400000, guid: 9283068495fe83541809bea1b7c412a7, type: 2}
+  characterImage: {fileID: 0}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - 2
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Those people talk waaay too much.
-  nextDialogue: {fileID: 11400000, guid: a380aa97b1fc15045b3dc7f469b44218, type: 2}
+  text: Those people do nothing but talk about themselves.
+  nextDialogue: {fileID: 11400000, guid: b32507608d7f95d439bdf9ba4b96368c, type: 2}
   characterImage: {fileID: 0}

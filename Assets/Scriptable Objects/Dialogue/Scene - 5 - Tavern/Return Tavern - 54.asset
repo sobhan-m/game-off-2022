@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Return Tavern - 54
   m_EditorClassIdentifier: 
-  speaker: BARBARIAN
-  text: Zzzzzzzzzzzz...
-  nextDialogue: {fileID: 11400000, guid: f977e35a4aef7df4e8c108c476033d3c, type: 2}
-  characterImage: {fileID: 5050334715069906279, guid: cfcb4dee1136db746a292fbfeaca1032, type: 3}
+  speaker: BARD
+  text: Alright, time to be the hero of the realm.
+  nextDialogue: {fileID: 0}
+  characterImage: {fileID: 0}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 79
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: Not being loved sucks.
-  nextDialogue: {fileID: 11400000, guid: 8bdf2edf0b15e1b4493c569ab3e4c55d, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  speaker: SORCERESS
+  text: I guess you don't understand either.
+  nextDialogue: {fileID: 11400000, guid: 13fd592e946df654abbafa37bf30a9c8, type: 2}
+  characterImage: {fileID: 0}

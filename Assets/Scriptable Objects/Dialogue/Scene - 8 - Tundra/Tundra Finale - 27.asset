@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Finale - 27
   m_EditorClassIdentifier: 
-  speaker: SORCERESS
-  text: He wanted my power.
-  nextDialogue: {fileID: 11400000, guid: d8f3df868a08ca448b3f296504dba353, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  speaker: WIZARD
+  text: And not enough time actually raising her.
+  nextDialogue: {fileID: 11400000, guid: d55abbe652eb1c54786fc6f1df7933d1, type: 2}
+  characterImage: {fileID: 0}

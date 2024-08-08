@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Return Tavern - 38
   m_EditorClassIdentifier: 
   speaker: WITCH
-  text: We need to travel to the the Tundra.
-  nextDialogue: {fileID: 11400000, guid: 7c9c7cdab989b7543b85267c27665d49, type: 2}
-  characterImage: {fileID: 1058945478727646133, guid: c53bbb4e3b869424f99ee089dd13d249, type: 3}
+  text: Among the arcane circles, many believe the tundra holds the lair of NECROMANCER.
+  nextDialogue: {fileID: 11400000, guid: a5ff50785781f374f88ac9e37ad9fc97, type: 2}
+  characterImage: {fileID: 0}

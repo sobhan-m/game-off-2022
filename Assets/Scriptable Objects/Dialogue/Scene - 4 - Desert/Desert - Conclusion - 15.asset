@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - Conclusion - 15
   m_EditorClassIdentifier: 
-  speaker: DRACO
-  text: Good.
-  nextDialogue: {fileID: 11400000, guid: 6179f56036e5edc4ebf48767f0c9149b, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  speaker: DRAGON
+  text: And SONGCALIBUR.
+  nextDialogue: {fileID: 11400000, guid: f55794332b5d277428b52bd4da3442b1, type: 2}
+  characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}

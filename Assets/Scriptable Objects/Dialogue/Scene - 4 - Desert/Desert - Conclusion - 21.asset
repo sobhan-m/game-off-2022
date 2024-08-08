@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - Conclusion - 21
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Woah...
-  nextDialogue: {fileID: 11400000, guid: b3a3b755ae8741a489e687878c4b4d25, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: 2ae05e140fa766942ab4aed186766650, type: 3}
+  text: I'll take that maybe.
+  nextDialogue: {fileID: 11400000, guid: fc9d323e8357c344281303c99b48a528, type: 2}
+  characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}

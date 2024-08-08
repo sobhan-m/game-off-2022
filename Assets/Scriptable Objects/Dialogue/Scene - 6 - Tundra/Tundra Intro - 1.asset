@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 1
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Are we there yet?
-  nextDialogue: {fileID: 11400000, guid: 9daa6a3e7f58fbb469942ccc3af5079e, type: 2}
-  characterImage: {fileID: 3283450025675480871, guid: 440dfa01e46883448b6cd0193134fced, type: 3}
+  text: '*shivering*'
+  nextDialogue: {fileID: 11400000, guid: 600fbee8476d66f41985074b3bac429a, type: 2}
+  characterImage: {fileID: 0}

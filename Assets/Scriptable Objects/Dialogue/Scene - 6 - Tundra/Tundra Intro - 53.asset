@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 53
   m_EditorClassIdentifier: 
-  speaker: SORCERESS
-  text: Isn't that what your music is about?
-  nextDialogue: {fileID: 11400000, guid: a722dacc2461e184b951cf3f5e5a17da, type: 2}
-  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}
+  speaker: BARD
+  text: Woah... Wish I could've been there...
+  nextDialogue: {fileID: 11400000, guid: ca8c6fdbd7ea5cc4aac91ca1d0f977a3, type: 2}
+  characterImage: {fileID: 0}

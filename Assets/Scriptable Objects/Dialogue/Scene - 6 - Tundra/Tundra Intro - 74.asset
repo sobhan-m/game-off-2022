@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 74
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: '*looks at you*'
-  nextDialogue: {fileID: 11400000, guid: 01dc2bfbcc7af964f9e7a5f15c0bdfa3, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  speaker: BARD
+  text: He only survived because he ran into the tavern I was playing at.
+  nextDialogue: {fileID: 11400000, guid: 75c80dc9bdffcea4197eb2368d7d31e6, type: 2}
+  characterImage: {fileID: 0}

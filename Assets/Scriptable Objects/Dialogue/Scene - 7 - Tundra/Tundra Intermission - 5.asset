@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intermission - 5
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: You don't even know, do you?
-  nextDialogue: {fileID: 11400000, guid: 6e8e44fa5120b5748a7764533edb6db0, type: 2}
-  characterImage: {fileID: 5073775132615349288, guid: 321a8b89fc48d4042911d2998d3452a7, type: 3}
+  text: But you gave it all up, for what?
+  nextDialogue: {fileID: 11400000, guid: 6dad37c62c67bba418e689df85df5243, type: 2}
+  characterImage: {fileID: 0}

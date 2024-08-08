@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - 31
   m_EditorClassIdentifier: 
-  speaker: DRACO
-  text: It suits me quite well.
-  nextDialogue: {fileID: 11400000, guid: e6ecc4af3a4b87549b4f8900bd402797, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  speaker: BARD
+  text: You give me SONGCALIBUR, and in return...
+  nextDialogue: {fileID: 11400000, guid: 3b85e94b4a131664ba43c912de7df4b5, type: 2}
+  characterImage: {fileID: 0}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - Conclusion - 5
   m_EditorClassIdentifier: 
-  speaker: DRAGON
-  text: You never cease to amaze me.
-  nextDialogue: {fileID: 11400000, guid: dc8e8e310638f184ca9178f26c9ae751, type: 2}
-  characterImage: {fileID: 3262351891295167754, guid: 44f231300bb48984eb97e7847b7c1a0d, type: 3}
+  speaker: BARD
+  text: Is this the part where we sleep together?
+  nextDialogue: {fileID: 11400000, guid: 8515c3069d9d5794b8f65752db5fdda2, type: 2}
+  characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 71
   m_EditorClassIdentifier: 
-  speaker: SORCERESS
-  text: You can't change my mind.
-  nextDialogue: {fileID: 11400000, guid: dbbc408c4e3a6434f9d8c94357630e0b, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  speaker: BARD
+  text: But this isn't how you do it.
+  nextDialogue: {fileID: 11400000, guid: 75f1385d2fca4554db23ab8c11505ae7, type: 2}
+  characterImage: {fileID: 0}

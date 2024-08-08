@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Finale - 9
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: I'm sorry.
-  nextDialogue: {fileID: 11400000, guid: a852287406e2bb74b876a702ad272c37, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  speaker: SORCERESS
+  text: Lie.
+  nextDialogue: {fileID: 11400000, guid: 70d833a9ff2d9104b8feb24aa8ddb2a2, type: 2}
+  characterImage: {fileID: 0}

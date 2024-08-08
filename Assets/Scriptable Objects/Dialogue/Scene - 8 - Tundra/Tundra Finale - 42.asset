@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 42
   m_EditorClassIdentifier: 
   speaker: WIZARD
-  text: And that you'd only help if you thought you could get something out of it.
-  nextDialogue: {fileID: 11400000, guid: deecc6f3a8f299a42a80b04ab9e3791a, type: 2}
-  characterImage: {fileID: 3714349217196605790, guid: 47f7f0a90007b204a83875f1bdc51eec, type: 3}
+  text: It will never heal the loss of your friend, but-
+  nextDialogue: {fileID: 11400000, guid: 4b8ec0f8fec712e46a4a07f5cd9bf8b1, type: 2}
+  characterImage: {fileID: 0}

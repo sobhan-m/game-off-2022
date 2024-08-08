@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - 18
   m_EditorClassIdentifier: 
-  speaker: ???
-  text: That's awfully forward.
-  nextDialogue: {fileID: 11400000, guid: a4dbd6c4b51f47e4ab4fc1cf3b7ee1dd, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  speaker: BARD
+  text: You've got to be kidding me.
+  nextDialogue: {fileID: 11400000, guid: 032e4ceb33549fe46b8239fef387bb13, type: 2}
+  characterImage: {fileID: 0}

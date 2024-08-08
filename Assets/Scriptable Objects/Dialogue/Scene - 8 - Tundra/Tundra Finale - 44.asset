@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 44
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: I guess you're right.
-  nextDialogue: {fileID: 11400000, guid: 912a47bd1554ab94cae1b5395bf99811, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  text: Does the person need to be alive to receive the magic?
+  nextDialogue: {fileID: 11400000, guid: dc7bd5b8b2b4db14194f343f92199c5c, type: 2}
+  characterImage: {fileID: 0}

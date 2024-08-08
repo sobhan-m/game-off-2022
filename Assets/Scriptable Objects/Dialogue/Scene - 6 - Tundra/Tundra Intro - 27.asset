@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 27
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: '*ignores Witch*'
-  nextDialogue: {fileID: 11400000, guid: 082bb1440a9e7064ca598e687156283a, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  text: '*scoffs*'
+  nextDialogue: {fileID: 11400000, guid: af53d5d88d541ff44b81f8407dd40b3c, type: 2}
+  characterImage: {fileID: 0}

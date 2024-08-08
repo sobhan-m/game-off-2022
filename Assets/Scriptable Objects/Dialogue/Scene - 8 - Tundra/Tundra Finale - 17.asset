@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 17
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: Seek power.
-  nextDialogue: {fileID: 11400000, guid: c00a26b0afe0a3140b5278275f492e49, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  text: He wanted my power.
+  nextDialogue: {fileID: 11400000, guid: 7a1f7f625ee2a0d4b85dacbee7947206, type: 2}
+  characterImage: {fileID: 0}

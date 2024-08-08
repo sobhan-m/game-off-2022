@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 76
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: She has a point you know.
-  nextDialogue: {fileID: 11400000, guid: 5846baf526d5d3c45ae292f37e47aa05, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  text: It's the willingness to give yourself to others.
+  nextDialogue: {fileID: 11400000, guid: 7142895bf0022cd46b7ed3ee0871c3d7, type: 2}
+  characterImage: {fileID: 0}

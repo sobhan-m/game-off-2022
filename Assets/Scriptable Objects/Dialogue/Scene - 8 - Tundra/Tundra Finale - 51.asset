@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Finale - 51
   m_EditorClassIdentifier: 
-  speaker: WIZARD
-  text: It will never heal the loss of your friend, but-
-  nextDialogue: {fileID: 11400000, guid: 2047ea4e334369841acf8eac91aa5820, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  speaker: BARBARIAN
+  text: '*coughs*'
+  nextDialogue: {fileID: 11400000, guid: dac41de49a1ee8f45b88fdffafab045f, type: 2}
+  characterImage: {fileID: 0}

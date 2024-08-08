@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 77
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: What?
-  nextDialogue: {fileID: 11400000, guid: a974e185c0be48b46aaffe4b76a89c5f, type: 2}
-  characterImage: {fileID: 3854260782593867211, guid: 00dbc74bd0dd85c4ebd207776717a4e0, type: 3}
+  speaker: BARD
+  text: And it's only meaningful BECAUSE it's freely given.
+  nextDialogue: {fileID: 11400000, guid: f3f59e51cfa36164ebdd83c819568c4f, type: 2}
+  characterImage: {fileID: 0}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tavern - 4
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Next round's on you.
-  nextDialogue: {fileID: 11400000, guid: 75e16eb012a5bfd44915566ae6fd1a1c, type: 2}
-  characterImage: {fileID: 9143228136818788913, guid: d02834776b8e62943b5a1a2f28e19b6e, type: 3}
+  text: Locals must not appreciate good music.
+  nextDialogue: {fileID: 11400000, guid: c4cdd3024ca39a443ae4e43614b96c00, type: 2}
+  characterImage: {fileID: 0}

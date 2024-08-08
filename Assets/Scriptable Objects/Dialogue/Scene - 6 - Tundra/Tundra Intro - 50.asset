@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 50
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: We'd all be slaves to love.
-  nextDialogue: {fileID: 11400000, guid: 3ecaf371a6037e44e9f434c0dfe12def, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  text: Because you were never around.
+  nextDialogue: {fileID: 11400000, guid: fe537c82c025af44a887ead09e73433a, type: 2}
+  characterImage: {fileID: 0}

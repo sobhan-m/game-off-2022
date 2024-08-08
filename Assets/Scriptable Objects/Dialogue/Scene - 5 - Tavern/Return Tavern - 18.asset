@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Return Tavern - 18
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: I knew you'd pick me eventually.
-  nextDialogue: {fileID: 11400000, guid: 13f0f2b8683d8c24dbc2bbd950704395, type: 2}
-  characterImage: {fileID: 5757213098883137962, guid: 6eac8dab924aba44d8c7046052de7edb, type: 3}
+  text: I got a room at the tavern if you wanna-
+  nextDialogue: {fileID: 11400000, guid: a2adfbbf252156443b67917e58ca431b, type: 2}
+  characterImage: {fileID: 0}

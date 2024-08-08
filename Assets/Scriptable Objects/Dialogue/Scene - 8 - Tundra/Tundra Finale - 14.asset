@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Finale - 14
   m_EditorClassIdentifier: 
-  speaker: WIZARD
-  text: I'm sorry, but the lie was necessary.
-  nextDialogue: {fileID: 11400000, guid: d67db69799040ce458b440ad1a109714, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  speaker: SORCERESS
+  text: He didn't tell you, did he?
+  nextDialogue: {fileID: 11400000, guid: 458fe067573c4df4d98ed68daf1f884e, type: 2}
+  characterImage: {fileID: 0}

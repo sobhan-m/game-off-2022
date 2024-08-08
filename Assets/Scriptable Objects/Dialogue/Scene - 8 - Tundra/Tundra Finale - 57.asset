@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 57
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: '*goes to Barbarian*'
-  nextDialogue: {fileID: 11400000, guid: 0109d15db74c2084c92a5626ab48d1b6, type: 2}
+  text: We're even now.
+  nextDialogue: {fileID: 11400000, guid: f86b6dc3176f71c45950bf431b11217b, type: 2}
   characterImage: {fileID: 0}

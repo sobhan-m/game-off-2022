@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 58
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: I want everyone to live without pain and suffering.
-  nextDialogue: {fileID: 11400000, guid: e718bcf0a851acf4596026fd72647643, type: 2}
-  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}
+  text: Now leave. Or I'll make you leave.
+  nextDialogue: {fileID: 11400000, guid: 272e4bf73fe67d440bd6fbf9ecc202b2, type: 2}
+  characterImage: {fileID: 0}

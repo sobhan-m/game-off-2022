@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 67
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: You two...
-  nextDialogue: {fileID: 11400000, guid: afb15e99fe00ddb4ca95d4adab2052ab, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  text: I've been hurt.
+  nextDialogue: {fileID: 11400000, guid: 11787a6267c65fe47826f09f688ea23e, type: 2}
+  characterImage: {fileID: 0}

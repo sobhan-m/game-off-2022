@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - 25
   m_EditorClassIdentifier: 
   speaker: DRACO
-  text: What's the matter?
-  nextDialogue: {fileID: 11400000, guid: ab0b37dd88a8b264a88666adb6462552, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  text: It suits me quite well.
+  nextDialogue: {fileID: 11400000, guid: 060d7550a3d6f644a8aeb988b68c84b9, type: 2}
+  characterImage: {fileID: 0}

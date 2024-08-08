@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tavern - 49
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: You need to retrieve the sword, Hexcalibur, which is believe to be able to
-    strip an arcanist of their power and transfer it-
-  nextDialogue: {fileID: 11400000, guid: a99b0bab58aa82844848d022d9fad9b3, type: 2}
-  characterImage: {fileID: 1058945478727646133, guid: c53bbb4e3b869424f99ee089dd13d249, type: 3}
+  speaker: BARD
+  text: ...
+  nextDialogue: {fileID: 11400000, guid: 2e388255e858e2747ab434eb5279bfb4, type: 2}
+  characterImage: {fileID: 0}

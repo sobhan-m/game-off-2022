@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: DRAGON
   text: You've worn me out.
-  nextDialogue: {fileID: 11400000, guid: 33e0cc2d196cd4c47926ceb722aadd8e, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 2230251151077924ea5867546e5ccbe5, type: 2}
   characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}

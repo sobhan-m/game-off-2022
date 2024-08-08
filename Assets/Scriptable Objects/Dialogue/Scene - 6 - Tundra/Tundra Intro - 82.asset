@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 82
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: I've been insulted.
-  nextDialogue: {fileID: 11400000, guid: a7aeb0bb7efd32a40a37a67382fd9024, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  speaker: SORCERESS
+  text: I'll deal with him once I'm through with you.
+  nextDialogue: {fileID: 0}
+  characterImage: {fileID: 0}

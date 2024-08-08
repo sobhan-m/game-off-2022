@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intermission - 6
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Know what?
-  nextDialogue: {fileID: 11400000, guid: 8263b93e11451134d8eaf9b018e17020, type: 2}
-  characterImage: {fileID: 5073775132615349288, guid: 321a8b89fc48d4042911d2998d3452a7, type: 3}
+  text: To impress a girl.
+  nextDialogue: {fileID: 11400000, guid: 4627f8a10d296924c98d3200909e5c59, type: 2}
+  characterImage: {fileID: 0}

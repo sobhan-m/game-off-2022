@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Return Tavern - 44
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: Among the arcane circles, many believe the tundra holds the lair of Necromancer.
-  nextDialogue: {fileID: 11400000, guid: 69e13dacd90816c46bbd59d2ed0d72b7, type: 2}
-  characterImage: {fileID: 1058945478727646133, guid: c53bbb4e3b869424f99ee089dd13d249, type: 3}
+  speaker: BARD
+  text: Efficient.
+  nextDialogue: {fileID: 11400000, guid: e39ac854c99bc504780dafa5c010ba49, type: 2}
+  characterImage: {fileID: 0}

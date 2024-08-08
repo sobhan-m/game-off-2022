@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 10
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: Oh.
-  nextDialogue: {fileID: 11400000, guid: 3d90b719276c8c140b69f16aa1cf7bf4, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  text: ...
+  nextDialogue: {fileID: 11400000, guid: cac94ce613573304c9fbc30bbd18865f, type: 2}
+  characterImage: {fileID: 0}

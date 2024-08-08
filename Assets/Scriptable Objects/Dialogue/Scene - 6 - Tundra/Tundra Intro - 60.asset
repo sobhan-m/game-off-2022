@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 60
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: Why are you doing this?
-  nextDialogue: {fileID: 11400000, guid: 50344289b2857914fbdcdfc5c3c047be, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  speaker: BARD
+  text: She has a point you know.
+  nextDialogue: {fileID: 11400000, guid: faa94d7faa9fdb949abbc43ffcacdde7, type: 2}
+  characterImage: {fileID: 0}

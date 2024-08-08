@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Finale - 65
   m_EditorClassIdentifier: 
-  speaker: BARBARIAN
-  text: Worst.
-  nextDialogue: {fileID: 11400000, guid: eb4b30b7ba7d7b74d9651c46f60fc855, type: 2}
-  characterImage: {fileID: 1865386523202311867, guid: 3d8a84cbc0dedb2468f52b776071d972, type: 3}
+  speaker: BARD
+  text: So does this complete your little tribal quest?
+  nextDialogue: {fileID: 11400000, guid: 69697903cc65c3c498e085d297320b05, type: 2}
+  characterImage: {fileID: 0}

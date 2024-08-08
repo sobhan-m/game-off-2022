@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 38
   m_EditorClassIdentifier: 
   speaker: WIZARD
-  text: And not enough time actually raising her.
-  nextDialogue: {fileID: 11400000, guid: 91368e55eaf439c46adc22277c3fc187, type: 2}
-  characterImage: {fileID: 3714349217196605790, guid: 47f7f0a90007b204a83875f1bdc51eec, type: 3}
+  text: ...
+  nextDialogue: {fileID: 11400000, guid: df2bd32db646c8b4a848b06d92be89da, type: 2}
+  characterImage: {fileID: 0}

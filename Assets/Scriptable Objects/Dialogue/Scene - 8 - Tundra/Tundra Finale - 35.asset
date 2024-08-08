@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 35
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: For your daughter?
-  nextDialogue: {fileID: 11400000, guid: 6c441bdc34ad6eb459e3a0f7e870efd8, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  text: Huh... I guess you were right.
+  nextDialogue: {fileID: 11400000, guid: f47943b2c4866834db7d89ad40914547, type: 2}
+  characterImage: {fileID: 0}

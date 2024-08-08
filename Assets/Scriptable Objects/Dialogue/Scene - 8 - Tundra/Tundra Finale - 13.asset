@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Finale - 13
   m_EditorClassIdentifier: 
-  speaker: WIZARD
-  text: ...
-  nextDialogue: {fileID: 11400000, guid: b0aa02ee7084ac44898f194bddcdd59f, type: 2}
-  characterImage: {fileID: 6795221689620406824, guid: abfd0a1116d98db468b679348c5150d9, type: 3}
+  speaker: BARD
+  text: I'm still confused about the "father" bit, but what do you mean wanting it
+    for himself?
+  nextDialogue: {fileID: 11400000, guid: 178c7d0642a953e47a6441108b026aac, type: 2}
+  characterImage: {fileID: 0}

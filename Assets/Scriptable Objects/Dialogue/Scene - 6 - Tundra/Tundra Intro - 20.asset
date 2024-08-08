@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 20
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: All he ever does is manipulate people.
-  nextDialogue: {fileID: 11400000, guid: 757d59c8bf68a514ebe14b271557ca87, type: 2}
-  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}
+  text: I'm trying to do good here.
+  nextDialogue: {fileID: 11400000, guid: 423f19a321661b94daf5718b012a1c34, type: 2}
+  characterImage: {fileID: 0}

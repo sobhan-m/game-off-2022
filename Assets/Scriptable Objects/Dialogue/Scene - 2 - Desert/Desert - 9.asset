@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - 9
   m_EditorClassIdentifier: 
-  speaker: ???
-  text: There are dragons in these parts, so it's best to be cautious.
-  nextDialogue: {fileID: 11400000, guid: 25e05198db23b4548bd5472f345b658d, type: 2}
-  characterImage: {fileID: 323783148149406915, guid: 17f08415dc85c0a4c88e44d0c8eed3d4, type: 3}
+  speaker: BARD
+  text: Dragons aren't a big deal if you know how to deal with them.
+  nextDialogue: {fileID: 11400000, guid: 5f045af1624da7e40a0ac3ec71ab8894, type: 2}
+  characterImage: {fileID: 0}

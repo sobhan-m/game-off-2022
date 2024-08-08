@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - 37
   m_EditorClassIdentifier: 
-  speaker: DRACO
-  text: '*raises an eyebrow*'
-  nextDialogue: {fileID: 11400000, guid: 3287dbc155d4c1b4a9477015e556d855, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  speaker: BARD
+  text: Just give me another chance.
+  nextDialogue: {fileID: 11400000, guid: a7b49a1f5c0a7d542afb1a8ccd05515e, type: 2}
+  characterImage: {fileID: 0}

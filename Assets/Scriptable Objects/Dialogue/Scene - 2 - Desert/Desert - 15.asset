@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - 15
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Dragons have massive egos, so you just gotta stroke it a bit.
-  nextDialogue: {fileID: 11400000, guid: c3983bfb53d5c864f9e1373587da0483, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  text: '*shrugs* Dinner first?'
+  nextDialogue: {fileID: 11400000, guid: e421d53548ccaad448beff2592c53f8e, type: 2}
+  characterImage: {fileID: 0}

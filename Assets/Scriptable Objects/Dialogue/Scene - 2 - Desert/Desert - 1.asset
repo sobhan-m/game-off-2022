@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: BARD
   text: Okay, that's the last time I'm travelling by caravan.
-  nextDialogue: {fileID: 11400000, guid: 4b068f929adf4d842b39d7f4ee282e59, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 0edb80611162e8448ab0467aba508a1b, type: 2}
   characterImage: {fileID: 0}

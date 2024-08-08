@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 35
   m_EditorClassIdentifier: 
-  speaker: SORCERESS
-  text: That's what I'm trying to do.
-  nextDialogue: {fileID: 11400000, guid: 31dcaf98345f0364a9e803b455a0be00, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  speaker: BARD
+  text: Aren't you trying to kill everyone?
+  nextDialogue: {fileID: 11400000, guid: f37d9ab062833564ab067e64de2de6b1, type: 2}
+  characterImage: {fileID: 0}

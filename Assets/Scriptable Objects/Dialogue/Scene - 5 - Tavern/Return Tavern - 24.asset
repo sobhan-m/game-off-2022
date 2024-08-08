@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Return Tavern - 24
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: Me?
-  nextDialogue: {fileID: 11400000, guid: be459487b4aaa4c4fb21a425448d96e6, type: 2}
-  characterImage: {fileID: 5757213098883137962, guid: 6eac8dab924aba44d8c7046052de7edb, type: 3}
+  speaker: WITCH
+  text: SONGCALIBUR is dangerous for spellcasters like myself.
+  nextDialogue: {fileID: 11400000, guid: 1bba31bf74a748644aedb65fb124d3d2, type: 2}
+  characterImage: {fileID: 0}

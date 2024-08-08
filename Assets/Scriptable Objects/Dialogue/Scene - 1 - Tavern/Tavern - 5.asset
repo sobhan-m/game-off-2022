@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tavern - 5
   m_EditorClassIdentifier: 
-  speaker: BARBARIAN
-  text: What?
-  nextDialogue: {fileID: 11400000, guid: 5507f9ad453a47e42b7c92a6876a94b8, type: 2}
-  characterImage: {fileID: 2839371138746446629, guid: 33d23109ed06d6d45a0baee22de09b30, type: 3}
+  speaker: BARD
+  text: Oh well, it's their loss. I'm sure I'll find some pretty thing who'll appreciate
+    me.
+  nextDialogue: {fileID: 11400000, guid: e15cb01d7ab70574faa817986828ec60, type: 2}
+  characterImage: {fileID: 0}

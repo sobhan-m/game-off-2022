@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Return Tavern - 22
   m_EditorClassIdentifier: 
   speaker: WITCH
-  text: We're so close to defeating the sorceress.
-  nextDialogue: {fileID: 11400000, guid: af0c6ddc274ff2742a6fd80e2c1b01df, type: 2}
-  characterImage: {fileID: 448173832603405664, guid: ab3aedc3093bcae42b071148cd7b5cdf, type: 3}
+  text: Keep this.
+  nextDialogue: {fileID: 11400000, guid: 1a894826abfbe1545b1f823b9d63f00f, type: 2}
+  characterImage: {fileID: 0}

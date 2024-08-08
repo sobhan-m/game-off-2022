@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 14
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: So you're getting others to do your dirty work?
-  nextDialogue: {fileID: 11400000, guid: efaaa377cd3e3f649b631296877e7ba8, type: 2}
-  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}
+  text: You haven't changed, have you?
+  nextDialogue: {fileID: 11400000, guid: c0bf8ef7293def54cb5d4fee4fd7fb9b, type: 2}
+  characterImage: {fileID: 0}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 36
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: I'm trying to make sure no one ever feels empty again.
-  nextDialogue: {fileID: 11400000, guid: e7b6b9f9e9df91946bc1ccb0a1443820, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  text: Is that what he told you?
+  nextDialogue: {fileID: 11400000, guid: d4850b16fa5b9c841802c39f3b124e3e, type: 2}
+  characterImage: {fileID: 0}

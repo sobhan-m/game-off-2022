@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 28
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: Our goals align.
-  nextDialogue: {fileID: 11400000, guid: 7833f16bcbb29184d919f2e297dfcbb5, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  text: Ofcourse I know you.
+  nextDialogue: {fileID: 11400000, guid: 2effce347fb3b6f44811ae70f40105d6, type: 2}
+  characterImage: {fileID: 0}

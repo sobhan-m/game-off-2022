@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 40
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: But why'd you lie to me.
-  nextDialogue: {fileID: 11400000, guid: 9b4872816046f4d489a65ca1e7e11825, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  text: Me too.
+  nextDialogue: {fileID: 11400000, guid: 01420ec6fe968c1459adb678a4d2b6e5, type: 2}
+  characterImage: {fileID: 0}

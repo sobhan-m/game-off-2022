@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 78
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: I mean, I get it.
-  nextDialogue: {fileID: 11400000, guid: 168666395f72a424bbed386169bb5b67, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  text: Otherwise, it isn't really love.
+  nextDialogue: {fileID: 11400000, guid: 9123b646290f12341988064a90c61d9b, type: 2}
+  characterImage: {fileID: 0}

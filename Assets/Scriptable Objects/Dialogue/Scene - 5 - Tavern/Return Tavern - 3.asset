@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: BARD
   text: Yeah. Why wouldn't I be?
-  nextDialogue: {fileID: 11400000, guid: b4c6b0b3339454549926e6e81a2bbf24, type: 2}
-  characterImage: {fileID: 9143228136818788913, guid: d02834776b8e62943b5a1a2f28e19b6e, type: 3}
+  nextDialogue: {fileID: 11400000, guid: 05d6421deddbe0a45a6881c46ed6ea5d, type: 2}
+  characterImage: {fileID: 0}

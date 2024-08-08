@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - 20
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Dinner first?
-  nextDialogue: {fileID: 11400000, guid: 85bc1f53e6855fd4d9b497c503e8902f, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  text: You're really cute and all, and I appreciate you flirting with me-
+  nextDialogue: {fileID: 11400000, guid: 4cba3a17c62b99741888312f2a6bdfee, type: 2}
+  characterImage: {fileID: 0}

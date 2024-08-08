@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 33
   m_EditorClassIdentifier: 
   speaker: WIZARD
-  text: I'm sorry.
-  nextDialogue: {fileID: 11400000, guid: f3311bb413e41c749bfde763994fdffd, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  text: And that you'd only help if you thought you could get something out of it.
+  nextDialogue: {fileID: 11400000, guid: b40c2fd05efb419469654359eb3065f7, type: 2}
+  characterImage: {fileID: 0}

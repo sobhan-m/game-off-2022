@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 81
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: I've been abandoned.
-  nextDialogue: {fileID: 11400000, guid: 9e8a0348c42cdd845966e4aca1700f98, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  speaker: SORCERESS
+  text: '*snaps fingers*'
+  nextDialogue: {fileID: 11400000, guid: 5fde8569678e89141b70207b95ba41d2, type: 2}
+  characterImage: {fileID: 0}

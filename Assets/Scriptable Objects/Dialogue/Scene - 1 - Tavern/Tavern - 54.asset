@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tavern - 54
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: Get the girl.
-  nextDialogue: {fileID: 11400000, guid: fead331830189994891be7378e37a62b, type: 2}
-  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}
+  speaker: WITCH
+  text: Time is of the essence.
+  nextDialogue: {fileID: 11400000, guid: 4d02f879676892247937b1fee3731b45, type: 2}
+  characterImage: {fileID: 0}

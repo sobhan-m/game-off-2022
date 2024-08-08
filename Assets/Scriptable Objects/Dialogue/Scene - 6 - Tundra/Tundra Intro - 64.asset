@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 64
   m_EditorClassIdentifier: 
-  speaker: SORCERESS
-  text: Because you were never around.
-  nextDialogue: {fileID: 11400000, guid: a7698bf9e187f72439664b23ee09c364, type: 2}
-  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}
+  speaker: BARD
+  text: As hard as it is to believe, I've been there myself.
+  nextDialogue: {fileID: 11400000, guid: a32919d1c824a86499da7cbe9380d7ba, type: 2}
+  characterImage: {fileID: 0}

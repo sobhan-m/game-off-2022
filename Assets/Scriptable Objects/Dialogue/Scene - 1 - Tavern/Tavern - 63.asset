@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tavern - 63
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: So when do we head out?
-  nextDialogue: {fileID: 11400000, guid: a7b15ed2b2ef0194aafa2d27d9df5eb0, type: 2}
-  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}
+  speaker: WITCH
+  text: That is where you will find the sword.
+  nextDialogue: {fileID: 11400000, guid: e11efdf3efbaae14c90163c3c77da84c, type: 2}
+  characterImage: {fileID: 0}

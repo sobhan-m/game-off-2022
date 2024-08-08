@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Finale - 21
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: What do you mean wanting it for himself?
-  nextDialogue: {fileID: 11400000, guid: 408e25a4bed57c744aa6fc84f0188989, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  speaker: WIZARD
+  text: I just wanted my daughter back.
+  nextDialogue: {fileID: 11400000, guid: 0917b491a780c5841a62978d53b3131f, type: 2}
+  characterImage: {fileID: 0}

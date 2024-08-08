@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tavern - 58
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: The sword is believed to be in the hoard of a blue dragon, so you-
-  nextDialogue: {fileID: 11400000, guid: 10fcd9a49aeff214cb2aef9066669ddc, type: 2}
-  characterImage: {fileID: 1058945478727646133, guid: c53bbb4e3b869424f99ee089dd13d249, type: 3}
+  speaker: BARD
+  text: I mean... Yeah. Ofcourse I can.
+  nextDialogue: {fileID: 11400000, guid: 87b7feaa08b0e9445b545549d0182e32, type: 2}
+  characterImage: {fileID: 0}

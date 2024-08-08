@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Finale - 11
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: '"Father?"'
-  nextDialogue: {fileID: 11400000, guid: 0443a03db560505449d46a8bfda6c2bf, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  speaker: SORCERESS
+  text: You couldn't even let me have what made me special, could you?
+  nextDialogue: {fileID: 11400000, guid: 2eeddf03e7c353c4aadb697891345361, type: 2}
+  characterImage: {fileID: 0}

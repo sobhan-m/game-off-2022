@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 21
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: Stop-
-  nextDialogue: {fileID: 11400000, guid: 3c0cc342ec37d8e46891cfa975e40fcd, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  speaker: SORCERESS
+  text: You'd be better by my side.
+  nextDialogue: {fileID: 11400000, guid: ec7bf59dfbe0efb4b9ce785f3f5edef5, type: 2}
+  characterImage: {fileID: 0}

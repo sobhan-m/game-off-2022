@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tavern - 13
   m_EditorClassIdentifier: 
-  speaker: BARBARIAN
-  text: '*burps*'
-  nextDialogue: {fileID: 11400000, guid: bdfb701e0a2e99e4a872400094e431fb, type: 2}
-  characterImage: {fileID: 9143228136818788913, guid: d02834776b8e62943b5a1a2f28e19b6e, type: 3}
+  speaker: BARD
+  text: Oh, so you want to hear about how I saved BARBARIAN's ass from all those
+    assassins back in PORT TOWN, right?
+  nextDialogue: {fileID: 11400000, guid: cb843d4604dcebc4abc01f23c7297c17, type: 2}
+  characterImage: {fileID: 0}

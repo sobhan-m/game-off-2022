@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 62
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: ...
-  nextDialogue: {fileID: 11400000, guid: bf0afd8125974b443aa0784062b4b4fa, type: 2}
-  characterImage: {fileID: 1865386523202311867, guid: 3d8a84cbc0dedb2468f52b776071d972, type: 3}
+  text: You're welcome.
+  nextDialogue: {fileID: 11400000, guid: a992c1bf4d1c4fc4692f0e40efc70e80, type: 2}
+  characterImage: {fileID: 0}

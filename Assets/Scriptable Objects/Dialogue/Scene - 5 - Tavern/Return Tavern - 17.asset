@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Return Tavern - 17
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: I knew I chose you for a reason.
-  nextDialogue: {fileID: 11400000, guid: b912719372e14a4418507cfdd6b8d6e9, type: 2}
-  characterImage: {fileID: 448173832603405664, guid: ab3aedc3093bcae42b071148cd7b5cdf, type: 3}
+  speaker: BARD
+  text: I knew you'd pick me eventually.
+  nextDialogue: {fileID: 11400000, guid: 91d49208073bee546921b5c556bb9320, type: 2}
+  characterImage: {fileID: 0}

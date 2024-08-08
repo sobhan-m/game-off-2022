@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Return Tavern - 48
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: Correct.
-  nextDialogue: {fileID: 11400000, guid: 902053e1a4c45de4da201e3ae6f55a7b, type: 2}
-  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}
+  speaker: BARD
+  text: Again?
+  nextDialogue: {fileID: 11400000, guid: f1febb8939e366042b8989e6ff914912, type: 2}
+  characterImage: {fileID: 0}

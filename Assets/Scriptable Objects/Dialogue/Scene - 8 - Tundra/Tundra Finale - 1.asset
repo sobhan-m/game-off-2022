@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: BARD
   text: It's done.
-  nextDialogue: {fileID: 11400000, guid: df59901cf79ac594fb910366511c336b, type: 2}
-  characterImage: {fileID: 6499909294383916323, guid: c956704458a796043b202f284e07015b, type: 3}
+  nextDialogue: {fileID: 11400000, guid: 655ff5b908b6aa94a9b4cd4c050f05a2, type: 2}
+  characterImage: {fileID: 0}

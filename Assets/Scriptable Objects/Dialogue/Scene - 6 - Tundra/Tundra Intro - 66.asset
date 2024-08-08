@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 66
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Wait...
-  nextDialogue: {fileID: 11400000, guid: d211d916f514b9b48ac5cb7684824913, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  text: I've been insulted.
+  nextDialogue: {fileID: 11400000, guid: 1e79bbc996baf734492d72ec1edbf388, type: 2}
+  characterImage: {fileID: 0}

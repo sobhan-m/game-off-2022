@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Return Tavern - 6
   m_EditorClassIdentifier: 
   speaker: BARBARIAN
-  text: I woke up, but no one was around, and-
-  nextDialogue: {fileID: 11400000, guid: e4ff057d531ea00448e5db15e4a9efc3, type: 2}
-  characterImage: {fileID: 9143228136818788913, guid: d02834776b8e62943b5a1a2f28e19b6e, type: 3}
+  text: I woke up, but the only person around was that old guy, and-
+  nextDialogue: {fileID: 11400000, guid: 780bc1b59a5066549aed4f9e4f767aaf, type: 2}
+  characterImage: {fileID: 0}

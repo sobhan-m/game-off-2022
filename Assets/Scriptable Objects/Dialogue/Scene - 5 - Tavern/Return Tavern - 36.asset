@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Return Tavern - 36
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: Believe me, I have no problem getting close to women.
-  nextDialogue: {fileID: 11400000, guid: e254cac258d657442b04efa27ffe750f, type: 2}
-  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}
+  speaker: WITCH
+  text: I have heard rumours that SORCERESS was spotted in the area.
+  nextDialogue: {fileID: 11400000, guid: 4f6b474ee0a3eb14c9648378776f9433, type: 2}
+  characterImage: {fileID: 0}

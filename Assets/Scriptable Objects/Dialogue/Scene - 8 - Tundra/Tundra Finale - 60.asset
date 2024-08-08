@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Finale - 60
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: '*places Hexcalibur on Barbarian''s body*'
-  nextDialogue: {fileID: 11400000, guid: a8bf46f5f2dfbe94391f755f3e4baa71, type: 2}
-  characterImage: {fileID: 1865386523202311867, guid: 3d8a84cbc0dedb2468f52b776071d972, type: 3}
+  speaker: BARBARIAN
+  text: What's this?
+  nextDialogue: {fileID: 11400000, guid: 356a71976d29ccb4d99d88bac0ebb171, type: 2}
+  characterImage: {fileID: 0}

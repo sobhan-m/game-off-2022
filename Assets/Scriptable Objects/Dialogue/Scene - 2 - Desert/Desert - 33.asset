@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - 33
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: I just doubt your writing skills.
-  nextDialogue: {fileID: 11400000, guid: 75ee55d5b7e1edd4db60022d0d7a28f4, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  speaker: DRACO
+  text: ...
+  nextDialogue: {fileID: 11400000, guid: 8b217d5823a532c4b94341e6e8572e7e, type: 2}
+  characterImage: {fileID: 0}

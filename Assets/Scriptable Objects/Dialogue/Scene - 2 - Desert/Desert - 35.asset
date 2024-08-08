@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - 35
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: Oh, no. Not at all.
-  nextDialogue: {fileID: 11400000, guid: 6312a27ad89f5bf4082e661ce2970dab, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  speaker: DRAGON
+  text: You insult me with these pathetic offerings.
+  nextDialogue: {fileID: 11400000, guid: f6ae31ff6589fd54f8324cfd5c42f2b8, type: 2}
+  characterImage: {fileID: 0}

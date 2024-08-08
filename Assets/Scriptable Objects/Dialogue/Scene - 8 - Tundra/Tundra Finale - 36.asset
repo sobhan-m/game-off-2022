@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 36
   m_EditorClassIdentifier: 
   speaker: WIZARD
-  text: Yes.
-  nextDialogue: {fileID: 11400000, guid: e570f59bdccc9f7409c81860fb59c92c, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  text: No, you proved me wrong.
+  nextDialogue: {fileID: 11400000, guid: 8bab3c959ef8c9243a320b5bf96ca81b, type: 2}
+  characterImage: {fileID: 0}

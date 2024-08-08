@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - 4
   m_EditorClassIdentifier: 
   speaker: ???
-  text: I often ask myself that same question.
-  nextDialogue: {fileID: 11400000, guid: 237f95a6a8e3a274f86158eed56e9426, type: 2}
-  characterImage: {fileID: 7372787876637421295, guid: a9c3604314c47bc4bacfd14eea10d6bc, type: 3}
+  text: That's a good question.
+  nextDialogue: {fileID: 11400000, guid: 09b9917e672238449843959e844885fd, type: 2}
+  characterImage: {fileID: 0}

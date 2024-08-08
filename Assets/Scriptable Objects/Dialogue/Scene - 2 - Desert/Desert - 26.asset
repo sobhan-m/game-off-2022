@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - 26
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: You're really cute and all, and I appreciate you flirting with me-
-  nextDialogue: {fileID: 11400000, guid: 532aba9b8c4df7b4c8d166a7b810a517, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  text: I don't doubt "DRACO" is a good name for a dragon.
+  nextDialogue: {fileID: 11400000, guid: f13b0ebdda51a1d4abfc6025e068db56, type: 2}
+  characterImage: {fileID: 0}

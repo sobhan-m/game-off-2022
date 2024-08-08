@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tavern - 3
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: That's it.
-  nextDialogue: {fileID: 11400000, guid: 73ab87e8638efc048ab4761b289d4bf0, type: 2}
-  characterImage: {fileID: 9143228136818788913, guid: d02834776b8e62943b5a1a2f28e19b6e, type: 3}
+  text: Pfft... I know that.
+  nextDialogue: {fileID: 11400000, guid: ace8d2ea9fd668e4e9eba2ef9ba449c5, type: 2}
+  characterImage: {fileID: 0}

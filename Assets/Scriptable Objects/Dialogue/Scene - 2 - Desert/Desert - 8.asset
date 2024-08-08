@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - 8
   m_EditorClassIdentifier: 
   speaker: ???
-  text: '*gives a toothy grin*'
-  nextDialogue: {fileID: 11400000, guid: 9f0c1942408017e40b992e41c33b0af2, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  text: There are dragons in these parts, so it's best to be cautious.
+  nextDialogue: {fileID: 11400000, guid: 545541331b8f5004e9fd93b237f4ff30, type: 2}
+  characterImage: {fileID: 0}

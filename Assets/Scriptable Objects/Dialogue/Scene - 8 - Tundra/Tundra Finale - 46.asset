@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 46
   m_EditorClassIdentifier: 
   speaker: WIZARD
-  text: You are more selfless than I thought.
-  nextDialogue: {fileID: 11400000, guid: 11d9dc5bf4f169f40837c3dd25f7b8a1, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  text: Oh. I'm not sure.
+  nextDialogue: {fileID: 11400000, guid: 94ed3192bfdd03a47820e13a3726a275, type: 2}
+  characterImage: {fileID: 0}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Return Tavern - 32
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: It's that simple?
-  nextDialogue: {fileID: 11400000, guid: e0e3d197177668948adb35c3aab36da2, type: 2}
-  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}
+  text: Believe me, I have no problem getting close to women.
+  nextDialogue: {fileID: 11400000, guid: 27b1ea892f2aa2748b9329dbe0e9f08a, type: 2}
+  characterImage: {fileID: 0}

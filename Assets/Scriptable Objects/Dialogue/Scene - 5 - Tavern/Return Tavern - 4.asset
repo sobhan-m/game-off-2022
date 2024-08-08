@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: BARBARIAN
   text: I'm sorry buddy.
-  nextDialogue: {fileID: 11400000, guid: 4138ddbe3f9af0c4ea43aa10adad0413, type: 2}
-  characterImage: {fileID: 9143228136818788913, guid: d02834776b8e62943b5a1a2f28e19b6e, type: 3}
+  nextDialogue: {fileID: 11400000, guid: ff03996e1971f564c8091b2a74ef7ec6, type: 2}
+  characterImage: {fileID: 0}

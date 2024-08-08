@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Return Tavern - 43
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: My bed's much-
-  nextDialogue: {fileID: 11400000, guid: 28740f953a142c64ba88009753e34be2, type: 2}
-  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}
+  speaker: WITCH
+  text: I summoned a coach the moment you entered.
+  nextDialogue: {fileID: 11400000, guid: 6226beb2852b20047aa7e6ee6ff9cdd9, type: 2}
+  characterImage: {fileID: 0}

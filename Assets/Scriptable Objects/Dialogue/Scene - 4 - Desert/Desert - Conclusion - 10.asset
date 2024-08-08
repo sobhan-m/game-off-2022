@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - Conclusion - 10
   m_EditorClassIdentifier: 
   speaker: DRAGON
-  text: I've met many humans in my lifetime.
-  nextDialogue: {fileID: 11400000, guid: 713cc59e19ac00740a2149e37effd635, type: 2}
+  text: You are not.
+  nextDialogue: {fileID: 11400000, guid: 75d7d9faadd0bf2489acea1d4c6e8536, type: 2}
   characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}

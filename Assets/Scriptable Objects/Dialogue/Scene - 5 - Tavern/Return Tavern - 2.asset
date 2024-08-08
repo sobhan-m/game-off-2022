@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: BARBARIAN
   text: You're okay!
-  nextDialogue: {fileID: 11400000, guid: 28aaee54256b91b448442add505d84c3, type: 2}
-  characterImage: {fileID: 2839371138746446629, guid: 33d23109ed06d6d45a0baee22de09b30, type: 3}
+  nextDialogue: {fileID: 11400000, guid: 4c4728de6648b824385120e79c1a31e7, type: 2}
+  characterImage: {fileID: 0}

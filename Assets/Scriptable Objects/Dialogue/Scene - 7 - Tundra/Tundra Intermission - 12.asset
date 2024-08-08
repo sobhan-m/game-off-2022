@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intermission - 12
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: Barbarian!
-  nextDialogue: {fileID: 11400000, guid: 7bda560f167b21e4ea34d344166f40ba, type: 2}
-  characterImage: {fileID: 5073775132615349288, guid: 321a8b89fc48d4042911d2998d3452a7, type: 3}
+  speaker: BARBARIAN
+  text: I guess we're even now.
+  nextDialogue: {fileID: 11400000, guid: 7f0fa376a250774499f791bbf620ca62, type: 2}
+  characterImage: {fileID: 0}

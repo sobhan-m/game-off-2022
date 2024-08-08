@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Finale - 50
   m_EditorClassIdentifier: 
-  speaker: WIZARD
-  text: At least you get our power in exchange for your actions.
-  nextDialogue: {fileID: 11400000, guid: 0d2a3fcda3ba78a4d9ffdac7d16608d5, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  speaker: BARD
+  text: '*points SONGCALIBUR at BARBARIAN*'
+  nextDialogue: {fileID: 11400000, guid: f163194cd2d11124c857008f740676de, type: 2}
+  characterImage: {fileID: 0}

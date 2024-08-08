@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 51
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: '*to you*'
-  nextDialogue: {fileID: 11400000, guid: b6ebf03e272a1ee4a9d16be886a6b37a, type: 2}
-  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}
+  text: Because you treated me like a project.
+  nextDialogue: {fileID: 11400000, guid: 85b521dbeaa71824ba6d0bd8b9c3c407, type: 2}
+  characterImage: {fileID: 0}

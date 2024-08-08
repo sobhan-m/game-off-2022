@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 8
   m_EditorClassIdentifier: 
-  speaker: SORCERESS
-  text: Do I know you?
-  nextDialogue: {fileID: 11400000, guid: 6e5df49d4d9190945b7d3d3626487a91, type: 2}
-  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}
+  speaker: WITCH
+  text: SORCERESS.
+  nextDialogue: {fileID: 11400000, guid: de6adf7ea4c176447a226f169f363a95, type: 2}
+  characterImage: {fileID: 0}

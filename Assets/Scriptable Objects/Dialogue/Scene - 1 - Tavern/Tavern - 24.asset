@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tavern - 24
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: I knew I had sex appeal, but having a groupie travel all this way for me
-    is a new record.
-  nextDialogue: {fileID: 11400000, guid: 8bfdfad52dd3246419fdf12602848fab, type: 2}
-  characterImage: {fileID: 3592361571450117600, guid: 33ef71156ffd6844eb681dc6dae5b866, type: 3}
+  speaker: WITCH
+  text: SORCERESS plans to shackle the world.
+  nextDialogue: {fileID: 11400000, guid: 8e5a2619053351b4287b91118dd49d49, type: 2}
+  characterImage: {fileID: 0}

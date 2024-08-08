@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 31
   m_EditorClassIdentifier: 
-  speaker: SORCERESS
-  text: Because you feel empty unless you're with someone.
-  nextDialogue: {fileID: 11400000, guid: 242e3bf965c1139428bb3f4a7c585a0b, type: 2}
-  characterImage: {fileID: 9134862023236392623, guid: 685dc198dec8ca5439e54cc4a2d5b968, type: 3}
+  speaker: BARD
+  text: Well... I don't mean to brag, but...
+  nextDialogue: {fileID: 11400000, guid: 76aefd9031beb0d44afc163a89915540, type: 2}
+  characterImage: {fileID: 0}

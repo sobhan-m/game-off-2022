@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tavern - 10
   m_EditorClassIdentifier: 
-  speaker: BARBARIAN
-  text: I thought we were having a good time.
-  nextDialogue: {fileID: 11400000, guid: 1bd95480ce9c5e247b5fe92e26ac8d89, type: 2}
-  characterImage: {fileID: 2839371138746446629, guid: 33d23109ed06d6d45a0baee22de09b30, type: 3}
+  speaker: BARD
+  text: See, this is what I was talking about.
+  nextDialogue: {fileID: 11400000, guid: d951c57f4bd80934f8ba8c498adfcb9f, type: 2}
+  characterImage: {fileID: 0}

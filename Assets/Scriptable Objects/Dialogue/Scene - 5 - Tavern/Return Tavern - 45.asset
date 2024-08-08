@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Return Tavern - 45
   m_EditorClassIdentifier: 
   speaker: WITCH
-  text: I believe Sorceress has gone there to find his laboratory, and use the knowledge
-    he had accumulated before the Holy Order destroyed him, to complete her spell.
-  nextDialogue: {fileID: 11400000, guid: cfdd3d888e73b6a46984e4f2ae7927ab, type: 2}
-  characterImage: {fileID: 1058945478727646133, guid: c53bbb4e3b869424f99ee089dd13d249, type: 3}
+  text: I try.
+  nextDialogue: {fileID: 11400000, guid: 0c009f26f5ab7f1468113dede36e6091, type: 2}
+  characterImage: {fileID: 0}

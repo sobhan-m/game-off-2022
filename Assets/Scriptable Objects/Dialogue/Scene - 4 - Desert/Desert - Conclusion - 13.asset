@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - Conclusion - 13
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: A compliment from a dragon?
-  nextDialogue: {fileID: 11400000, guid: d2462b8c4eab1064e8cec86d89074dd0, type: 2}
-  characterImage: {fileID: 6113587006318535564, guid: 5ee549b3db75d724d856ffc9d6df469b, type: 3}
+  text: Does this mean you're done trying to kill me?
+  nextDialogue: {fileID: 11400000, guid: 811a960fdf7991f41b6e2c1415b680e1, type: 2}
+  characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - Conclusion - 14
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: I'm flattered.
-  nextDialogue: {fileID: 11400000, guid: 9c12c6fbf4049ec4385b1a9860bbc7b6, type: 2}
-  characterImage: {fileID: 7372787876637421295, guid: a9c3604314c47bc4bacfd14eea10d6bc, type: 3}
+  speaker: DRAGON
+  text: You've earned your life.
+  nextDialogue: {fileID: 11400000, guid: 7b49f250048fc984ba5447b64d571a6c, type: 2}
+  characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}

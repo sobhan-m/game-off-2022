@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 45
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: Stop this!
-  nextDialogue: {fileID: 11400000, guid: da44c894f4b4c8343b46c64680219d99, type: 2}
-  characterImage: {fileID: 1422711182151667592, guid: fa918e06343e24546bcfe96067e529d5, type: 3}
+  speaker: SORCERESS
+  text: I'm just trying to make it fair.
+  nextDialogue: {fileID: 11400000, guid: a584fba839401574b9a5214ebdbea26e, type: 2}
+  characterImage: {fileID: 0}

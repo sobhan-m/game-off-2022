@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - 7
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Do you always just lurk inside random caves, because that's kinda weird dude.
-  nextDialogue: {fileID: 11400000, guid: ce97d868965db744b8e711ae110907c0, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  text: Do you always just lurk inside random caves, because that's kinda weird.
+  nextDialogue: {fileID: 11400000, guid: 535b3db3bebc3504691f3bebc10ec565, type: 2}
+  characterImage: {fileID: 0}

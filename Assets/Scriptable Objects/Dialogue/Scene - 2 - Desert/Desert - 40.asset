@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - 40
   m_EditorClassIdentifier: 
-  speaker: DRACO
-  text: ...
-  nextDialogue: {fileID: 11400000, guid: ff92200b506046c4d84b9fc40a82848a, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  speaker: BARD
+  text: Ugh. You need a better writer.
+  nextDialogue: {fileID: 0}
+  characterImage: {fileID: 0}

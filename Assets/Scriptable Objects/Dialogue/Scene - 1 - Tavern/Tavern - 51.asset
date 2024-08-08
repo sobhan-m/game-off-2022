@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tavern - 51
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Grab the sword.
-  nextDialogue: {fileID: 11400000, guid: 3cf397c27d6ec6e4092194e4d70f42a9, type: 2}
-  characterImage: {fileID: 8568991151478729882, guid: c51f155a541e70040ad3121420aab311, type: 3}
+  text: ...
+  nextDialogue: {fileID: 11400000, guid: 1babd1640064f1c41b5912d6769fc8bc, type: 2}
+  characterImage: {fileID: 0}

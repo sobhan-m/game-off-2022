@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - Conclusion - 20
   m_EditorClassIdentifier: 
-  speaker: DRACO
-  text: And Hexcalibur.
-  nextDialogue: {fileID: 11400000, guid: 87e89e14a3b40b140b48224bd6e36d82, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: 2ae05e140fa766942ab4aed186766650, type: 3}
+  speaker: DRAGON
+  text: Now leave, before I change my mind.
+  nextDialogue: {fileID: 11400000, guid: 7c7d19dc3cf6fb74b9b0a3d8259e4d2c, type: 2}
+  characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}

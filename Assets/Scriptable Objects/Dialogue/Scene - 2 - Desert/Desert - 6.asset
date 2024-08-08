@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: ???
   text: New to these areas, are we?
-  nextDialogue: {fileID: 11400000, guid: eb7ef29eb1a2f1146b9c540e279593ca, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  nextDialogue: {fileID: 11400000, guid: d72e5513b38c466438832accfc403607, type: 2}
+  characterImage: {fileID: 0}

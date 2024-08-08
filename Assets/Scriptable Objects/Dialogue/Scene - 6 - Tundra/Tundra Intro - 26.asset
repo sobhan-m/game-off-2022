@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 26
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: Now is not the time, Bard.
-  nextDialogue: {fileID: 11400000, guid: a055822e9b6292b48926433d9f8dd790, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  speaker: BARD
+  text: How could you know what my goals are?
+  nextDialogue: {fileID: 11400000, guid: 5e408b1e98465af4785210b1fb3f3335, type: 2}
+  characterImage: {fileID: 0}

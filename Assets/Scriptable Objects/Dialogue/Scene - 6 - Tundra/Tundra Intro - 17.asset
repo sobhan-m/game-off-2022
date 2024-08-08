@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 17
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: What's going on here?
-  nextDialogue: {fileID: 11400000, guid: f0d548af706a21a4fa39428cd9a3c473, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  speaker: SORCERESS
+  text: Don't listen to him.
+  nextDialogue: {fileID: 11400000, guid: 1b90045229524db478baac845fd2c1a8, type: 2}
+  characterImage: {fileID: 0}

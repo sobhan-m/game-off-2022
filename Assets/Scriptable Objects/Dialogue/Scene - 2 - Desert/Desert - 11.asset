@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - 11
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Dragons aren't a big deal if you know how to deal with them.
-  nextDialogue: {fileID: 11400000, guid: 5e24d10bcf4fc734cbc6f1689865391e, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  text: Dragons have massive egos, so you just gotta stroke it a bit.
+  nextDialogue: {fileID: 11400000, guid: 22fa6d298c2592c4e87ed72420e95b0b, type: 2}
+  characterImage: {fileID: 0}

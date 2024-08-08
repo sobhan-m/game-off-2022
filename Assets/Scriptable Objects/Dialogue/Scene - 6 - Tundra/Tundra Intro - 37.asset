@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intro - 37
   m_EditorClassIdentifier: 
   speaker: SORCERESS
-  text: That we all have someone that loves us.
-  nextDialogue: {fileID: 11400000, guid: 4e0bd2c0bf6511844b284a582b1daf0d, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  text: No, dear, I'm not trying to kill anyone.
+  nextDialogue: {fileID: 11400000, guid: 044f704920af62842bde861700b7add4, type: 2}
+  characterImage: {fileID: 0}

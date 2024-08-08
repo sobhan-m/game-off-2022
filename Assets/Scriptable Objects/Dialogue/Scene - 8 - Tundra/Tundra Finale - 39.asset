@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 39
   m_EditorClassIdentifier: 
   speaker: WIZARD
-  text: '*to Sorceress* I''m sorry.'
-  nextDialogue: {fileID: 11400000, guid: b1068e13529e2b84d86fa151ae845e5f, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  text: I'm sorry about your friend.
+  nextDialogue: {fileID: 11400000, guid: 8738afaffe71bb646922621568af2055, type: 2}
+  characterImage: {fileID: 0}

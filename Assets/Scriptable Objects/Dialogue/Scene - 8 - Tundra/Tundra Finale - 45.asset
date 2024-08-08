@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 45
   m_EditorClassIdentifier: 
   speaker: WIZARD
-  text: I was wrong.
-  nextDialogue: {fileID: 11400000, guid: 92d7b77c76780274ea0751e1fc7b26cc, type: 2}
-  characterImage: {fileID: 6419386194462101539, guid: 4fa07d7f0484c9a4da00ea6352728aba, type: 3}
+  text: What?
+  nextDialogue: {fileID: 11400000, guid: 449e7fdadb5cb8d4893328fe49797cee, type: 2}
+  characterImage: {fileID: 0}

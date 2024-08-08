@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Return Tavern - 16
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: Well, that shows you for doubting me!
-  nextDialogue: {fileID: 11400000, guid: a0875cb664dda0e4e9704eb2bdcced82, type: 2}
-  characterImage: {fileID: 5757213098883137962, guid: 6eac8dab924aba44d8c7046052de7edb, type: 3}
+  speaker: WITCH
+  text: I knew I chose you for a reason.
+  nextDialogue: {fileID: 11400000, guid: 51e3bf076ba11434492a948b076ab3bf, type: 2}
+  characterImage: {fileID: 0}

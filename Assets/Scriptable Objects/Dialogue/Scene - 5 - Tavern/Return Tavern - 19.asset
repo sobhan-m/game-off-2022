@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Return Tavern - 19
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: I got a room at the tavern if you wanna-
-  nextDialogue: {fileID: 11400000, guid: 78e8921f86c846c4fa920d3daf37cc3c, type: 2}
-  characterImage: {fileID: 5757213098883137962, guid: 6eac8dab924aba44d8c7046052de7edb, type: 3}
+  speaker: WITCH
+  text: Maybe some other time.
+  nextDialogue: {fileID: 11400000, guid: 6c0202e436838af488fc6edc2f5b57ad, type: 2}
+  characterImage: {fileID: 0}

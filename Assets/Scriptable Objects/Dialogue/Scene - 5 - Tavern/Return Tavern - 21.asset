@@ -12,9 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Return Tavern - 21
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: '*to themselves*
-
-    Why does everyone keep giving me maybes?'
-  nextDialogue: {fileID: 11400000, guid: eb246312b51c72f438f02c44f5c08346, type: 2}
-  characterImage: {fileID: 5757213098883137962, guid: 6eac8dab924aba44d8c7046052de7edb, type: 3}
+  speaker: WITCH
+  text: We're so close to defeating SORCERESS.
+  nextDialogue: {fileID: 11400000, guid: 060fe177c7499e748826d23c1d7dbe02, type: 2}
+  characterImage: {fileID: 0}

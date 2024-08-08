@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Finale - 71
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: We're even now.
-  nextDialogue: {fileID: 11400000, guid: f400c7a23591b824fbd9608143822413, type: 2}
-  characterImage: {fileID: 7041728326836656205, guid: ddb137ac8930a204dbb3d2d39c25554b, type: 3}
+  speaker: BARBARIAN
+  text: I suppose a few drinks never hurt anybody.
+  nextDialogue: {fileID: 11400000, guid: cc3cca61d2035f747ab2390352a1b541, type: 2}
+  characterImage: {fileID: 0}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tavern - 19
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: I'm Witch.
-  nextDialogue: {fileID: 11400000, guid: af418527249b29b4590c471baa0ee2c9, type: 2}
-  characterImage: {fileID: 3592361571450117600, guid: 33ef71156ffd6844eb681dc6dae5b866, type: 3}
+  speaker: BARD
+  text: A quest? Not my usual request, but I don't see why not.
+  nextDialogue: {fileID: 11400000, guid: 4e1194fb81abda148b85daaf690b2b1a, type: 2}
+  characterImage: {fileID: 0}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 25
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: '*glares*'
-  nextDialogue: {fileID: 11400000, guid: e042feec03b4cc8448faeb31a9ca47b0, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  speaker: BARD
+  text: You don't even know me.
+  nextDialogue: {fileID: 11400000, guid: b3d1c96d3343eb44c8eda17c7fe80f10, type: 2}
+  characterImage: {fileID: 0}

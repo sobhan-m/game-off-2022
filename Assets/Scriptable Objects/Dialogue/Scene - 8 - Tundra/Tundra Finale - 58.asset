@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Finale - 58
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: Wake up buddy.
-  nextDialogue: {fileID: 11400000, guid: 3f11f57bca583474d85b40a05dfcc6a8, type: 2}
+  speaker: BARBARIAN
+  text: How...
+  nextDialogue: {fileID: 11400000, guid: eaddab7a849e83a46ac6f6645e36748a, type: 2}
   characterImage: {fileID: 0}

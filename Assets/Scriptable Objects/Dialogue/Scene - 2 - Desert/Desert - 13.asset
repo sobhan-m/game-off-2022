@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - 13
   m_EditorClassIdentifier: 
-  speaker: ???
-  text: Oh really?
-  nextDialogue: {fileID: 11400000, guid: cd3518221e3cd684cbcc54b08c36e1e8, type: 2}
-  characterImage: {fileID: 5218132324603279604, guid: 62ec53e71c51e5e45b0fa3493699f632, type: 3}
+  speaker: BARD
+  text: Want me to stroke something of yours too?
+  nextDialogue: {fileID: 11400000, guid: 3961bf6b485a6794c9ab7006977f7260, type: 2}
+  characterImage: {fileID: 0}

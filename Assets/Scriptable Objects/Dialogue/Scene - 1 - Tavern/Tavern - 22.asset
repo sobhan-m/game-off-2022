@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tavern - 22
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Now this is what I was talking about.
-  nextDialogue: {fileID: 11400000, guid: a0d3d752569af54459ca13ced2dd78e4, type: 2}
-  characterImage: {fileID: 3592361571450117600, guid: 33ef71156ffd6844eb681dc6dae5b866, type: 3}
+  text: What's the quest?
+  nextDialogue: {fileID: 11400000, guid: 4ab839426935c404297bf18dba9d8105, type: 2}
+  characterImage: {fileID: 0}

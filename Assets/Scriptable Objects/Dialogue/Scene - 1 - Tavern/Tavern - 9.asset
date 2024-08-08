@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tavern - 9
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: And I'm not about to fork over everything I made tonight just so you can
-    get hammered.
-  nextDialogue: {fileID: 11400000, guid: 94af8c9b7ebdf3d47974b4006e83705d, type: 2}
-  characterImage: {fileID: 9143228136818788913, guid: d02834776b8e62943b5a1a2f28e19b6e, type: 3}
+  speaker: WITCH
+  text: I've come a long way to find you.
+  nextDialogue: {fileID: 11400000, guid: 1d68e16096a1f69449f1125560c20aa3, type: 2}
+  characterImage: {fileID: 0}

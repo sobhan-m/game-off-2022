@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: BARBARIAN
   text: I promise it won't happen again.
-  nextDialogue: {fileID: 11400000, guid: 48d60bac3b4f1e243a8afb96669455cc, type: 2}
-  characterImage: {fileID: 9143228136818788913, guid: d02834776b8e62943b5a1a2f28e19b6e, type: 3}
+  nextDialogue: {fileID: 11400000, guid: f924de059396f864aa5175e8b218216f, type: 2}
+  characterImage: {fileID: 0}

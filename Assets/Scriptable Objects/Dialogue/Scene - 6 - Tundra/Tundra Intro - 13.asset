@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Tundra Intro - 13
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: You know each other?
-  nextDialogue: {fileID: 11400000, guid: 3c9752aff8001aa409d58bd053d3ae7d, type: 2}
-  characterImage: {fileID: 7365950863544083759, guid: 6ac01146703349f44a84030885495c18, type: 3}
+  speaker: SORCERESS
+  text: So you're getting others to do your dirty work?
+  nextDialogue: {fileID: 11400000, guid: 798e3cf474449f2499d4cf5c3b4b6353, type: 2}
+  characterImage: {fileID: 0}

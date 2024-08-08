@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 37
   m_EditorClassIdentifier: 
   speaker: WIZARD
-  text: I spent too much time trying to hone her magic.
-  nextDialogue: {fileID: 11400000, guid: 7a1d8541dc07a9e489dd1b6827d16c79, type: 2}
-  characterImage: {fileID: 3714349217196605790, guid: 47f7f0a90007b204a83875f1bdc51eec, type: 3}
+  text: You are more selfless than I thought.
+  nextDialogue: {fileID: 11400000, guid: 3f422a59ad021e144abc2254908bc2c1, type: 2}
+  characterImage: {fileID: 0}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - Conclusion - 7
   m_EditorClassIdentifier: 
-  speaker: DRAGON
-  text: '*laughs*'
-  nextDialogue: {fileID: 11400000, guid: b242c49feeddb5c49a542320f209bdcb, type: 2}
-  characterImage: {fileID: 5622738271496909197, guid: 9cf57acb09e5ccf4e9676fd63de4cf79, type: 3}
+  speaker: BARD
+  text: I'm a simple person.
+  nextDialogue: {fileID: 11400000, guid: da376f8b73f22b342b134466b240dc50, type: 2}
+  characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}

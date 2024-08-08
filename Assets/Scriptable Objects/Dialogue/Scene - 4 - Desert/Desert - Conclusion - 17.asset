@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Desert - Conclusion - 17
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: Does this mean you're done trying to kill me?
-  nextDialogue: {fileID: 11400000, guid: 58b93b35909ee424a8244fd6b4b2bc3f, type: 2}
-  characterImage: {fileID: 6362842799475670867, guid: c3d83f7a94857704aba769815f9d7e81, type: 3}
+  speaker: DRAGON
+  text: Indeed.
+  nextDialogue: {fileID: 11400000, guid: 535a3b1f757cc8c43b0cf7f4f6a9c70c, type: 2}
+  characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}

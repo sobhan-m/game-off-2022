@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 64
   m_EditorClassIdentifier: 
   speaker: BARBARIAN
-  text: '*coughs*'
-  nextDialogue: {fileID: 11400000, guid: 3b575deed32616e4bbaa72d01dddf0fc, type: 2}
-  characterImage: {fileID: 1865386523202311867, guid: 3d8a84cbc0dedb2468f52b776071d972, type: 3}
+  text: Woah...
+  nextDialogue: {fileID: 11400000, guid: dc9102886cda83b439e6259b07c0cf94, type: 2}
+  characterImage: {fileID: 0}

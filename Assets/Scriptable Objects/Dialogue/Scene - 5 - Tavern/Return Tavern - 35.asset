@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
   m_Name: Return Tavern - 35
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: The hard part is getting close to her.
-  nextDialogue: {fileID: 11400000, guid: 0998e3a7804d3024ca3b12947b32ca75, type: 2}
-  characterImage: {fileID: 1058945478727646133, guid: c53bbb4e3b869424f99ee089dd13d249, type: 3}
+  speaker: BARD
+  text: Why there?
+  nextDialogue: {fileID: 11400000, guid: 6ceca8c09c527cb499e3a0d7ec86c488, type: 2}
+  characterImage: {fileID: 0}

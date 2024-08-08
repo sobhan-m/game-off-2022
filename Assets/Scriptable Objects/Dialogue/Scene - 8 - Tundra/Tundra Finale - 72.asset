@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 72
   m_EditorClassIdentifier: 
   speaker: BARBARIAN
-  text: How...
-  nextDialogue: {fileID: 11400000, guid: c625c61d3dedaa44b919408ec27668a1, type: 2}
-  characterImage: {fileID: 7041728326836656205, guid: ddb137ac8930a204dbb3d2d39c25554b, type: 3}
+  text: This time it's on me.
+  nextDialogue: {fileID: 11400000, guid: fc106e3429290e74dbcd2d88ad076204, type: 2}
+  characterImage: {fileID: 0}
