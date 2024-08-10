@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: That's too little too late.
   nextDialogue: {fileID: 11400000, guid: db854b89634f3974b99be175ceb165c5, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: DRACO
   text: I spent a lot of time coming up with that name.
   nextDialogue: {fileID: 11400000, guid: 3cdddf73f7bb25549a44e79be8eab837, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 440167502592787663, guid: d85a18c5d351bab409bd8b412c87517b, type: 3}

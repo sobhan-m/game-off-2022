@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: It's the willingness to give yourself to others.
   nextDialogue: {fileID: 11400000, guid: 7142895bf0022cd46b7ed3ee0871c3d7, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

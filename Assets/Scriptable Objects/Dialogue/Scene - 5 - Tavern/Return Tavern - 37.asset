@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Why would she go there? It's freezing!
   nextDialogue: {fileID: 11400000, guid: 8730c0c8a92ec7d408e77f3be8013349, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

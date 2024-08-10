@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: I'll deal with him once I'm through with you.
   nextDialogue: {fileID: 0}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5491481611504198297, guid: 00dbb05589e71b14d8ba5a61d811d49d, type: 3}

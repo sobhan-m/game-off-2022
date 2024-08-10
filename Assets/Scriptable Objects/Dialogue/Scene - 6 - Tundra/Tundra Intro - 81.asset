@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: '*snaps fingers*'
   nextDialogue: {fileID: 11400000, guid: 5fde8569678e89141b70207b95ba41d2, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5491481611504198297, guid: 00dbb05589e71b14d8ba5a61d811d49d, type: 3}

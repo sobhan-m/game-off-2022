@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: So... You want to attack SORCERESS with this and get rid of all her powers?
   nextDialogue: {fileID: 11400000, guid: d48ac64c036a84a43a7f45dd854bfed1, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

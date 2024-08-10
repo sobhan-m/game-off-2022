@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: You just killed my buddy.
   nextDialogue: {fileID: 11400000, guid: e59aac9de72149748b7a4a5393c28441, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 174179444478442230, guid: 2cf038b8eb3c2ad479d1aa0244108214, type: 3}

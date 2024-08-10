@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Just a scratch?
   nextDialogue: {fileID: 11400000, guid: 418f725e6a4fe394bb1c4e9ad0d3b1a2, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

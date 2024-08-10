@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: It's no wonder he tricked you into doing his bidding.
   nextDialogue: {fileID: 11400000, guid: 23c74cccca7951a408bf4c61c5c71826, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

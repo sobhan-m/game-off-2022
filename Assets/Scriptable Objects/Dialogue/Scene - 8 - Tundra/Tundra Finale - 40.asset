@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Me too.
   nextDialogue: {fileID: 11400000, guid: 01420ec6fe968c1459adb678a4d2b6e5, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3375736314533950161, guid: 72e347e6df7cd9b41aaa587ea0bf014f, type: 3}

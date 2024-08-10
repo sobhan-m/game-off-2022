@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARBARIAN
   text: I woke up, but the only person around was that old guy, and-
   nextDialogue: {fileID: 11400000, guid: 780bc1b59a5066549aed4f9e4f767aaf, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3190616665911302882, guid: 3982147ff2ec7644e99f1cc57e22d412, type: 3}

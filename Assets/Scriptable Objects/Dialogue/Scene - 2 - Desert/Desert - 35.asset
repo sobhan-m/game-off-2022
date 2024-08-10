@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: DRAGON
   text: You insult me with these pathetic offerings.
   nextDialogue: {fileID: 11400000, guid: f6ae31ff6589fd54f8324cfd5c42f2b8, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 1540313648836938329, guid: b9b4caad5c188df4db57bf2c283fe45f, type: 3}

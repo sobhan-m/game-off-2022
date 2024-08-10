@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: I knew I chose you for a reason.
   nextDialogue: {fileID: 11400000, guid: 51e3bf076ba11434492a948b076ab3bf, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

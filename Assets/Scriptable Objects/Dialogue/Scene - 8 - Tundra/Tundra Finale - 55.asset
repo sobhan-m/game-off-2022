@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: You're okay.
   nextDialogue: {fileID: 11400000, guid: 21c239e8cd1b33a44906ebae2ab2bc49, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3190616665911302882, guid: 3982147ff2ec7644e99f1cc57e22d412, type: 3}

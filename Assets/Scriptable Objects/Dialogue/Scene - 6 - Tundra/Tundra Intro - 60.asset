@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: She has a point you know.
   nextDialogue: {fileID: 11400000, guid: faa94d7faa9fdb949abbc43ffcacdde7, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

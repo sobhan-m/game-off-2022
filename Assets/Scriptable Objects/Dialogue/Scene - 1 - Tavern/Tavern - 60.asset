@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: I'm all about being humble and sharing the spotlight, you know.
   nextDialogue: {fileID: 11400000, guid: 0d1548d3d3758494480a13af6f973a40, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

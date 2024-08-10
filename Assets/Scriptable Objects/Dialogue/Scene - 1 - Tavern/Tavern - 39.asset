@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Dragons are no match for me.
   nextDialogue: {fileID: 11400000, guid: 2ddb9d7c6fe0f18478c788166e262baf, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: I guess you don't understand either.
   nextDialogue: {fileID: 11400000, guid: 13fd592e946df654abbafa37bf30a9c8, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

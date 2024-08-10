@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: DRAGON
   text: I'm afraid you've lost your chance.
   nextDialogue: {fileID: 11400000, guid: 96fbb080c7e8fdd489b79af910e7d902, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 1540313648836938329, guid: b9b4caad5c188df4db57bf2c283fe45f, type: 3}

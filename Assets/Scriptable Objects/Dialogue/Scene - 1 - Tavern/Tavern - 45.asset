@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Buddy?
   nextDialogue: {fileID: 11400000, guid: 07fcdcd674918db4ca135bf31f770279, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: '*shivering*'
   nextDialogue: {fileID: 11400000, guid: 600fbee8476d66f41985074b3bac429a, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7507142515901268369, guid: b37c87b7ab49c7f45b54603c452b8deb, type: 3}

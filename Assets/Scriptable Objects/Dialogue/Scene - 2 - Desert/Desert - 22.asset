@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Semantics!
   nextDialogue: {fileID: 11400000, guid: 97efc38972cb9f44eaf91e952d28d3c9, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 440167502592787663, guid: d85a18c5d351bab409bd8b412c87517b, type: 3}

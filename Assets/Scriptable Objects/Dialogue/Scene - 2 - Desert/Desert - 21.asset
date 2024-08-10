@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: DRACO
   text: I believe you're the one who flirted with me.
   nextDialogue: {fileID: 11400000, guid: b9fb69a6ea3d1da4c836ce6d36c78916, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 440167502592787663, guid: d85a18c5d351bab409bd8b412c87517b, type: 3}

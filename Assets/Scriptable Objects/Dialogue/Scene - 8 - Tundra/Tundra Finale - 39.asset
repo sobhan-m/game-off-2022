@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WIZARD
   text: I'm sorry about your friend.
   nextDialogue: {fileID: 11400000, guid: 8738afaffe71bb646922621568af2055, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3375736314533950161, guid: 72e347e6df7cd9b41aaa587ea0bf014f, type: 3}

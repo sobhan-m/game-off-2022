@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: ???
   text: There are dragons in these parts, so it's best to be cautious.
   nextDialogue: {fileID: 11400000, guid: 545541331b8f5004e9fd93b237f4ff30, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 440167502592787663, guid: d85a18c5d351bab409bd8b412c87517b, type: 3}

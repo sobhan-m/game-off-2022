@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: So do you accept?
   nextDialogue: {fileID: 11400000, guid: 41eea30717958e9498a3a6b8b3ade9c8, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

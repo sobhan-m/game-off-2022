@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Ugh. You need a better writer.
   nextDialogue: {fileID: 0}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 1540313648836938329, guid: b9b4caad5c188df4db57bf2c283fe45f, type: 3}

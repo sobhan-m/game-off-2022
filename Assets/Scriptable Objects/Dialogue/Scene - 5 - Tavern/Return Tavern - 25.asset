@@ -16,4 +16,4 @@ MonoBehaviour:
   text: Even the smallest of scratches can extract the magical essence of a creature,
     rendering them powerless.
   nextDialogue: {fileID: 11400000, guid: 9c30ce0c8695a034ab87e3b813a1a817, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

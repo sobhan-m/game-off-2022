@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: You never told me she was hot.
   nextDialogue: {fileID: 11400000, guid: 7131ea9ac2242394682fd8caa3a78cb5, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

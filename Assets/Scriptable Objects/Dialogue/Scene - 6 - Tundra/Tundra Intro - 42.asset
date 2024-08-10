@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: I want to force people to be kind; to be loving.
   nextDialogue: {fileID: 11400000, guid: 2aa7d0bb517f8bf49acf0d0d87ad8dc4, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

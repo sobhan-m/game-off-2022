@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: A nearby caravan is heading to the EMPTY DESERT any minute now.
   nextDialogue: {fileID: 11400000, guid: 041570cb3df3c884797a6d3f788f266f, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

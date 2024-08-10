@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: It can be transferred to anyone.
   nextDialogue: {fileID: 11400000, guid: 68915ccaf52bdd441a0293cfd9b142d8, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3375736314533950161, guid: 72e347e6df7cd9b41aaa587ea0bf014f, type: 3}

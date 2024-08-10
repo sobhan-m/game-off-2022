@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: He didn't tell you, did he?
   nextDialogue: {fileID: 11400000, guid: 458fe067573c4df4d98ed68daf1f884e, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3375736314533950161, guid: 72e347e6df7cd9b41aaa587ea0bf014f, type: 3}

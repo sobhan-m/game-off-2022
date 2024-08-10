@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: No, dear, I'm not trying to kill anyone.
   nextDialogue: {fileID: 11400000, guid: 044f704920af62842bde861700b7add4, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: Is that really so bad?
   nextDialogue: {fileID: 11400000, guid: ce6a4d57fb5b88246896d2afc45f1d66, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

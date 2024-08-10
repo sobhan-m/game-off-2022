@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: So you're getting others to do your dirty work?
   nextDialogue: {fileID: 11400000, guid: 798e3cf474449f2499d4cf5c3b4b6353, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

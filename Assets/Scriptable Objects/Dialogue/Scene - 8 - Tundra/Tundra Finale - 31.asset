@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: But why lie in the first place?
   nextDialogue: {fileID: 11400000, guid: b0a7afa99c7351c429bf7e3aa6f37aa3, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3375736314533950161, guid: 72e347e6df7cd9b41aaa587ea0bf014f, type: 3}

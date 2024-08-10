@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: Just trying to fix the world's problems.
   nextDialogue: {fileID: 11400000, guid: 62af810e004658e41bf2bb8d4dad8c7f, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

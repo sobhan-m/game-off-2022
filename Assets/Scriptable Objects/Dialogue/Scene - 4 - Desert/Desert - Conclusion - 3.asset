@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: I'd rather wear you out in bed, but I'll take it.
   nextDialogue: {fileID: 11400000, guid: 094c2d08e4ea792459d90e9f21101793, type: 2}
-  characterImage: {fileID: 8467327314707666662, guid: a907795f8a1f0a6418cd9fa1ebd42f7c, type: 3}
+  characterImage: {fileID: 1540313648836938329, guid: b9b4caad5c188df4db57bf2c283fe45f, type: 3}

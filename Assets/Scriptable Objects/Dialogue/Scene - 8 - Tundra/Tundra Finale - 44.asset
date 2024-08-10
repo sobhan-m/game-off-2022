@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Does the person need to be alive to receive the magic?
   nextDialogue: {fileID: 11400000, guid: dc7bd5b8b2b4db14194f343f92199c5c, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3375736314533950161, guid: 72e347e6df7cd9b41aaa587ea0bf014f, type: 3}

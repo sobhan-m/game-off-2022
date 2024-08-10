@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: SORCERESS plans to shackle the world.
   nextDialogue: {fileID: 11400000, guid: 8e5a2619053351b4287b91118dd49d49, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

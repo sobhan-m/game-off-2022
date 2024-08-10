@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: I can't believe it!
   nextDialogue: {fileID: 11400000, guid: 19dcd530cb661d441b3537bf839cb8d3, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

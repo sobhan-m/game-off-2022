@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: Maybe some other time.
   nextDialogue: {fileID: 11400000, guid: 6c0202e436838af488fc6edc2f5b57ad, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

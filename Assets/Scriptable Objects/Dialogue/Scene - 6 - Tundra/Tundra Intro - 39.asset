@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: Stop this! You want to put a charm on everyone.
   nextDialogue: {fileID: 11400000, guid: d1ba5b4b1c414aa4783757637c63ec28, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

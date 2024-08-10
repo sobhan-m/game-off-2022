@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: I summoned a coach the moment you entered.
   nextDialogue: {fileID: 11400000, guid: 6226beb2852b20047aa7e6ee6ff9cdd9, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

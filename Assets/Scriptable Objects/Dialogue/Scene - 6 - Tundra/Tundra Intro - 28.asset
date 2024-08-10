@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: Ofcourse I know you.
   nextDialogue: {fileID: 11400000, guid: 2effce347fb3b6f44811ae70f40105d6, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: All he ever does is manipulate people.
   nextDialogue: {fileID: 11400000, guid: 28abcfa1325841c4cb1e53aceb4edffd, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

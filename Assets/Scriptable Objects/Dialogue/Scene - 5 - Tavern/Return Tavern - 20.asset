@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Why does everyone keep giving me maybes?
   nextDialogue: {fileID: 11400000, guid: 2666ca1c35de1b0438ff8710dd7039bc, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

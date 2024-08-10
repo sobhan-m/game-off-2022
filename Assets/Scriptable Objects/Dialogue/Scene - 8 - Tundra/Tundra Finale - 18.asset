@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: He always did.
   nextDialogue: {fileID: 11400000, guid: 3f38756d5bd6c4a44b67246b3ba4f564, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3375736314533950161, guid: 72e347e6df7cd9b41aaa587ea0bf014f, type: 3}

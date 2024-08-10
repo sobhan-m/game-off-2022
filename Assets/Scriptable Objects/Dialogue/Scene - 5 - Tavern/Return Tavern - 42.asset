@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: So when do we leave?
   nextDialogue: {fileID: 11400000, guid: e18ed9eb091ad014da422177977313f2, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: To impress a girl.
   nextDialogue: {fileID: 11400000, guid: 4627f8a10d296924c98d3200909e5c59, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5491481611504198297, guid: 00dbb05589e71b14d8ba5a61d811d49d, type: 3}

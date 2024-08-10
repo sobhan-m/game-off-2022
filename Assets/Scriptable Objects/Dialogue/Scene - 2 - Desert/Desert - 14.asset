@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: ???
   text: That's awfully forward.
   nextDialogue: {fileID: 11400000, guid: 6eabcbf4a04569849b5faacc643b1bc2, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 440167502592787663, guid: d85a18c5d351bab409bd8b412c87517b, type: 3}

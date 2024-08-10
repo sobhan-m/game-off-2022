@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: I just wanted to give the big guy a chance at saving the world. That's all.
   nextDialogue: {fileID: 11400000, guid: 5bb1899062f54fb45aa12770a18912c5, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

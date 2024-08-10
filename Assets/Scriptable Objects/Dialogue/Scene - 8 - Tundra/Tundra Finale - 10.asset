@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: Seek power.
   nextDialogue: {fileID: 11400000, guid: d5d558a6298dac54eae7e2f4b0083a11, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3375736314533950161, guid: 72e347e6df7cd9b41aaa587ea0bf014f, type: 3}

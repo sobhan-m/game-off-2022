@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Otherwise, it isn't really love.
   nextDialogue: {fileID: 11400000, guid: 9123b646290f12341988064a90c61d9b, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

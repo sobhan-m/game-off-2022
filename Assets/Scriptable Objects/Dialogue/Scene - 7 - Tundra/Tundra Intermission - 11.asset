@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARBARIAN
   text: Not my buddy!
   nextDialogue: {fileID: 11400000, guid: 758c0cc55e133aa45b947a1a9d930f6a, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8424873634038886037, guid: 166ee40f517aeca47b014e11d8bf6199, type: 3}

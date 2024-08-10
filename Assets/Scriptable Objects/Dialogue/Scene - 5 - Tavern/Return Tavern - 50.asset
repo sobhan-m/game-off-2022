@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: No matter.
   nextDialogue: {fileID: 11400000, guid: 3552c858645b2ab4483216a9fed79bce, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: Magic is stored in the sword.
   nextDialogue: {fileID: 11400000, guid: 226a252ed44c9cc49bdf90898d244489, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3375736314533950161, guid: 72e347e6df7cd9b41aaa587ea0bf014f, type: 3}

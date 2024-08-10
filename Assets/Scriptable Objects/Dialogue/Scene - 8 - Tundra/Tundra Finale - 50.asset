@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: '*points SONGCALIBUR at BARBARIAN*'
   nextDialogue: {fileID: 11400000, guid: f163194cd2d11124c857008f740676de, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3190616665911302882, guid: 3982147ff2ec7644e99f1cc57e22d412, type: 3}

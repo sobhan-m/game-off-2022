@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: That is where you will find the sword.
   nextDialogue: {fileID: 11400000, guid: e11efdf3efbaae14c90163c3c77da84c, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

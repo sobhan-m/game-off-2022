@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: I need to keep an eye on SORCERESS, so I cannot come with you.
   nextDialogue: {fileID: 11400000, guid: 077f3e47807bf7d478d0a8381c8bc564, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

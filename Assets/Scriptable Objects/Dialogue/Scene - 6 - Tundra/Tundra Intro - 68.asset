@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: My own mother thought I was worthless.
   nextDialogue: {fileID: 11400000, guid: 0e3a6dd00153dcf48be01d6fb9ff9b20, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Save the world.
   nextDialogue: {fileID: 11400000, guid: 23fab10aeddb8924eb7e455e27847760, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

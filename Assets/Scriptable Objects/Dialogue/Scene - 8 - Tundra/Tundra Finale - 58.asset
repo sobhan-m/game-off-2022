@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARBARIAN
   text: How...
   nextDialogue: {fileID: 11400000, guid: eaddab7a849e83a46ac6f6645e36748a, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3190616665911302882, guid: 3982147ff2ec7644e99f1cc57e22d412, type: 3}

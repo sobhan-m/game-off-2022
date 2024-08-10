@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Aren't you trying to kill everyone?
   nextDialogue: {fileID: 11400000, guid: f37d9ab062833564ab067e64de2de6b1, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

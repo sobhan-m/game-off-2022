@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: How could you know what my goals are?
   nextDialogue: {fileID: 11400000, guid: 5e408b1e98465af4785210b1fb3f3335, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

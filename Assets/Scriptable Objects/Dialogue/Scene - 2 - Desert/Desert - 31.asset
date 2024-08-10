@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: You give me SONGCALIBUR, and in return...
   nextDialogue: {fileID: 11400000, guid: 3b85e94b4a131664ba43c912de7df4b5, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 440167502592787663, guid: d85a18c5d351bab409bd8b412c87517b, type: 3}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - 23
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: You went through all this effort, but ended up picking a name like Draco?
+  text: You went through all this effort, but ended up picking a name like DRACO?
   nextDialogue: {fileID: 11400000, guid: 6db2a2e8050a2894ea5de5baf8ce2940, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 440167502592787663, guid: d85a18c5d351bab409bd8b412c87517b, type: 3}

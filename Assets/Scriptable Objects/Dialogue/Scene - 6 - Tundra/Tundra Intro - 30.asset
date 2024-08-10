@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: A great musician, and an even greater lover.
   nextDialogue: {fileID: 11400000, guid: 6c8c35ec816fadc4892e6c2c509dff37, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

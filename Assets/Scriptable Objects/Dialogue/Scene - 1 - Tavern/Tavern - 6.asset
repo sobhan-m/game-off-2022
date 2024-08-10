@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: ???
   text: Are you BARD?
   nextDialogue: {fileID: 11400000, guid: 134abf79112f96c43952d9d5d70908b2, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 7741398011712197342, guid: 7770b0e11d0a0b446a0aa0041b2a3886, type: 3}

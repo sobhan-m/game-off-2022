@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: That's all he ever does.
   nextDialogue: {fileID: 11400000, guid: 720042b5bc1456949a96fb7003f6db26, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3375736314533950161, guid: 72e347e6df7cd9b41aaa587ea0bf014f, type: 3}

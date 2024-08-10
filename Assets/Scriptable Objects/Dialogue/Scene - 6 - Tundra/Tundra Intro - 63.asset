@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Not being loved sucks.
   nextDialogue: {fileID: 11400000, guid: 79f75a34f4610ff498d0a514b433026a, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}

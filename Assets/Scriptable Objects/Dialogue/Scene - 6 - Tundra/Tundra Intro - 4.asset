@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: Who are you?
   nextDialogue: {fileID: 11400000, guid: 03b26e983c1b2ca42bcbc453d3719569, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5612873217943117679, guid: d67fffe2d1129c04e906f1d1abea311a, type: 3}

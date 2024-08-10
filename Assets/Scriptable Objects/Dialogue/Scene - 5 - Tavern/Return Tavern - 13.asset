@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Was there ever any doubt?
   nextDialogue: {fileID: 11400000, guid: fc8ff8317fbd54c4eb5be740d942db38, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

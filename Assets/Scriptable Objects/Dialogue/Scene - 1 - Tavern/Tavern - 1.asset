@@ -16,4 +16,4 @@ MonoBehaviour:
   text: Isn't it weird that the only person who showed up to the show was some old
     guy?
   nextDialogue: {fileID: 11400000, guid: 6e78be8731d14d341a01735839261098, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 3190616665911302882, guid: 3982147ff2ec7644e99f1cc57e22d412, type: 3}

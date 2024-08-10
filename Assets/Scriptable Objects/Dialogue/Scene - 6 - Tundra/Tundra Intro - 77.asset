@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: And it's only meaningful BECAUSE it's freely given.
   nextDialogue: {fileID: 11400000, guid: f3f59e51cfa36164ebdd83c819568c4f, type: 2}
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}
