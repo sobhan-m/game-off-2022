@@ -235,6 +235,7 @@ GameObject:
   - component: {fileID: 2715239976371506443}
   - component: {fileID: -2244201570475407494}
   - component: {fileID: 3341967035150329699}
+  - component: {fileID: -698951962294916795}
   m_Layer: 5
   m_Name: Main Menu
   m_TagString: Untagged
@@ -4148,6 +4149,23 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls: []
+--- !u!114 &-698951962294916795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478559894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &531931388
 GameObject:
   m_ObjectHideFlags: 0
@@ -4655,6 +4673,7 @@ GameObject:
   - component: {fileID: -2292745703762514482}
   - component: {fileID: 6742573574376292321}
   - component: {fileID: 7498484897965403282}
+  - component: {fileID: 6108698650712249971}
   m_Layer: 5
   m_Name: Options
   m_TagString: Untagged
@@ -8568,6 +8587,23 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls: []
+--- !u!114 &6108698650712249971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609807753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &7927740162198954463
 GameObject:
   m_ObjectHideFlags: 0
@@ -9017,6 +9053,7 @@ GameObject:
   - component: {fileID: -8283687010116919168}
   - component: {fileID: 933431070436171731}
   - component: {fileID: 4794246858384525263}
+  - component: {fileID: 5814557229532365919}
   m_Layer: 5
   m_Name: Resume
   m_TagString: Untagged
@@ -12914,6 +12951,23 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
 --- !u!114 &4794246858384525263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7927740163172331906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!114 &5814557229532365919
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
