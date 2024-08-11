@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: Yes. The sword is believed to be in the hoard of a blue dragon, so you-
   nextDialogue: {fileID: 11400000, guid: c576214bd594fa5409994efdc83fe5e3, type: 2}
-  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}
+  characterImage: {fileID: 7507142515901268369, guid: 8c1c46532ff3d4548a8ffcc52106b5a4, type: 3}

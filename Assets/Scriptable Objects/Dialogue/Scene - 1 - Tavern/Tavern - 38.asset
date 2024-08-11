@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: Shouldn't be a problem, sweetheart.
   nextDialogue: {fileID: 11400000, guid: 1b628ee68202dd448a0e410a65a5513b, type: 2}
-  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}
+  characterImage: {fileID: 7507142515901268369, guid: 8c1c46532ff3d4548a8ffcc52106b5a4, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WITCH
   text: Among the arcane circles, many believe the tundra holds the lair of NECROMANCER.
   nextDialogue: {fileID: 11400000, guid: a5ff50785781f374f88ac9e37ad9fc97, type: 2}
-  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}
+  characterImage: {fileID: 7507142515901268369, guid: 8c1c46532ff3d4548a8ffcc52106b5a4, type: 3}

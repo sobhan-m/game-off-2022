@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: It's one of my many many many attractive qualities.
   nextDialogue: {fileID: 11400000, guid: b4ca18d0532242d4e91bf18ea7c152b6, type: 2}
-  characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}
+  characterImage: {fileID: 8550877499363916811, guid: 65fd30811187be148a4f6dfca487e26a, type: 3}
