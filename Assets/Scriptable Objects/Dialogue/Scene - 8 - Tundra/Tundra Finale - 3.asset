@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: SORCERESS
   text: You couldn't even let me have this, could you father?
   nextDialogue: {fileID: 11400000, guid: 53c7b87a75e9e7142a2bbfe8a9d647cb, type: 2}
-  characterImage: {fileID: 5012955656962878444, guid: 5866d7aed5a5784419c59c830f3e9c6b, type: 3}
+  characterImage: {fileID: 5012955656962878444, guid: 5883cc3dc93397c4c89aadeb14facdb5, type: 3}
