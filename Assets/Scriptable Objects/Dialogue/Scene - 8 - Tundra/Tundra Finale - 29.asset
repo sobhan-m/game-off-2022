@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WIZARD
   text: It was to trick you.
   nextDialogue: {fileID: 11400000, guid: b0ec9f999a984dd4a990449b87e85b04, type: 2}
-  characterImage: {fileID: 3375736314533950161, guid: 72e347e6df7cd9b41aaa587ea0bf014f, type: 3}
+  characterImage: {fileID: 3375736314533950161, guid: ac572b2a194d8894a84a2669daff02c7, type: 3}

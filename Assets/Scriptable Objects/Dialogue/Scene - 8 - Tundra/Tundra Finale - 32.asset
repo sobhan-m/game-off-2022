@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: WIZARD
   text: I thought you only care about yourself.
   nextDialogue: {fileID: 11400000, guid: 36bba55ff579383468da1a5ab4dc08a6, type: 2}
-  characterImage: {fileID: 3375736314533950161, guid: 72e347e6df7cd9b41aaa587ea0bf014f, type: 3}
+  characterImage: {fileID: 3375736314533950161, guid: ac572b2a194d8894a84a2669daff02c7, type: 3}
