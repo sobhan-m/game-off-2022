@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: So I'm guessing this is goodbye?
   nextDialogue: {fileID: 11400000, guid: f9cfd0e0ce0a43c4fa4f4ba3293ff8dd, type: 2}
-  characterImage: {fileID: 3190616665911302882, guid: 3982147ff2ec7644e99f1cc57e22d412, type: 3}
+  characterImage: {fileID: 3190616665911302882, guid: 219db3bb62f65dc42a4471f36f28af2f, type: 3}
