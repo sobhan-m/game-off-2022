@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tavern - 43
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: You ready, buddy?
+  text: You ready, wingman?
   nextDialogue: {fileID: 11400000, guid: 53034b3acac3fe445ac03b01e2d12802, type: 2}
   characterImage: {fileID: 7507142515901268369, guid: 8c1c46532ff3d4548a8ffcc52106b5a4, type: 3}

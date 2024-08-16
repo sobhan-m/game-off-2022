@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tavern - 8
   m_EditorClassIdentifier: 
   speaker: WITCH
-  text: I'm Wi-Witch.
+  text: I'm WI-WITCH.
   nextDialogue: {fileID: 11400000, guid: 05dbada8543e35847aa3440fb12f4314, type: 2}
   characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

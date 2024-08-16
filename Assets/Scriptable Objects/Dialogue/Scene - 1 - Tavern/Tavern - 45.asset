@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tavern - 45
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Buddy?
+  text: Wingman?
   nextDialogue: {fileID: 11400000, guid: 07fcdcd674918db4ca135bf31f770279, type: 2}
   characterImage: {fileID: 8550877499363916811, guid: 65fd30811187be148a4f6dfca487e26a, type: 3}

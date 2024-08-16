@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Return Tavern - 53
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: At least have a drink on my behalf, buddy.
+  text: At least have a drink on my behalf, wingman.
   nextDialogue: {fileID: 11400000, guid: 03ac1818451292442942b299c7b6e7eb, type: 2}
   characterImage: {fileID: 3190616665911302882, guid: 73467c0ae1114b9419ba34574294b6ee, type: 3}
