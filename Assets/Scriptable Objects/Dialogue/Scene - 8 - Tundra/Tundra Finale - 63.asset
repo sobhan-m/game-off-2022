@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: BARBARIAN
   text: What?
-  nextDialogue: {fileID: 11400000, guid: 51c0f4457c184464a8299bc4afc2eb32, type: 2}
-  characterImage: {fileID: 3190616665911302882, guid: 87fe3049e8a26f741808be68cd10f90a, type: 3}
+  nextDialogue: {fileID: 11400000, guid: e9797bd4fcddfb1499d36114f6052a98, type: 2}
+  characterImage: {fileID: 3190616665911302882, guid: 219db3bb62f65dc42a4471f36f28af2f, type: 3}

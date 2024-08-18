@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
-  m_Name: Tundra Finale - 55
+  m_Name: Tundra Finale - 50b
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: You're okay.
-  nextDialogue: {fileID: 11400000, guid: 21c239e8cd1b33a44906ebae2ab2bc49, type: 2}
-  characterImage: {fileID: 3190616665911302882, guid: 219db3bb62f65dc42a4471f36f28af2f, type: 3}
+  text: ...
+  nextDialogue: {fileID: 11400000, guid: f163194cd2d11124c857008f740676de, type: 2}
+  characterImage: {fileID: 3190616665911302882, guid: 87fe3049e8a26f741808be68cd10f90a, type: 3}

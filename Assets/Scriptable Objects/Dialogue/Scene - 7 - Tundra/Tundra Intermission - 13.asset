@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: BARBARIAN! NOOOOO!
   nextDialogue: {fileID: 11400000, guid: 8d34860dbe76b6149ab03f7313b5ae3f, type: 2}
-  characterImage: {fileID: 8424873634038886037, guid: 166ee40f517aeca47b014e11d8bf6199, type: 3}
+  characterImage: {fileID: 8424873634038886037, guid: 46e87aaea93f8ee4c8ec5f7d09c3f4f4, type: 3}

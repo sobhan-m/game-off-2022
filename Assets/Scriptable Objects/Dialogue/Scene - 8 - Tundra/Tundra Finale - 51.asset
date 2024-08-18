@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARBARIAN
   text: '*coughs*'
   nextDialogue: {fileID: 11400000, guid: dac41de49a1ee8f45b88fdffafab045f, type: 2}
-  characterImage: {fileID: 3190616665911302882, guid: 3982147ff2ec7644e99f1cc57e22d412, type: 3}
+  characterImage: {fileID: 3190616665911302882, guid: 47018602280bdaa4da92332c8f469138, type: 3}

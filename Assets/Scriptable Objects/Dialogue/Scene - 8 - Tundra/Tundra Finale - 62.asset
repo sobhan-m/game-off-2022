@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: BARD
   text: You're welcome.
   nextDialogue: {fileID: 11400000, guid: a992c1bf4d1c4fc4692f0e40efc70e80, type: 2}
-  characterImage: {fileID: 3190616665911302882, guid: 3982147ff2ec7644e99f1cc57e22d412, type: 3}
+  characterImage: {fileID: 3190616665911302882, guid: 219db3bb62f65dc42a4471f36f28af2f, type: 3}

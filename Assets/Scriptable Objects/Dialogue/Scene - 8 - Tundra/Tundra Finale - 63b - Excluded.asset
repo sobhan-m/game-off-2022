@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
-  m_Name: Tundra Intermission - 12
+  m_Name: Tundra Finale - 63b - Excluded
   m_EditorClassIdentifier: 
   speaker: BARBARIAN
-  text: I guess we're even now.
-  nextDialogue: {fileID: 11400000, guid: 7f0fa376a250774499f791bbf620ca62, type: 2}
-  characterImage: {fileID: 8424873634038886037, guid: 166ee40f517aeca47b014e11d8bf6199, type: 3}
+  text: ...
+  nextDialogue: {fileID: 11400000, guid: e9797bd4fcddfb1499d36114f6052a98, type: 2}
+  characterImage: {fileID: 3190616665911302882, guid: 47018602280bdaa4da92332c8f469138, type: 3}
