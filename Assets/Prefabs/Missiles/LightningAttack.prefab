@@ -140,6 +140,7 @@ MonoBehaviour:
   - {fileID: 118378783, guid: fdf1d1d38a4df994fbf1a5393801b3af, type: 3}
   background: {fileID: 849441449244167991}
   lightning: {fileID: 849441447905631382}
+  soundEffect: {fileID: 8300000, guid: 7d45ec09a2c21ee488feb89957bb6600, type: 3}
 --- !u!1 &849441449244167881
 GameObject:
   m_ObjectHideFlags: 0

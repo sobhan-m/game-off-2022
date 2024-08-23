@@ -13,13 +13,10 @@ public class Lightning : MonoBehaviour
     [SerializeField] SpriteRenderer lightning;
     private float secondsElapsed;
     private bool isDone = false;
-    // Start is called before the first frame update
-    void Start()
-    {
 
-    }
+    // Audio.
+    [SerializeField] private AudioClip soundEffect;
 
-    // Update is called once per frame
     void Update()
     {
         if (!isDone)
@@ -50,9 +47,14 @@ public class Lightning : MonoBehaviour
         background.color = new Color(color.r, color.g, color.b, alpha);
     }
 
+    private void PlayLightningSoundEffect()
+    {
+        AudioSource.PlayClipAtPoint(soundEffect, this.transform.position);
+    }
+
     private void DoLightning()
     {
-        // ChangeGlow(0);
+        PlayLightningSoundEffect();
         lightning.sprite = sprites[UnityEngine.Random.Range(0, sprites.Length)];
         TryToDealDamage();
     }

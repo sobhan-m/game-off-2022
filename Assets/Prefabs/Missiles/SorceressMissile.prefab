@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7970511147898226316}
   - component: {fileID: 3815474234613519113}
   - component: {fileID: 1385332991724100353}
+  - component: {fileID: 4924702499259873249}
   m_Layer: 0
   m_Name: SorceressMissile
   m_TagString: Enemy
@@ -193,6 +194,19 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4924702499259873249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7970511147898226314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9258f8bd143e58746bb8adcba2562802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffect: {fileID: 8300000, guid: 1f9f0daaf670e5d4b970431ee69ed8fa, type: 3}
 --- !u!1 &8026816578020079371
 GameObject:
   m_ObjectHideFlags: 0
