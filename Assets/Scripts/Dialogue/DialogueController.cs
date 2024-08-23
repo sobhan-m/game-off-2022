@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.InputSystem;
 
+[RequireComponent(typeof(AudioSource))]
 public class DialogueController : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI dialogueText;
@@ -18,13 +19,23 @@ public class DialogueController : MonoBehaviour
     private bool isPrinting;
     private Coroutine printingProcess;
 
+    // Audio
+    [SerializeField] private AudioClip typingEffect;
+    private AudioSource audioSource;
+
     private void Awake()
     {
         inputs = new PlayerInputActions();
         inputs.Dialogue.Progress.performed += NextDialogue;
         isPrinting = false;
 
+        
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = typingEffect;
+        audioSource.loop = true;
+
         Populate();
+
     }
 
     private void OnEnable()
@@ -59,6 +70,7 @@ public class DialogueController : MonoBehaviour
     private IEnumerator UpdateText()
     {
         isPrinting = true;
+        audioSource.Play();
 
         for (int i = 1; i <= dialogue.text.Length; ++i)
         {
@@ -66,6 +78,7 @@ public class DialogueController : MonoBehaviour
             yield return new WaitForSeconds(secondsBetweenCharacters);
         }
 
+        audioSource.Stop();
         isPrinting = false;
     }
 
@@ -119,6 +132,7 @@ public class DialogueController : MonoBehaviour
 
     private void CancelPrinting()
     {
+        audioSource.Stop();
         StopCoroutine(printingProcess);
         dialogueText.text = dialogue.text;
     }
