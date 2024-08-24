@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - Conclusion - 3
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: I'd rather wear you out in bed, but I'll take it.
+  text: Hopefully, the next time I wear you out will be in the bedroom.
   nextDialogue: {fileID: 11400000, guid: 094c2d08e4ea792459d90e9f21101793, type: 2}
   characterImage: {fileID: 1540313648836938329, guid: b9b4caad5c188df4db57bf2c283fe45f, type: 3}

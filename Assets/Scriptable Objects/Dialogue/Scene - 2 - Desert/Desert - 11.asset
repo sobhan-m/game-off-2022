@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - 11
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Dragons have massive egos, so you just gotta stroke it a bit.
+  text: They have massive egos, so you just gotta stroke it a bit.
   nextDialogue: {fileID: 11400000, guid: 22fa6d298c2592c4e87ed72420e95b0b, type: 2}
   characterImage: {fileID: 440167502592787663, guid: d85a18c5d351bab409bd8b412c87517b, type: 3}

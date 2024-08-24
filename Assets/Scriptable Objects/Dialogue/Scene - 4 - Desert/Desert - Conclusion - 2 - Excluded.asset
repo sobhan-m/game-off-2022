@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
-  m_Name: Desert - Conclusion - 5
+  m_Name: Desert - Conclusion - 2 - Excluded
   m_EditorClassIdentifier: 
-  speaker: BARD
-  text: Is this the part where we sleep together?
-  nextDialogue: {fileID: 11400000, guid: 8515c3069d9d5794b8f65752db5fdda2, type: 2}
+  speaker: DRAGON
+  text: You should be proud of yourself.
+  nextDialogue: {fileID: 11400000, guid: 3c38d75333c72bc46861769ab0532ad7, type: 2}
   characterImage: {fileID: 1540313648836938329, guid: b9b4caad5c188df4db57bf2c283fe45f, type: 3}

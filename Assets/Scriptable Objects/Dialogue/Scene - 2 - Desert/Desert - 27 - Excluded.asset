@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
-  m_Name: Desert - 27
+  m_Name: Desert - 27 - Excluded
   m_EditorClassIdentifier: 
   speaker: BARD
   text: I just doubt your writing skills.

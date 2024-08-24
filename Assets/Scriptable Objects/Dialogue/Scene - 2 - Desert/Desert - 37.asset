@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Desert - 37
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Just give me another chance.
+  text: Just give me another chance. I can come up with something better.
   nextDialogue: {fileID: 11400000, guid: a7b49a1f5c0a7d542afb1a8ccd05515e, type: 2}
   characterImage: {fileID: 1540313648836938329, guid: b9b4caad5c188df4db57bf2c283fe45f, type: 3}
