@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
-  m_Name: Tundra Finale - 74
+  m_Name: Tundra Finale - 73 - Excluded
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: By my friend.
-  nextDialogue: {fileID: 0}
-  characterImage: {fileID: 3190616665911302882, guid: 219db3bb62f65dc42a4471f36f28af2f, type: 3}
+  text: Turns out I was loved all along.
+  nextDialogue: {fileID: 11400000, guid: 78a868a52b2e4a940b679bad80dd3a55, type: 2}
+  characterImage: {fileID: 3375736314533950161, guid: ac572b2a194d8894a84a2669daff02c7, type: 3}
