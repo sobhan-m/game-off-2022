@@ -7,12 +7,12 @@ public class SceneChangeManager : MonoBehaviour
 {
 	public void LoadMainMenu()
 	{
-		SceneManager.LoadScene("Main_Menu");
+		SceneManager.LoadScene("0 - Main_Menu");
 	}
 
 	public void LoadGameOver()
 	{
-		SceneManager.LoadScene("Game_Over");
+		SceneManager.LoadScene("X - Game_Over");
 	}
 
 	public void LoadNextScene()
