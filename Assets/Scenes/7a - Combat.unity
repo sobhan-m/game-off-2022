@@ -180,6 +180,10 @@ PrefabInstance:
       value: SorceressAttackSystem
       objectReference: {fileID: 0}
     - target: {fileID: 5894575334525089351, guid: 527537fba30366b46a1682edd092389b, type: 3}
+      propertyPath: secondsBetweenAttacks
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5894575334525089351, guid: 527537fba30366b46a1682edd092389b, type: 3}
       propertyPath: attackingPositions.Array.size
       value: 5
       objectReference: {fileID: 0}

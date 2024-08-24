@@ -349,6 +349,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 7d02f6d818d53fa4d94f249897e28f5e, type: 2}
     - target: {fileID: 143711551079117420, guid: c3a0eb04cf32100428d6e33cdef15407, type: 3}
+      propertyPath: secondsBetweenAttacks
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 143711551079117420, guid: c3a0eb04cf32100428d6e33cdef15407, type: 3}
       propertyPath: attackingPositions.Array.size
       value: 5
       objectReference: {fileID: 0}
