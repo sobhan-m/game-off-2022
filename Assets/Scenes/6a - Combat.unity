@@ -427,7 +427,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 571686018332970600, guid: 11ed98403c770304e9736d7801e6bf8c, type: 3}
       propertyPath: seconds
-      value: 120
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 571686018332970602, guid: 11ed98403c770304e9736d7801e6bf8c, type: 3}
       propertyPath: m_Pivot.x
@@ -1474,11 +1474,6 @@ Transform:
   m_Father: {fileID: 973069303}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1609807753 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1609807753, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
-  m_PrefabInstance: {fileID: 7927740163200685413}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1614935899 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 441672632612058607, guid: 79d7c861a7fd58048ab9898acb666491, type: 3}
@@ -2064,7 +2059,7 @@ PrefabInstance:
     - target: {fileID: 3981539058084432260, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
       propertyPath: uiElementsToDisable.Array.data[1]
       value: 
-      objectReference: {fileID: 1609807753}
+      objectReference: {fileID: 0}
     - target: {fileID: 3981539058084432260, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
       propertyPath: uiElementsToDisable.Array.data[2]
       value: 

@@ -1030,7 +1030,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 571686018332970600, guid: 11ed98403c770304e9736d7801e6bf8c, type: 3}
       propertyPath: seconds
-      value: 60
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 571686018332970602, guid: 11ed98403c770304e9736d7801e6bf8c, type: 3}
       propertyPath: m_Pivot.x
