@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
-  m_Name: Return Tavern - 19
+  m_Name: Return Tavern - 17 - Excluded
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: Maybe some other time.
-  nextDialogue: {fileID: 11400000, guid: 6c0202e436838af488fc6edc2f5b57ad, type: 2}
+  speaker: BARD
+  text: I knew you'd pick me eventually.
+  nextDialogue: {fileID: 11400000, guid: 91d49208073bee546921b5c556bb9320, type: 2}
   characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

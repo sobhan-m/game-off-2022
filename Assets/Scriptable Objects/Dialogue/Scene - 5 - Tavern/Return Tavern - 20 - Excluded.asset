@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
-  m_Name: Return Tavern - 21
+  m_Name: Return Tavern - 20 - Excluded
   m_EditorClassIdentifier: 
-  speaker: WITCH
-  text: We're so close to defeating SORCERESS.
-  nextDialogue: {fileID: 11400000, guid: 060fe177c7499e748826d23c1d7dbe02, type: 2}
+  speaker: BARD
+  text: Why does everyone keep giving me maybes?
+  nextDialogue: {fileID: 11400000, guid: 2666ca1c35de1b0438ff8710dd7039bc, type: 2}
   characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}
