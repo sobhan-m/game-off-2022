@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tavern - 13
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Oh, so you want to hear about how I saved BARBARIAN's ass from all those
-    assassins back in PORT TOWN, right?
+  text: How about the story of how I saved BARBARIAN's ass from all those assassins
+    back in PORT TOWN?
   nextDialogue: {fileID: 11400000, guid: cb843d4604dcebc4abc01f23c7297c17, type: 2}
   characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

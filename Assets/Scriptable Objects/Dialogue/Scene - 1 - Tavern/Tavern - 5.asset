@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tavern - 5
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Oh well, it's their loss. I'm sure I'll find some pretty thing who'll appreciate
-    me.
+  text: Anyway, I should go see if I can find anyone worth wooing in this little
+    town.
   nextDialogue: {fileID: 11400000, guid: e15cb01d7ab70574faa817986828ec60, type: 2}
   characterImage: {fileID: 3190616665911302882, guid: 3982147ff2ec7644e99f1cc57e22d412, type: 3}

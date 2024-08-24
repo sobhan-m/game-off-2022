@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tavern - 15
   m_EditorClassIdentifier: 
   speaker: BARBARIAN
-  text: You see, I come from a tribe of roaming warriors, and-
+  text: You see, I am on a rite of passage from my tribe of roaming warriors, and-
   nextDialogue: {fileID: 11400000, guid: 4e629f04f88acee49ae382a63fb77c67, type: 2}
   characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

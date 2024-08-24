@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tavern - 64
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: Not to worry, sweetheart.
+  text: Not to worry.
   nextDialogue: {fileID: 11400000, guid: 63e0ad812503d9a4dbd81e8cd47be8ca, type: 2}
   characterImage: {fileID: 7507142515901268369, guid: 8c1c46532ff3d4548a8ffcc52106b5a4, type: 3}

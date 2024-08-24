@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tavern - 14
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: BARBARIAN, why don't you tell her the story?
+  text: BARBARIAN, why don't you tell her?
   nextDialogue: {fileID: 11400000, guid: 70187855e863e6348a0f90b2592146f6, type: 2}
   characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}

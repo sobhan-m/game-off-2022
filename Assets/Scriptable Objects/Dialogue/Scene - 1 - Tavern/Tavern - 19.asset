@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: BARD
   text: A quest? Not my usual request, but I don't see why not.
-  nextDialogue: {fileID: 11400000, guid: 4e1194fb81abda148b85daaf690b2b1a, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 5c92563640597934488ebee9a0614ade, type: 2}
   characterImage: {fileID: 8550877499363916811, guid: 71676d11112bad54e97d4fd6fa457bca, type: 3}
