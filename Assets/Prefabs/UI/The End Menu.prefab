@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 378805623235449170}
   m_Layer: 5
-  m_Name: Game Over Menu 1
+  m_Name: The End Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50,6 +50,7 @@ GameObject:
   - component: {fileID: 378805623385683794}
   - component: {fileID: 378805623385683797}
   - component: {fileID: 378805623385683796}
+  - component: {fileID: 6344393367035894150}
   m_Layer: 5
   m_Name: Main Menu
   m_TagString: Untagged
@@ -172,6 +173,23 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+--- !u!114 &6344393367035894150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378805623385683798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &378805623811667254
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,8 +393,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Main menu
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6ff27e6c5a0347249be11cd336dc9823, type: 2}
-  m_sharedMaterial: {fileID: 4620590072961336589, guid: 6ff27e6c5a0347249be11cd336dc9823, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ecb5a2d5ae8d66240bab3541af1d8c94, type: 2}
+  m_sharedMaterial: {fileID: 7712202641153167787, guid: ecb5a2d5ae8d66240bab3541af1d8c94, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -406,7 +424,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

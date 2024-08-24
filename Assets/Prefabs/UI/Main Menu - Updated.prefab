@@ -35,6 +35,7 @@ GameObject:
   - component: {fileID: 4836458319697232367}
   - component: {fileID: 4940462225244189437}
   - component: {fileID: 8999341416844354810}
+  - component: {fileID: -6547524400646597808}
   m_Layer: 5
   m_Name: Instructions
   m_TagString: Untagged
@@ -548,6 +549,23 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls: []
+--- !u!114 &-6547524400646597808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272911843349584730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1272911843784244757
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,8 +634,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Instructions
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6ff27e6c5a0347249be11cd336dc9823, type: 2}
-  m_sharedMaterial: {fileID: 4620590072961336589, guid: 6ff27e6c5a0347249be11cd336dc9823, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ecb5a2d5ae8d66240bab3541af1d8c94, type: 2}
+  m_sharedMaterial: {fileID: 7712202641153167787, guid: ecb5a2d5ae8d66240bab3541af1d8c94, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -647,7 +665,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -718,6 +736,7 @@ GameObject:
   - component: {fileID: 2502201820037862478}
   - component: {fileID: 6147844567734696187}
   - component: {fileID: 514420143242279553}
+  - component: {fileID: -29878573056471255}
   m_Layer: 5
   m_Name: Quit
   m_TagString: Untagged
@@ -1231,6 +1250,23 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls: []
+--- !u!114 &-29878573056471255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6512562578785097852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &6512562579113939737
 GameObject:
   m_ObjectHideFlags: 0
@@ -1441,6 +1477,7 @@ GameObject:
   - component: {fileID: 1854690072909000860}
   - component: {fileID: 158107985993216041}
   - component: {fileID: 2791339671944601612}
+  - component: {fileID: -5647005091873590888}
   m_Layer: 5
   m_Name: Play
   m_TagString: Untagged
@@ -1954,6 +1991,23 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls: []
+--- !u!114 &-5647005091873590888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6512562579660770445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &6512562579679567119
 GameObject:
   m_ObjectHideFlags: 0
@@ -2195,8 +2249,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Play
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6ff27e6c5a0347249be11cd336dc9823, type: 2}
-  m_sharedMaterial: {fileID: 4620590072961336589, guid: 6ff27e6c5a0347249be11cd336dc9823, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ecb5a2d5ae8d66240bab3541af1d8c94, type: 2}
+  m_sharedMaterial: {fileID: 7712202641153167787, guid: ecb5a2d5ae8d66240bab3541af1d8c94, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2226,7 +2280,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
