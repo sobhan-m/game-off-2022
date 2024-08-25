@@ -1417,7 +1417,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0.0013833, y: -518.1}
-  m_SizeDelta: {x: 577.73, y: 48.0858}
+  m_SizeDelta: {x: 577.73, y: 81.9}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1373188772
 MonoBehaviour:
@@ -1439,7 +1439,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: To my cat, Percy, for not breaking my computer.
+  m_text: To my cat, Percy, for not breaking my computer at any point during development.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ecb5a2d5ae8d66240bab3541af1d8c94, type: 2}
   m_sharedMaterial: {fileID: 7712202641153167787, guid: ecb5a2d5ae8d66240bab3541af1d8c94, type: 2}
@@ -1574,7 +1574,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Using Assets From
+  m_text: With Additional Assets From
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ecb5a2d5ae8d66240bab3541af1d8c94, type: 2}
   m_sharedMaterial: {fileID: 7712202641153167787, guid: ecb5a2d5ae8d66240bab3541af1d8c94, type: 2}
