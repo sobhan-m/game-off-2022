@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 204b499aa1ac5c444bff5cada0ac08b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialDamage: 20
+  initialDamage: 25
   speed: 8
   deathParticleEffect: {fileID: 6504501064155523704, guid: 59ebe5460dd603f4886459a3f179897c, type: 3}
   hitParticleEffect: {fileID: 6296168961990749487, guid: 73eafa13db76a3542aef9bdbf9aec3ad, type: 3}

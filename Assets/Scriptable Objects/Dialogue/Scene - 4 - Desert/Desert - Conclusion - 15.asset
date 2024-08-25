@@ -15,4 +15,4 @@ MonoBehaviour:
   speaker: DRAGON
   text: And SONGCALIBUR.
   nextDialogue: {fileID: 11400000, guid: f55794332b5d277428b52bd4da3442b1, type: 2}
-  characterImage: {fileID: 1540313648836938329, guid: b9b4caad5c188df4db57bf2c283fe45f, type: 3}
+  characterImage: {fileID: 1540313648836938329, guid: 5237f27386fb4d543a575cee9f75a1a1, type: 3}
