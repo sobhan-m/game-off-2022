@@ -659,18 +659,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 667620093}
     m_Modifications:
+    - target: {fileID: 1988497964, guid: b74d03a0ec88c1e439c761c344cb8a5b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2092829306}
     - target: {fileID: 5792100540025725929, guid: b74d03a0ec88c1e439c761c344cb8a5b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2092829306}
-    - target: {fileID: 5792100540025725930, guid: b74d03a0ec88c1e439c761c344cb8a5b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5792100540025725930, guid: b74d03a0ec88c1e439c761c344cb8a5b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -146
-      objectReference: {fileID: 0}
     - target: {fileID: 5792100540042741224, guid: b74d03a0ec88c1e439c761c344cb8a5b, type: 3}
       propertyPath: m_Name
       value: Game Over Menu
@@ -759,26 +755,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5792100540660900233, guid: b74d03a0ec88c1e439c761c344cb8a5b, type: 3}
-      propertyPath: m_fontSize
-      value: 94
-      objectReference: {fileID: 0}
-    - target: {fileID: 5792100540660900233, guid: b74d03a0ec88c1e439c761c344cb8a5b, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: ecb5a2d5ae8d66240bab3541af1d8c94, type: 2}
-    - target: {fileID: 5792100540660900233, guid: b74d03a0ec88c1e439c761c344cb8a5b, type: 3}
-      propertyPath: m_fontStyle
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5792100540660900233, guid: b74d03a0ec88c1e439c761c344cb8a5b, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 94
-      objectReference: {fileID: 0}
-    - target: {fileID: 5792100540660900233, guid: b74d03a0ec88c1e439c761c344cb8a5b, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 7712202641153167787, guid: ecb5a2d5ae8d66240bab3541af1d8c94, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: b74d03a0ec88c1e439c761c344cb8a5b, type: 3}

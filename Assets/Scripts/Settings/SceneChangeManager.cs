@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneChangeManager : MonoBehaviour
 {
+
+	static private int savedSceneIndex = 0;
 	public void LoadMainMenu()
 	{
 		SceneManager.LoadScene("0 - Main_Menu");
@@ -24,4 +26,14 @@ public class SceneChangeManager : MonoBehaviour
 	{
 		Application.Quit();
 	}
+
+	public void LoadSavedScene()
+	{
+		SceneManager.LoadScene(savedSceneIndex);
+	}
+
+	public void SaveCurrentScene()
+	{
+		savedSceneIndex = SceneManager.GetActiveScene().buildIndex;
+    }
 }

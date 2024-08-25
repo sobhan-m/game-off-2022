@@ -31,6 +31,7 @@ public class PlayerHealthManager : MonoBehaviour, IDamageable
 		playerMovement.enabled = false;
 
 		SceneChangeManager sceneController = FindObjectOfType<SceneChangeManager>();
+		sceneController.SaveCurrentScene();
 		sceneController.LoadGameOver();
 	}
 
