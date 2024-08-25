@@ -1116,7 +1116,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6512562579843407568, guid: 43b63f926d5604f4796b89e2bc567eb8, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6512562579843407568, guid: 43b63f926d5604f4796b89e2bc567eb8, type: 3}
       propertyPath: m_AnchorMin.x
@@ -1124,7 +1124,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6512562579843407568, guid: 43b63f926d5604f4796b89e2bc567eb8, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6512562579843407568, guid: 43b63f926d5604f4796b89e2bc567eb8, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1132,7 +1132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6512562579843407568, guid: 43b63f926d5604f4796b89e2bc567eb8, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 6512562579843407568, guid: 43b63f926d5604f4796b89e2bc567eb8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1185,10 +1185,6 @@ PrefabInstance:
     - target: {fileID: 6512562579843407571, guid: 43b63f926d5604f4796b89e2bc567eb8, type: 3}
       propertyPath: m_Name
       value: Main Menu
-      objectReference: {fileID: 0}
-    - target: {fileID: 6512562579843407571, guid: 43b63f926d5604f4796b89e2bc567eb8, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

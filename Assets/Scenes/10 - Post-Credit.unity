@@ -734,11 +734,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c34e60011d8599847a4f625b7ebd11d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1609807753 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1609807753, guid: 4fe3dda371fb4014fb2709f33ff68309, type: 3}
-  m_PrefabInstance: {fileID: 7927740163200685413}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1926056558
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,15 +887,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2104186846101594194, guid: 1320a843496e90c4f90a6b0fa0ca9c21, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2104186846101594194, guid: 1320a843496e90c4f90a6b0fa0ca9c21, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2104186846101594194, guid: 1320a843496e90c4f90a6b0fa0ca9c21, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2104186846101594194, guid: 1320a843496e90c4f90a6b0fa0ca9c21, type: 3}
       propertyPath: m_AnchorMin.y
@@ -908,11 +903,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2104186846101594194, guid: 1320a843496e90c4f90a6b0fa0ca9c21, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 2104186846101594194, guid: 1320a843496e90c4f90a6b0fa0ca9c21, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -425.46002
+      value: 174.53998
       objectReference: {fileID: 0}
     - target: {fileID: 2104186846101594194, guid: 1320a843496e90c4f90a6b0fa0ca9c21, type: 3}
       propertyPath: m_LocalPosition.x
@@ -948,7 +943,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2104186846101594194, guid: 1320a843496e90c4f90a6b0fa0ca9c21, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -212.73001
+      value: 87.26999
       objectReference: {fileID: 0}
     - target: {fileID: 2104186846101594194, guid: 1320a843496e90c4f90a6b0fa0ca9c21, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1013,7 +1008,7 @@ PrefabInstance:
     - target: {fileID: 3981539058084432260, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
       propertyPath: uiElementsToDisable.Array.data[1]
       value: 
-      objectReference: {fileID: 1609807753}
+      objectReference: {fileID: 0}
     - target: {fileID: 3981539058084432260, guid: 044f28aedc84447439aa5e6f96bb581b, type: 3}
       propertyPath: uiElementsToDisable.Array.data[2]
       value: 
