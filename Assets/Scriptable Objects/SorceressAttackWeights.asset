@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 300c346271d10994b86775056fa07509, type: 3}
   m_Name: SorceressAttackWeights
   m_EditorClassIdentifier: 
-  attackAllButOneDiceRange: 000000000f000000
-  attackThreeRange: 370000004b000000
-  attackOddThenEvenRange: 0f00000028000000
-  attackEvenThenOddRange: 2800000037000000
-  attackFollowingPlayerRange: 4b00000064000000
+  attackAllButOneDiceRange: 0000000014000000
+  attackThreeRange: 1400000032000000
+  attackOddThenEvenRange: 3200000046000000
+  attackEvenThenOddRange: 460000005a000000
+  attackFollowingPlayerRange: 5a00000064000000
