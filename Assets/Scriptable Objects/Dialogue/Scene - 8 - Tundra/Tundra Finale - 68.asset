@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 68
   m_EditorClassIdentifier: 
   speaker: BARBARIAN
-  text: This is a great boon to my people.
+  text: With my new form, I will be of great aid to my people.
   nextDialogue: {fileID: 11400000, guid: 86f8ec30288bc3241a8455bca2f57dab, type: 2}
   characterImage: {fileID: 3190616665911302882, guid: 219db3bb62f65dc42a4471f36f28af2f, type: 3}

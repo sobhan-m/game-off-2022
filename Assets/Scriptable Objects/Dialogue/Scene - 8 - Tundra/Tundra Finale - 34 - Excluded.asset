@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d7624f4c6b74c94fb0f416405909f44, type: 3}
-  m_Name: Tundra Finale - 63
+  m_Name: Tundra Finale - 34 - Excluded
   m_EditorClassIdentifier: 
-  speaker: BARBARIAN
-  text: What?
-  nextDialogue: {fileID: 11400000, guid: e9797bd4fcddfb1499d36114f6052a98, type: 2}
-  characterImage: {fileID: 3190616665911302882, guid: 219db3bb62f65dc42a4471f36f28af2f, type: 3}
+  speaker: WIZARD
+  text: A pretty witch in this case.
+  nextDialogue: {fileID: 11400000, guid: a8d43bb13a5414e44b64cc5dd76ac6ef, type: 2}
+  characterImage: {fileID: 3375736314533950161, guid: ac572b2a194d8894a84a2669daff02c7, type: 3}

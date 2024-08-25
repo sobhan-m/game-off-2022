@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Intermission - 16
   m_EditorClassIdentifier: 
   speaker: BARD
-  text: '*wipes away a tear*'
+  text: '*wipes away tears*'
   nextDialogue: {fileID: 11400000, guid: c0b84b63ea90a874791d1da84902da3c, type: 2}
   characterImage: {fileID: 174179444478442230, guid: 2cf038b8eb3c2ad479d1aa0244108214, type: 3}

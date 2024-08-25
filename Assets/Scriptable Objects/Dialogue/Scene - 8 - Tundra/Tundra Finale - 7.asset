@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 7
   m_EditorClassIdentifier: 
   speaker: WIZARD
-  text: I'm sorry, but it was necessary.
+  text: I'm sorry.
   nextDialogue: {fileID: 11400000, guid: bbf2cee98ac841b4e80c334fcbe552e0, type: 2}
   characterImage: {fileID: 3375736314533950161, guid: 72e347e6df7cd9b41aaa587ea0bf014f, type: 3}

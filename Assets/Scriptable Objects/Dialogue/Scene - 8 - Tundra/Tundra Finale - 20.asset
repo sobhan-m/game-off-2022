@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tundra Finale - 20
   m_EditorClassIdentifier: 
   speaker: WIZARD
-  text: '*he runs his hand against the edge of the sword, cutting his own skin*'
+  text: '*he runs his hand against the edge of the sword, cutting his palm*'
   nextDialogue: {fileID: 11400000, guid: ba0861d9e8b603a49b4c2a51d6e95082, type: 2}
   characterImage: {fileID: 3375736314533950161, guid: ac572b2a194d8894a84a2669daff02c7, type: 3}
