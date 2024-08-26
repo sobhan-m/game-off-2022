@@ -1,10 +1,6 @@
-# Game Off 2022
+# Bard Tale
 
-## Description
-
-This project started as part of Game Off 2022, but was not completed in time for the game jam's deadline, yet development is still ongoing. The theme of the game jam was "Cliche", so this game is built with the cliche of "Bards are flirtatious in TTRPGs and love to seduce dragons".
-
-The gameplay is a combination of a visual novel and rhythm game, but is still not fully developed.
+Bard Tale is a visual novel based on the "promiscuous bard" trope in TTRPGs like D&D. Play as BARD, as you and your best friend, BARBARIAN, go on an epic adventure to save the world from certain doom! Enjoy brilliantly written dialogue, music to bop to, and thrilling action sequences in this 20 minute game!
 
 ## Pre-requisites
 
@@ -18,10 +14,14 @@ The project is built in the following environment:
 To work on the game, execute the following command to download the repository:
 
 ```
-git clone https://github.com/Sobhan-M/game-off-2022
+git clone https://github.com/sobhan-m/bard-tale
 ```
 
 Then open the project using Unity.
+
+## Playing
+
+Check out the page on [itch.io](https://hanlapeno.itch.io/bard-tale) to play the game in the browser, or to download the executable for Windows.
 
 ## License
 
