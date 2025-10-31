@@ -1,4 +1,4 @@
-# Bard Tale
+# Bard Tale Test
 
 Bard Tale is a visual novel based on the "promiscuous bard" trope in TTRPGs like D&D. Play as BARD, as you and your best friend, BARBARIAN, go on an epic adventure to save the world from certain doom! Enjoy brilliantly written dialogue, music to bop to, and thrilling action sequences in this 20 minute game!
 
